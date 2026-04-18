@@ -4,11 +4,13 @@ USER root
 WORKDIR /app
 
 COPY ./api/requirements.txt /app/api/requirements.txt
+COPY ./models/mfa/arabic.zip /tmp/arabic.zip
 RUN pip install --no-cache-dir -r /app/api/requirements.txt \
     && pip install --no-cache-dir \
        faster-whisper praat-parselmouth noisereduce webrtcvad-wheels \
     && conda run -n aligner pip install 'joblib>=1.4.0,<1.5.0' \
-    && conda run -n aligner mfa model download acoustic arabic
+    && conda run -n aligner mfa model save acoustic /tmp/arabic.zip \
+    && rm /tmp/arabic.zip
 
 RUN python -c \
     "from faster_whisper import WhisperModel; WhisperModel('small', device='cpu', compute_type='float32')"
