@@ -2,8 +2,8 @@
 Phase 2 Ayah Segmenter — splits a multi-ayah WAV into individual ayah segments.
 
 Uses a dual-condition boundary detection approach:
-  1. VAD silence (webrtcvad): no speech for >= 800ms
-  2. Energy reset: RMS drops below 2% of peak for >= 600ms
+  1. VAD silence (webrtcvad): no speech for >= 300ms
+  2. Energy reset: RMS drops below 3% of peak for >= 250ms
 
 Both conditions must be true simultaneously for a boundary to be detected.
 This prevents breath pauses mid-ayah from being misidentified as boundaries.
@@ -31,15 +31,16 @@ logger = logging.getLogger(__name__)
 SAMPLE_RATE = 16000
 DEFAULT_MEDIAN_PHONE_DURATION_MS = 120
 
-# Boundary detection defaults
-VAD_SILENCE_MIN_MS = 800
-ENERGY_RESET_MIN_MS = 600
-ENERGY_RESET_THRESHOLD = 0.02  # 2% of peak RMS
+# Boundary detection defaults — tuned for typical Quranic recitation
+# pauses between ayahs (300-600ms).
+VAD_SILENCE_MIN_MS = 300
+ENERGY_RESET_MIN_MS = 300
+ENERGY_RESET_THRESHOLD = 0.03  # 3% of peak RMS
 
 # Tighter thresholds for re-split recovery
-TIGHT_VAD_SILENCE_MIN_MS = 500
-TIGHT_ENERGY_RESET_MIN_MS = 400
-TIGHT_ENERGY_RESET_THRESHOLD = 0.01  # 1% of peak RMS
+TIGHT_VAD_SILENCE_MIN_MS = 200
+TIGHT_ENERGY_RESET_MIN_MS = 200
+TIGHT_ENERGY_RESET_THRESHOLD = 0.05  # 5% of peak RMS
 
 # Duration validation thresholds
 SHORT_SEGMENT_RATIO = 0.40   # < 40% of expected → merge with next
@@ -91,11 +92,15 @@ def _detect_boundaries(
     vad_silence_min_ms: int = VAD_SILENCE_MIN_MS,
     energy_reset_min_ms: int = ENERGY_RESET_MIN_MS,
     energy_threshold_ratio: float = ENERGY_RESET_THRESHOLD,
+    expected_boundaries: int = None,
 ) -> List[int]:
     """Detect ayah boundaries using dual VAD+energy condition.
 
     Returns list of boundary positions in milliseconds (midpoints of
     silence regions that satisfy both conditions).
+
+    If expected_boundaries is given and more candidates are found,
+    selects the best N by silence duration (longest pauses first).
     """
     frame_ms = 30
 
@@ -125,7 +130,8 @@ def _detect_boundaries(
         both_silent.append(is_vad_silent and is_energy_low)
 
     # Find contiguous runs of dual-silent frames
-    boundaries = []
+    # Store (midpoint_ms, run_length) so we can rank by silence duration
+    candidates = []
     run_start = None
     run_length = 0
 
@@ -143,7 +149,7 @@ def _detect_boundaries(
                 if (vad_run >= vad_silence_min_frames and
                         energy_run >= energy_reset_min_frames):
                     midpoint_ms = int((run_start + run_length / 2) * frame_ms)
-                    boundaries.append(midpoint_ms)
+                    candidates.append((midpoint_ms, run_length))
 
                 run_start = None
                 run_length = 0
@@ -155,9 +161,22 @@ def _detect_boundaries(
         if (vad_run >= vad_silence_min_frames and
                 energy_run >= energy_reset_min_frames):
             midpoint_ms = int((run_start + run_length / 2) * frame_ms)
-            boundaries.append(midpoint_ms)
+            candidates.append((midpoint_ms, run_length))
 
-    return boundaries
+    # Filter out boundaries in the first/last 1% of audio (edge silence)
+    audio_duration_ms = int(n_frames * frame_ms)
+    margin_ms = max(200, int(audio_duration_ms * 0.01))
+    candidates = [(pos, dur) for pos, dur in candidates
+                  if margin_ms < pos < audio_duration_ms - margin_ms]
+
+    # If we have more candidates than expected, pick the best ones
+    # by longest silence duration (most confident boundaries)
+    if expected_boundaries is not None and len(candidates) > expected_boundaries:
+        candidates.sort(key=lambda c: c[1], reverse=True)
+        candidates = candidates[:expected_boundaries]
+        candidates.sort(key=lambda c: c[0])  # re-sort by time position
+
+    return [c[0] for c in candidates]
 
 
 def _count_vad_silent_in_range(vad_frames: List[bool], start: int, end: int) -> int:
@@ -416,8 +435,9 @@ def segment_ayahs(
     # Get expected phone counts from Phase 1
     phone_counts = _get_expected_phone_counts(surah, start_ayah, end_ayah)
 
-    # Detect boundaries
-    boundaries = _detect_boundaries(audio, sr)
+    # Detect boundaries — pass expected count so over-detection is pruned
+    expected_boundaries = expected_count - 1
+    boundaries = _detect_boundaries(audio, sr, expected_boundaries=expected_boundaries)
     logger.info("Detected %d boundaries → %d segments", len(boundaries), len(boundaries) + 1)
 
     # Split audio at boundaries
