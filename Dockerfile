@@ -6,7 +6,8 @@ WORKDIR /app
 COPY ./api/requirements.txt /app/api/requirements.txt
 RUN pip install --no-cache-dir -r /app/api/requirements.txt \
     && pip install --no-cache-dir \
-       faster-whisper praat-parselmouth noisereduce webrtcvad-wheels
+       faster-whisper praat-parselmouth noisereduce webrtcvad-wheels \
+    && conda run -n aligner pip install 'joblib>=1.4.0,<1.5.0'
 
 RUN python -c \
     "from faster_whisper import WhisperModel; WhisperModel('small', device='cpu', compute_type='float32')"
