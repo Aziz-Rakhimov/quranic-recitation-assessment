@@ -1,0 +1,658 @@
+rules:
+# Ghunnah Mushaddadah (Shaddah on Noon/Meem)
+- name: ghunnah_mushaddadah_noon
+  category: noon_meem_sakinah
+  priority: 105
+  description: Ghunnah on noon with shaddah (نّ) - 2 counts
+  arabic_name: غنة مشددة
+  pattern:
+    target: n
+    conditions:
+      is_geminate: true
+    following_context: n
+  action:
+    type: keep_original
+    duration_multiplier: 2.0
+    notes: Prolonged nasal ghunnah for shaddah on noon
+  acoustic_expectations:
+    duration_ms: 400
+    duration_counts: 2
+    duration_tolerance: 50
+    ghunnah_present: true
+    nasalization_strength: 0.9
+    verification_criteria:
+    - feature: ghunnah_duration
+      expected_counts: 2
+      min_ms: 350
+      max_ms: 450
+  examples:
+  - text: إِنَّ
+    description: inna - noon with shaddah
+  error_types:
+  - code: E201
+    description: Ghunnah duration too short
+    severity: major
+
+- name: ghunnah_mushaddadah_meem
+  category: noon_meem_sakinah
+  priority: 105
+  description: Ghunnah on meem with shaddah (مّ) - 2 counts
+  arabic_name: غنة مشددة
+  pattern:
+    target: m
+    conditions:
+      is_geminate: true
+    following_context: m
+  action:
+    type: keep_original
+    duration_multiplier: 2.0
+    notes: Prolonged nasal ghunnah for shaddah on meem
+  acoustic_expectations:
+    duration_ms: 400
+    duration_counts: 2
+    duration_tolerance: 50
+    ghunnah_present: true
+    nasalization_strength: 0.9
+    verification_criteria:
+    - feature: ghunnah_duration
+      expected_counts: 2
+      min_ms: 350
+      max_ms: 450
+  examples:
+  - text: أَمَّا
+    description: amma - meem with shaddah
+  error_types:
+  - code: E202
+    description: Ghunnah duration too short
+    severity: major
+
+- name: idhhar_halqi_noon
+  category: noon_meem_sakinah
+  priority: 100
+  description: Clear pronunciation of nūn sākinah before throat letters
+  arabic_name: إظهار حلقي
+  pattern:
+    target: n
+    conditions:
+      has_sukoon: true
+      following_is_throat_letter: true
+    following_context: '[ʔ h ʕ ħ ɣ x]'
+    following_arabic:
+    - ء
+    - ه
+    - ع
+    - ح
+    - غ
+    - خ
+  action:
+    type: keep_original
+    phoneme: n
+    duration_multiplier: 1.0
+    notes: Pronounce nūn clearly without ghunnah prolongation
+  acoustic_expectations:
+    duration_ms: 80
+    duration_tolerance: 20
+    clear_nasal_release: true
+    no_ghunnah: true
+    verification_criteria:
+    - feature: nasal_formant
+      threshold: 0.8
+      description: Clear nasal formant present
+    - feature: no_prolongation
+      max_duration_ms: 120
+      description: No excessive prolongation
+  examples:
+  - text: مِنْ ءَامَنَ
+    phonemes:
+    - m
+    - i
+    - n
+    - ʔ
+    - aː
+    - m
+    - a
+    - n
+    - a
+    description: min aamana - nūn before hamza
+  - text: مَنْ هَاجَرَ
+    phonemes:
+    - m
+    - a
+    - n
+    - h
+    - aː
+    - dʒ
+    - a
+    - r
+    - a
+    description: man haajara - nūn before haa
+  error_types:
+  - code: E001
+    description: Incorrect ghunnah added
+    severity: major
+  - code: E002
+    description: Nūn not pronounced clearly
+    severity: critical
+- name: idgham_ghunnah_noon
+  category: noon_meem_sakinah
+  priority: 95
+  description: Assimilation of nūn sākinah with ghunnah before ي و ن م
+  arabic_name: إدغام بغنة
+  pattern:
+    target: n
+    conditions:
+      has_sukoon: true
+      following_is_idgham_letter: true
+      has_shaddah: false
+    following_context: '[j w n m]'
+    following_arabic:
+    - ي
+    - و
+    - ن
+    - م
+  action:
+    type: replace
+    original_phoneme: n
+    replacement_phoneme: ñ
+    duration_multiplier: 2.0
+    notes: Merge into following letter with ghunnah (2 counts)
+  acoustic_expectations:
+    duration_ms: 400
+    duration_counts: 2
+    duration_tolerance: 50
+    ghunnah_present: true
+    nasalization_strength: 0.9
+    verification_criteria:
+    - feature: duration
+      expected_ms: 400
+      min_ms: 350
+      max_ms: 450
+      description: Ghunnah duration 2 counts
+    - feature: nasalization
+      threshold: 0.85
+      description: Strong nasalization present
+    - feature: f1_reduction
+      reduction_factor: 0.7
+      description: F1 reduced by ~30%
+    - feature: nasal_formant
+      expected_hz: 300
+      range_hz:
+      - 250
+      - 350
+      description: Clear nasal formant around 300 Hz
+  examples:
+  - text: مَنْ يَعْمَلْ
+    phonemes:
+    - m
+    - a
+    - ñ
+    - j
+    - a
+    - ʕ
+    - m
+    - a
+    - l
+    description: man ya'mal - nūn before yaa
+  - text: مِنْ وَلِيٍّ
+    phonemes:
+    - m
+    - i
+    - ñ
+    - w
+    - a
+    - l
+    - i
+    - jj
+    description: min waliyy - nūn before waaw
+  error_types:
+  - code: E101
+    description: Ghunnah duration too short
+    severity: major
+  - code: E102
+    description: Insufficient nasalization
+    severity: major
+  - code: E103
+    description: Nūn pronounced separately
+    severity: critical
+- name: idgham_no_ghunnah
+  category: noon_meem_sakinah
+  priority: 95
+  description: Assimilation of nūn sākinah without ghunnah before ل ر
+  arabic_name: إدغام بغير غنة
+  pattern:
+    target: n
+    conditions:
+      has_sukoon: true
+      following_is_lam_or_raa: true
+    following_context: '[l r]'
+    following_arabic:
+    - ل
+    - ر
+  action:
+    type: delete
+    original_phoneme: n
+    notes: Complete assimilation into lam/raa, no ghunnah
+    result: geminated_following
+  acoustic_expectations:
+    no_nasal_transition: true
+    following_geminated: true
+    duration_factor: 1.5
+    verification_criteria:
+    - feature: no_nasalization
+      threshold: 0.2
+      description: No nasal quality present
+    - feature: following_duration
+      factor: 1.5
+      description: Following letter geminated
+  examples:
+  - text: مِنْ لَدُنْهُ
+    phonemes:
+    - m
+    - i
+    - l
+    - l
+    - a
+    - d
+    - u
+    - n
+    - h
+    - u
+    description: min ladunhu - nūn assimilated into lam
+  - text: مَنْ رَبُّكُمَا
+    phonemes:
+    - m
+    - a
+    - r
+    - r
+    - a
+    - b
+    - b
+    - u
+    - k
+    - u
+    - m
+    - aː
+    description: man rabbukuma - nūn assimilated into raa
+  error_types:
+  - code: E110
+    description: Ghunnah incorrectly added
+    severity: major
+  - code: E111
+    description: Nūn pronounced separately
+    severity: critical
+- name: iqlab
+  category: noon_meem_sakinah
+  priority: 98
+  description: Conversion of nūn sākinah to mīm before bāʾ
+  arabic_name: إقلاب
+  pattern:
+    target: n
+    conditions:
+      has_sukoon: true
+    following_context: b
+    following_arabic:
+    - ب
+  action:
+    type: replace
+    original_phoneme: n
+    replacement_phoneme: m̃
+    duration_multiplier: 2.0
+    notes: Convert to mīm with ghunnah and concealment
+  acoustic_expectations:
+    duration_ms: 400
+    duration_counts: 2
+    duration_tolerance: 50
+    ghunnah_present: true
+    bilabial_closure: true
+    nasalization_strength: 0.9
+    verification_criteria:
+    - feature: duration
+      expected_ms: 400
+      min_ms: 350
+      max_ms: 450
+      description: Ghunnah duration 2 counts
+    - feature: bilabial_closure
+      threshold: 0.8
+      description: Clear bilabial articulation
+    - feature: nasalization
+      threshold: 0.85
+      description: Strong nasalization
+    - feature: no_alveolar_articulation
+      threshold: 0.2
+      description: No nūn articulation at alveolar ridge
+  examples:
+  - text: مِنْ بَعْدِ
+    phonemes:
+    - m
+    - i
+    - m̃
+    - b
+    - a
+    - ʕ
+    - d
+    - i
+    description: min ba'di - nūn converted to mīm before baa
+  - text: أَنْبِئْهُمْ
+    phonemes:
+    - ʔ
+    - a
+    - m̃
+    - b
+    - i
+    - ʔ
+    - h
+    - u
+    - m
+    description: anbi'hum - nūn converted to mīm
+  error_types:
+  - code: E201
+    description: Nūn not converted to mīm
+    severity: critical
+  - code: E202
+    description: Ghunnah duration incorrect
+    severity: major
+  - code: E203
+    description: Alveolar articulation instead of bilabial
+    severity: major
+- name: ikhfaa_light
+  category: noon_meem_sakinah
+  priority: 90
+  description: Light concealment of nūn sākinah before remaining letters
+  arabic_name: إخفاء (خفيف)
+  pattern:
+    target: n
+    conditions:
+      has_sukoon: true
+      not_idhhar_letter: true
+      not_idgham_letter: true
+      not_iqlab_letter: true
+      following_not_emphatic: true
+    following_context: '[t θ dʒ d ð z s ʃ f k]'
+    following_arabic:
+    - ت
+    - ث
+    - ج
+    - د
+    - ذ
+    - ز
+    - س
+    - ش
+    - ف
+    - ك
+  action:
+    type: replace
+    original_phoneme: n
+    replacement_phoneme: ŋ
+    duration_multiplier: 2.0
+    notes: Conceal between clear and assimilated, with ghunnah
+  acoustic_expectations:
+    duration_ms: 400
+    duration_counts: 2
+    duration_tolerance: 50
+    ghunnah_present: true
+    nasalization_strength: 0.7
+    articulation_place: contextual
+    verification_criteria:
+    - feature: duration
+      expected_ms: 400
+      min_ms: 350
+      max_ms: 450
+      description: Ghunnah duration 2 counts
+    - feature: partial_nasalization
+      threshold: 0.65
+      description: Moderate nasalization
+    - feature: no_clear_nasal
+      threshold: 0.3
+      description: Not as clear as iẓhār
+    - feature: place_assimilation
+      description: Articulation moves toward following letter
+  examples:
+  - text: مِنْ تَحْتِهَا
+    phonemes:
+    - m
+    - i
+    - ŋ
+    - t
+    - a
+    - ħ
+    - t
+    - i
+    - h
+    - aː
+    description: min tahtihaa - concealment before taa
+  - text: مَنْ كَانَ
+    phonemes:
+    - m
+    - a
+    - ŋ
+    - k
+    - aː
+    - n
+    - a
+    description: man kaana - concealment before kaaf
+  error_types:
+  - code: E301
+    description: Nūn pronounced too clearly (like iẓhār)
+    severity: major
+  - code: E302
+    description: Complete assimilation (like idghām)
+    severity: major
+  - code: E303
+    description: Ghunnah duration incorrect
+    severity: major
+- name: ikhfaa_heavy
+  category: noon_meem_sakinah
+  priority: 92
+  description: Heavy concealment of nūn sākinah before emphatic letters
+  arabic_name: إخفاء (ثقيل)
+  pattern:
+    target: n
+    conditions:
+      has_sukoon: true
+      not_idhhar_letter: true
+      not_idgham_letter: true
+      not_iqlab_letter: true
+      following_is_emphatic: true
+    following_context: '[sˤ dˤ tˤ ðˤ q]'
+    following_arabic:
+    - ص
+    - ض
+    - ط
+    - ظ
+    - ق
+  action:
+    type: replace
+    original_phoneme: n
+    replacement_phoneme: ŋˤ
+    duration_multiplier: 2.0
+    notes: Conceal with emphatic quality from following letter
+  acoustic_expectations:
+    duration_ms: 400
+    duration_counts: 2
+    duration_tolerance: 50
+    ghunnah_present: true
+    nasalization_strength: 0.7
+    emphatic: true
+    f2_lowering: 150
+    verification_criteria:
+    - feature: duration
+      expected_ms: 400
+      min_ms: 350
+      max_ms: 450
+    - feature: partial_nasalization
+      threshold: 0.65
+    - feature: emphatic_quality
+      f2_lowering_min: 100
+      description: Emphatic coloring from following letter
+  examples:
+  - text: مِنْ صَلْصَالٍ
+    phonemes:
+    - m
+    - i
+    - ŋˤ
+    - sˤ
+    - a
+    - l
+    - sˤ
+    - aː
+    - l
+    - i
+    - n
+    description: min salsaalin - heavy concealment before saad
+  - text: مَنْ قَبْلِكُمْ
+    phonemes:
+    - m
+    - a
+    - ŋˤ
+    - q
+    - a
+    - b
+    - l
+    - i
+    - k
+    - u
+    - m
+    description: man qablikum - heavy concealment before qaaf
+  error_types:
+  - code: E311
+    description: Missing emphatic quality
+    severity: major
+  - code: E312
+    description: Ghunnah duration incorrect
+    severity: major
+- name: idhhar_shafawi
+  category: noon_meem_sakinah
+  priority: 100
+  description: Clear pronunciation of mīm sākinah except before mīm or bāʾ
+  arabic_name: إظهار شفوي
+  pattern:
+    target: m
+    conditions:
+      has_sukoon: true
+      following_not_meem: true
+      following_not_baa: true
+    following_context: '![m b]'
+  action:
+    type: keep_original
+    phoneme: m
+    duration_multiplier: 1.0
+  acoustic_expectations:
+    duration_ms: 80
+    clear_bilabial_release: true
+    no_prolongation: true
+  examples:
+  - text: هُمْ فِيهَا
+    phonemes:
+    - h
+    - u
+    - m
+    - f
+    - iː
+    - h
+    - aː
+    description: hum fiihaa - clear mīm before faa
+- name: idgham_shafawi_meem
+  category: noon_meem_sakinah
+  priority: 95
+  description: Assimilation of mīm sākinah before another mīm with ghunnah
+  arabic_name: إدغام شفوي
+  pattern:
+    target: m
+    conditions:
+      has_sukoon: true
+      following_is_meem: true
+    following_context: m
+  action:
+    type: replace
+    replacement_phoneme: m̄
+    duration_multiplier: 2.0
+  acoustic_expectations:
+    duration_ms: 400
+    ghunnah_present: true
+    nasalization_strength: 0.9
+  examples:
+  - text: لَهُمْ مَا
+    phonemes:
+    - l
+    - a
+    - h
+    - u
+    - m̄
+    - m
+    - aː
+    description: lahum maa - mīm assimilated with ghunnah
+- name: ikhfaa_shafawi
+  category: noon_meem_sakinah
+  priority: 93
+  description: Concealment of mīm sākinah before bāʾ with ghunnah
+  arabic_name: إخفاء شفوي
+  pattern:
+    target: m
+    conditions:
+      has_sukoon: true
+      following_is_baa: true
+    following_context: b
+  action:
+    type: modify_features
+    phoneme: m̃
+    duration_multiplier: 2.0
+    notes: Conceal mīm before bāʾ with ghunnah
+  acoustic_expectations:
+    duration_ms: 400
+    ghunnah_present: true
+    bilabial_closure: true
+    concealed: true
+  examples:
+  - text: تَرْمِيهِمْ بِحِجَارَةٍ
+    phonemes:
+    - t
+    - a
+    - r
+    - m
+    - iː
+    - h
+    - i
+    - m̃
+    - b
+    - i
+    - ħ
+    - i
+    - dʒ
+    - aː
+    - r
+    - a
+    - t
+    - i
+    - n
+    description: tarmii him bihijaaratin - mīm concealed before baa
+application_order:
+  1: idhhar_halqi_noon
+  2: iqlab
+  3: idgham_ghunnah_noon
+  4: idgham_no_ghunnah
+  5: ikhfaa_heavy
+  6: ikhfaa_light
+  7: idhhar_shafawi
+  8: idgham_shafawi_meem
+  9: ikhfaa_shafawi
+common_errors:
+- error: missing_ghunnah
+  description: Ghunnah not pronounced for idghām, iqlāb, or ikhfāʾ
+  severity: critical
+- error: excessive_ghunnah
+  description: Ghunnah added to iẓhār
+  severity: major
+- error: wrong_duration
+  description: Ghunnah duration not 2 counts
+  severity: major
+- error: wrong_rule_applied
+  description: Applied wrong rule (e.g., iẓhār instead of ikhfāʾ)
+  severity: critical
+verification_thresholds:
+  ghunnah_duration_min: 350
+  ghunnah_duration_max: 450
+  nasalization_min: 0.75
+  f1_reduction_min: 0.6
+  nasal_formant_range:
+  - 250
+  - 350

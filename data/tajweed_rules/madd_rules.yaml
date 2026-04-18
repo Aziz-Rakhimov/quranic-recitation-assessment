@@ -1,0 +1,424 @@
+rules:
+- name: madd_tabii
+  category: madd
+  priority: 50
+  description: Natural prolongation of long vowels - 2 counts
+  arabic_name: مد طبيعي
+  pattern:
+    target: '[aː iː uː]'
+    conditions:
+      is_long_vowel: true
+      no_hamza_following: true
+      no_sukoon_following: true
+    context: normal
+  action:
+    type: modify_features
+    base_phoneme: vowel
+    duration_multiplier: 2.0
+    duration_counts: 2
+    notes: Natural prolongation, standard for all long vowels
+  acoustic_expectations:
+    duration_ms: 200
+    duration_counts: 2
+    duration_tolerance: 30
+    steady_formants: true
+    steady_f0: true
+    verification_criteria:
+    - feature: duration
+      expected_ms: 200
+      min_ms: 170
+      max_ms: 230
+      description: Duration approximately 2 counts
+    - feature: formant_stability
+      threshold: 0.9
+      description: Formants stable throughout vowel
+    - feature: no_diphthongization
+      threshold: 0.8
+      description: Vowel quality consistent
+  examples:
+  - text: قَالَ
+    phonemes:
+    - q
+    - aː
+    - l
+    - a
+    description: qaala - natural madd on long aa
+  - text: قِيلَ
+    phonemes:
+    - q
+    - iː
+    - l
+    - a
+    description: qiila - natural madd on long ii
+  - text: يَقُولُ
+    phonemes:
+    - j
+    - a
+    - q
+    - uː
+    - l
+    - u
+    description: yaquulu - natural madd on long uu
+  error_types:
+  - code: M001
+    description: Duration too short (less than 1.5 counts)
+    severity: major
+  - code: M002
+    description: Duration too long without justification
+    severity: minor
+- name: madd_muttasil
+  category: madd
+  priority: 80
+  description: Connected prolongation when hamza follows in same word (4-5 counts)
+  arabic_name: مد متصل
+  pattern:
+    target: '[aː iː uː]'
+    conditions:
+      is_long_vowel: true
+      hamza_follows_in_same_word: true
+      no_word_boundary_between: true
+    following_context: ʔ
+    boundary: same_word
+  action:
+    type: modify_features
+    base_phoneme: vowel
+    duration_multiplier: 4.5
+    duration_counts: 4.5
+    notes: Obligatory prolongation, 4-5 counts in Hafs
+  acoustic_expectations:
+    duration_ms: 450
+    duration_counts: 4.5
+    duration_min: 400
+    duration_max: 500
+    duration_tolerance: 50
+    steady_formants: true
+    steady_f0: true
+    verification_criteria:
+    - feature: duration
+      expected_ms: 450
+      min_ms: 400
+      max_ms: 500
+      description: Duration 4-5 counts (obligatory)
+    - feature: formant_stability
+      threshold: 0.9
+      description: Formants very stable
+    - feature: smooth_transition_to_hamza
+      description: Smooth glottal closure at end
+  examples:
+  - text: السَّمَآءِ
+    phonemes:
+    - ʔ
+    - a
+    - s
+    - s
+    - a
+    - m
+    - aː
+    - ʔ
+    - i
+    description: as-samaa'i - madd before hamza in same word
+  - text: جَآءَ
+    phonemes:
+    - dʒ
+    - aː
+    - ʔ
+    - a
+    description: jaa'a - madd muttasil
+  - text: سُوٓءَ
+    phonemes:
+    - s
+    - uː
+    - ʔ
+    - a
+    description: suu'a - madd before hamza
+  error_types:
+  - code: M101
+    description: Duration too short (less than 4 counts)
+    severity: critical
+  - code: M102
+    description: Duration excessive (more than 5 counts)
+    severity: major
+  - code: M103
+    description: Treated as madd tabii (only 2 counts)
+    severity: critical
+- name: madd_munfasil
+  category: madd
+  priority: 75
+  description: Disconnected prolongation when hamza follows in next word (2-5 counts)
+  arabic_name: مد منفصل
+  pattern:
+    target: '[aː iː uː]'
+    conditions:
+      is_long_vowel: true
+      hamza_follows_in_next_word: true
+      word_boundary_between: true
+    following_context: ʔ
+    boundary: word_boundary
+  action:
+    type: modify_features
+    base_phoneme: vowel
+    duration_multiplier: 3.5
+    duration_counts: 3.5
+    notes: Permissible prolongation, typically 3-4 counts in Hafs
+  acoustic_expectations:
+    duration_ms: 350
+    duration_counts: 3.5
+    duration_min: 200
+    duration_max: 500
+    duration_tolerance: 50
+    steady_formants: true
+    steady_f0: true
+    verification_criteria:
+    - feature: duration
+      expected_ms: 350
+      min_ms: 200
+      max_ms: 500
+      description: Duration 2-5 counts (permissible, typically 3-4)
+    - feature: formant_stability
+      threshold: 0.85
+      description: Formants stable
+    - feature: word_boundary_present
+      description: Clear word boundary after madd
+  examples:
+  - text: إِنَّآ أَعْطَيْنَٰكَ
+    phonemes:
+    - ʔ
+    - i
+    - n
+    - n
+    - aː
+    - ʔ
+    - a
+    - ʕ
+    - tˤ
+    - a
+    - j
+    - n
+    - aː
+    - k
+    - a
+    description: innaa a'taynaka - madd munfasil between words
+  - text: يَٰٓأَيُّهَا
+    phonemes:
+    - j
+    - aː
+    - ʔ
+    - a
+    - j
+    - j
+    - u
+    - h
+    - aː
+    description: yaa ayyuhaa - disconnected madd
+  - text: قُوٓاْ أَنفُسَكُمْ
+    phonemes:
+    - q
+    - uː
+    - ʔ
+    - a
+    - n
+    - f
+    - u
+    - s
+    - a
+    - k
+    - u
+    - m
+    description: quu anfusakum - madd before hamza in next word
+  error_types:
+  - code: M201
+    description: Duration less than 2 counts
+    severity: major
+  - code: M202
+    description: Duration more than 5 counts
+    severity: major
+  - code: M203
+    description: Inconsistent duration with reciter's pattern
+    severity: minor
+- name: madd_lazim_kalimi
+  category: madd
+  priority: 88
+  description: Obligatory prolongation due to shaddah after long vowel (6 counts)
+  arabic_name: مد لازم كلمي
+  pattern:
+    target: '[aː iː uː]'
+    conditions:
+      is_long_vowel: true
+      following_has_shaddah: true
+  action:
+    type: modify_features
+    duration_multiplier: 3.0
+    duration_counts: 6
+    notes: Obligatory prolongation 6 counts
+  acoustic_expectations:
+    duration_ms: 1200
+    duration_counts: 6
+    duration_tolerance: 100
+    prolonged: true
+  verification_criteria:
+    - feature: duration
+      expected_ms: 1200
+      min_ms: 1100
+      max_ms: 1300
+      description: Extended prolongation 6 counts
+  examples:
+    - text: الضَّآلِّينَ
+      description: adh-dhaalleen - long 'aː' followed by shaddah on lam
+  error_types:
+    - code: E701
+      description: Madd Lazim duration too short
+      severity: major
+- name: madd_lazim_muthaqqal_kalimi
+  category: madd
+  priority: 85
+  description: Necessary prolongation when shaddah or doubled letter follows long
+    vowel (6 counts)
+  arabic_name: مد لازم مثقل كلمي
+  pattern:
+    target: '[aː iː uː]'
+    conditions:
+      is_long_vowel: true
+      following_has_shaddah_or_doubled: true
+      in_same_word: true
+    following_context: geminate
+  action:
+    type: modify_features
+    duration_multiplier: 6.0
+    duration_counts: 6
+  acoustic_expectations:
+    duration_ms: 600
+    duration_counts: 6
+    duration_tolerance: 50
+  examples:
+  - text: الضَّآلِّينَ
+    phonemes:
+    - ʔ
+    - a
+    - dˤ
+    - dˤ
+    - aː
+    - l
+    - l
+    - iː
+    - n
+    - a
+    description: ad-daalliina - madd before doubled lam
+  - text: الْحَآقَّةُ
+    phonemes:
+    - ʔ
+    - a
+    - l
+    - ħ
+    - aː
+    - q
+    - q
+    - a
+    - h
+    description: al-haaqqah - madd before doubled qaaf
+- name: madd_arid_lissukun
+  category: madd
+  priority: 60
+  description: Prolongation due to pausal form (2, 4, or 6 counts permissible)
+  arabic_name: مد عارض للسكون
+  pattern:
+    target: '[aː iː uː]'
+    conditions:
+      is_long_vowel: true
+      at_verse_end_or_pause: true
+      follows_sukoon: true
+  action:
+    type: modify_features
+    duration_multiplier: 2.0
+    duration_counts: 2
+    notes: Variable duration based on recitation style
+  acoustic_expectations:
+    duration_ms: 200
+    duration_counts_options:
+    - 2
+    - 4
+    - 6
+    permissible: true
+  examples:
+  - text: نَسْتَعِينْ
+    phonemes:
+    - n
+    - a
+    - s
+    - t
+    - a
+    - ʕ
+    - iː
+    - n
+    description: nasta'iin (pausal) - madd at verse end
+- name: madd_silah_kubra
+  category: madd
+  priority: 70
+  description: Major connecting prolongation for هِ/هُ before hamza
+  arabic_name: مد صلة كبرى
+  pattern:
+    target: h
+    conditions:
+      is_pronoun_haa: true
+      has_kasra_or_damma: true
+      hamza_follows: true
+      not_at_verse_end: true
+  action:
+    type: insert
+    insert_vowel:
+    - i
+    - u
+    duration_multiplier: 4.5
+  acoustic_expectations:
+    duration_ms: 450
+    duration_counts: 4.5
+  examples:
+  - text: بِهِۦٓ أَسَفًا
+    description: bihi asafan - silah before hamza
+duration_reference:
+  counts_to_ms:
+    1: 100
+    2: 200
+    3: 300
+    4: 400
+    5: 500
+    6: 600
+  madd_types:
+    tabii: 2
+    muttasil: 4.5
+    munfasil: 3.5
+    lazim: 6
+    arid:
+    - 2
+    - 4
+    - 6
+    silah_kubra: 4.5
+application_order:
+  1: madd_lazim_muthaqqal_kalimi
+  2: madd_muttasil
+  3: madd_munfasil
+  4: madd_silah_kubra
+  5: madd_arid_lissukun
+  6: madd_tabii
+common_errors:
+- error: insufficient_prolongation
+  description: Madd muttaṣil not prolonged to at least 4 counts
+  severity: critical
+- error: excessive_prolongation
+  description: Madd prolonged beyond acceptable range
+  severity: major
+- error: confused_madd_types
+  description: Wrong madd type applied (e.g., tabii instead of muttasil)
+  severity: critical
+- error: unstable_vowel_quality
+  description: Formants change during prolongation (diphthongization)
+  severity: minor
+verification_thresholds:
+  tabii_min: 170
+  tabii_max: 230
+  muttasil_min: 400
+  muttasil_max: 500
+  munfasil_min: 200
+  munfasil_max: 500
+  lazim_min: 550
+  lazim_max: 650
+  formant_stability_min: 0.85

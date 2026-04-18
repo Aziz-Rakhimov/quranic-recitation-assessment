@@ -1,0 +1,1624 @@
+Surah,Ayah,Word,Phone#,IPA,MFA,Start_ms,End_ms,Duration_ms,Tajweed_Rules
+1,1,بِسْمِ,1,b,b,530,640,110,
+1,1,بِسْمِ,2,i,i,640,680,40,
+1,1,بِسْمِ,3,s,s,680,840,160,
+1,1,بِسْمِ,4,m,m,840,930,90,
+1,1,بِسْمِ,5,i,i,930,970,40,
+1,1,ٱللَّهِ,6,l,l,970,1180,210,
+1,1,ٱللَّهِ,7,l,l,1180,1230,50,
+1,1,ٱللَّهِ,8,a,a,1230,1400,170,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+1,1,ٱللَّهِ,9,h,h,1400,1460,60,
+1,1,ٱللَّهِ,10,i,i,1460,1490,30,
+1,1,ٱلرَّحْمَٰنِ,11,r,r,1490,1730,240,
+1,1,ٱلرَّحْمَٰنِ,12,r,r,1730,1870,140,
+1,1,ٱلرَّحْمَٰنِ,13,a,a,1870,1970,100,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+1,1,ٱلرَّحْمَٰنِ,14,ħ,H,1970,2110,140,
+1,1,ٱلرَّحْمَٰنِ,15,m,m,2110,2220,110,
+1,1,ٱلرَّحْمَٰنِ,16,a,a,2220,2390,170,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+1,1,ٱلرَّحْمَٰنِ,17,aː,al,2390,2480,90,madd_tabii
+1,1,ٱلرَّحْمَٰنِ,18,n,n,2480,2530,50,
+1,1,ٱلرَّحْمَٰنِ,19,i,i,2530,2610,80,
+1,1,ٱلرَّحِيمِ,20,r,r,2610,2670,60,
+1,1,ٱلرَّحِيمِ,21,r,r,2670,2830,160,
+1,1,ٱلرَّحِيمِ,22,a,a,2830,2940,110,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+1,1,ٱلرَّحِيمِ,23,ħ,H,2940,3060,120,
+1,1,ٱلرَّحِيمِ,24,i,i,3060,3090,30,
+1,1,ٱلرَّحِيمِ,25,iː,il,3090,3680,590,madd_arid_lissukun
+1,1,ٱلرَّحِيمِ,26,m,m,3680,3920,240,
+1,1,ٱلرَّحِيمِ,27,i,i,3920,4362,442,
+1,2,ٱلْحَمْدُ,1,ʔ,Q,990,1050,60,
+1,2,ٱلْحَمْدُ,2,a,a,1050,1210,160,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+1,2,ٱلْحَمْدُ,3,l,l,1210,1240,30,
+1,2,ٱلْحَمْدُ,4,ħ,H,1240,1380,140,
+1,2,ٱلْحَمْدُ,5,a,a,1380,1420,40,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+1,2,ٱلْحَمْدُ,6,m,m,1420,1590,170,idhhar_shafawi
+1,2,ٱلْحَمْدُ,7,d,d,1590,1660,70,
+1,2,ٱلْحَمْدُ,8,u,u,1660,1750,90,
+1,2,لِلَّهِ,9,l,l,1750,1800,50,
+1,2,لِلَّهِ,10,i,i,1800,1880,80,
+1,2,لِلَّهِ,11,l,l,1880,1940,60,
+1,2,لِلَّهِ,12,l,l,1940,2130,190,
+1,2,لِلَّهِ,13,a,a,2130,2390,260,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+1,2,لِلَّهِ,14,h,h,2390,2480,90,
+1,2,لِلَّهِ,15,i,i,2480,2560,80,
+1,2,رَبِّ,16,r,r,2560,2610,50,
+1,2,رَبِّ,17,a,a,2610,2670,60,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+1,2,رَبِّ,18,b,b,2670,2850,180,qalqalah_with_shaddah
+1,2,رَبِّ,19,b,b,2850,2920,70,
+1,2,رَبِّ,20,i,i,2920,3000,80,
+1,2,ٱلْعَٰلَمِينَ,21,l,l,3000,3100,100,
+1,2,ٱلْعَٰلَمِينَ,22,ʕ,Hq,3100,3220,120,
+1,2,ٱلْعَٰلَمِينَ,23,a,a,3220,3480,260,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+1,2,ٱلْعَٰلَمِينَ,24,aː,al,3480,3540,60,madd_tabii
+1,2,ٱلْعَٰلَمِينَ,25,l,l,3540,3590,50,
+1,2,ٱلْعَٰلَمِينَ,26,a,a,3590,3670,80,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+1,2,ٱلْعَٰلَمِينَ,27,m,m,3670,3780,110,
+1,2,ٱلْعَٰلَمِينَ,28,i,i,3780,3820,40,
+1,2,ٱلْعَٰلَمِينَ,29,iː,il,3820,4400,580,madd_arid_lissukun
+1,2,ٱلْعَٰلَمِينَ,30,n,n,4400,4660,260,
+1,2,ٱلْعَٰلَمِينَ,31,a,a,4660,4740,80,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+1,3,ٱلرَّحْمَٰنِ,1,ʔ,Q,910,960,50,
+1,3,ٱلرَّحْمَٰنِ,2,a,a,960,1030,70,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+1,3,ٱلرَّحْمَٰنِ,3,r,r,1030,1120,90,
+1,3,ٱلرَّحْمَٰنِ,4,r,r,1120,1220,100,
+1,3,ٱلرَّحْمَٰنِ,5,a,a,1220,1340,120,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+1,3,ٱلرَّحْمَٰنِ,6,ħ,H,1340,1460,120,
+1,3,ٱلرَّحْمَٰنِ,7,m,m,1460,1580,120,
+1,3,ٱلرَّحْمَٰنِ,8,a,a,1580,1750,170,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+1,3,ٱلرَّحْمَٰنِ,9,aː,al,1750,1870,120,madd_tabii
+1,3,ٱلرَّحْمَٰنِ,10,n,n,1870,1920,50,
+1,3,ٱلرَّحْمَٰنِ,11,i,i,1920,1980,60,
+1,3,ٱلرَّحِيمِ,12,r,r,1980,2040,60,
+1,3,ٱلرَّحِيمِ,13,r,r,2040,2210,170,
+1,3,ٱلرَّحِيمِ,14,a,a,2210,2320,110,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+1,3,ٱلرَّحِيمِ,15,ħ,H,2320,2440,120,
+1,3,ٱلرَّحِيمِ,16,i,i,2440,2470,30,
+1,3,ٱلرَّحِيمِ,17,iː,il,2470,3180,710,madd_arid_lissukun
+1,3,ٱلرَّحِيمِ,18,m,m,3180,3320,140,
+1,3,ٱلرَّحِيمِ,19,i,i,3320,4023,703,
+1,4,مَٰلِكِ,1,m,m,1240,1390,150,
+1,4,مَٰلِكِ,2,a,a,1390,1630,240,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+1,4,مَٰلِكِ,3,aː,al,1630,1680,50,madd_tabii
+1,4,مَٰلِكِ,4,l,l,1680,1720,40,
+1,4,مَٰلِكِ,5,i,i,1720,1870,150,
+1,4,مَٰلِكِ,6,k,k,1870,1940,70,
+1,4,مَٰلِكِ,7,i,i,1940,1980,40,
+1,4,يَوْمِ,8,j,j,1980,2110,130,
+1,4,يَوْمِ,9,a,a,2110,2160,50,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+1,4,يَوْمِ,10,w,w,2160,2260,100,
+1,4,يَوْمِ,11,m,m,2260,2450,190,
+1,4,يَوْمِ,12,i,i,2450,2540,90,
+1,4,ٱلدِّينِ,13,d,d,2540,2760,220,qalqalah_with_shaddah
+1,4,ٱلدِّينِ,14,d,d,2760,2830,70,
+1,4,ٱلدِّينِ,15,i,i,2830,2900,70,
+1,4,ٱلدِّينِ,16,iː,il,2900,3630,730,madd_arid_lissukun
+1,4,ٱلدِّينِ,17,n,n,3630,3870,240,
+1,4,ٱلدِّينِ,18,i,i,3870,4545,675,
+1,5,إِيَّاكَ,1,ʔ,Q,860,910,50,
+1,5,إِيَّاكَ,2,i,i,910,1000,90,
+1,5,إِيَّاكَ,3,j,j,1000,1250,250,
+1,5,إِيَّاكَ,4,a,a,1250,1310,60,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+1,5,إِيَّاكَ,5,aː,al,1310,1490,180,madd_tabii
+1,5,إِيَّاكَ,6,k,k,1490,1590,100,
+1,5,إِيَّاكَ,7,a,a,1590,1670,80,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+1,5,نَعْبُدُ,8,n,n,1670,1740,70,
+1,5,نَعْبُدُ,9,a,a,1740,1810,70,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+1,5,نَعْبُدُ,10,ʕ,Hq,1810,2070,260,
+1,5,نَعْبُدُ,11,b,b,2070,2100,30,
+1,5,نَعْبُدُ,12,u,u,2100,2210,110,
+1,5,نَعْبُدُ,13,d,d,2210,2270,60,
+1,5,نَعْبُدُ,14,u,u,2270,2320,50,
+1,5,وَإِيَّاكَ,15,w,w,2320,2500,180,
+1,5,وَإِيَّاكَ,16,a,a,2500,2570,70,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+1,5,وَإِيَّاكَ,17,ʔ,Q,2570,2660,90,
+1,5,وَإِيَّاكَ,18,i,i,2660,2690,30,
+1,5,وَإِيَّاكَ,19,j,j,2690,3000,310,
+1,5,وَإِيَّاكَ,20,a,a,3000,3050,50,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+1,5,وَإِيَّاكَ,21,aː,al,3050,3260,210,madd_tabii
+1,5,وَإِيَّاكَ,22,k,k,3260,3380,120,
+1,5,وَإِيَّاكَ,23,a,a,3380,3480,100,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+1,5,نَسْتَعِينُ,24,n,n,3480,3520,40,
+1,5,نَسْتَعِينُ,25,a,a,3520,3620,100,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+1,5,نَسْتَعِينُ,26,s,s,3620,3800,180,
+1,5,نَسْتَعِينُ,27,t,t,3800,3870,70,
+1,5,نَسْتَعِينُ,28,a,a,3870,3930,60,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+1,5,نَسْتَعِينُ,29,ʕ,Hq,3930,4100,170,
+1,5,نَسْتَعِينُ,30,i,i,4100,4130,30,
+1,5,نَسْتَعِينُ,31,iː,il,4130,4720,590,madd_arid_lissukun
+1,5,نَسْتَعِينُ,32,n,n,4720,5050,330,
+1,5,نَسْتَعِينُ,33,u,u,5050,5080,30,
+1,6,ٱهْدِنَا,1,ʔ,Q,1000,1050,50,
+1,6,ٱهْدِنَا,2,i,i,1050,1190,140,
+1,6,ٱهْدِنَا,3,h,h,1190,1260,70,
+1,6,ٱهْدِنَا,4,d,d,1260,1350,90,
+1,6,ٱهْدِنَا,5,i,i,1350,1460,110,
+1,6,ٱهْدِنَا,6,n,n,1460,1510,50,
+1,6,ٱهْدِنَا,7,a,a,1510,1540,30,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+1,6,ٱهْدِنَا,8,aː,al,1540,1620,80,vowel_backing_before_emphatic_long
+1,6,ٱلصِّرَٰطَ,9,sˤ,S,1620,1670,50,
+1,6,ٱلصِّرَٰطَ,10,sˤ,S,1670,1840,170,
+1,6,ٱلصِّرَٰطَ,11,i,i,1840,1950,110,
+1,6,ٱلصِّرَٰطَ,12,r,r,1950,1980,30,
+1,6,ٱلصِّرَٰطَ,13,a,a,1980,2200,220,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+1,6,ٱلصِّرَٰطَ,14,aː,al,2200,2240,40,madd_tabii; vowel_backing_before_emphatic_long
+1,6,ٱلصِّرَٰطَ,15,tˤ,T,2240,2270,30,
+1,6,ٱلصِّرَٰطَ,16,a,a,2270,2430,160,emphasis_blocking_by_front_vowel; vowel_backing_after_emphatic_short; cross_word_emphasis_continuation
+1,6,ٱلْمُسْتَقِيمَ,17,l,l,2430,2570,140,
+1,6,ٱلْمُسْتَقِيمَ,18,m,m,2570,2720,150,
+1,6,ٱلْمُسْتَقِيمَ,19,u,u,2720,2770,50,
+1,6,ٱلْمُسْتَقِيمَ,20,s,s,2770,2890,120,
+1,6,ٱلْمُسْتَقِيمَ,21,t,t,2890,3000,110,
+1,6,ٱلْمُسْتَقِيمَ,22,a,a,3000,3160,160,emphasis_blocking_by_front_vowel; vowel_backing_before_emphatic_short; cross_word_emphasis_continuation
+1,6,ٱلْمُسْتَقِيمَ,23,q,q,3160,3250,90,
+1,6,ٱلْمُسْتَقِيمَ,24,i,i,3250,3300,50,
+1,6,ٱلْمُسْتَقِيمَ,25,iː,il,3300,3900,600,madd_arid_lissukun
+1,6,ٱلْمُسْتَقِيمَ,26,m,m,3900,4110,210,
+1,6,ٱلْمُسْتَقِيمَ,27,a,a,4110,4807,697,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+1,7,صِرَٰطَ,1,sˤ,S,1780,1810,30,
+1,7,صِرَٰطَ,2,i,i,1810,1870,60,
+1,7,صِرَٰطَ,3,r,r,1870,1930,60,
+1,7,صِرَٰطَ,4,a,a,1930,2140,210,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+1,7,صِرَٰطَ,5,aː,al,2140,2220,80,madd_tabii; vowel_backing_before_emphatic_long
+1,7,صِرَٰطَ,6,tˤ,T,2220,2270,50,
+1,7,صِرَٰطَ,7,a,a,2270,2530,260,emphasis_blocking_by_front_vowel; vowel_backing_after_emphatic_short; cross_word_emphasis_continuation
+1,7,ٱلَّذِينَ,8,l,l,2530,2560,30,
+1,7,ٱلَّذِينَ,9,l,l,2560,2600,40,
+1,7,ٱلَّذِينَ,10,a,a,2600,2680,80,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+1,7,ٱلَّذِينَ,11,ð,z,2680,2730,50,
+1,7,ٱلَّذِينَ,12,i,i,2730,2790,60,
+1,7,ٱلَّذِينَ,13,iː,il,2790,3030,240,madd_tabii
+1,7,ٱلَّذِينَ,14,n,n,3030,3120,90,
+1,7,ٱلَّذِينَ,15,a,a,3120,3230,110,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+1,7,أَنْعَمْتَ,16,ʔ,Q,3230,3290,60,
+1,7,أَنْعَمْتَ,17,a,a,3290,3350,60,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+1,7,أَنْعَمْتَ,18,n,n,3350,3460,110,idhhar_halqi_noon
+1,7,أَنْعَمْتَ,19,ʕ,Hq,3460,3650,190,
+1,7,أَنْعَمْتَ,20,a,a,3650,3690,40,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+1,7,أَنْعَمْتَ,21,m,m,3690,3930,240,idhhar_shafawi
+1,7,أَنْعَمْتَ,22,t,t,3930,3980,50,
+1,7,أَنْعَمْتَ,23,a,a,3980,4030,50,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+1,7,عَلَيْهِمْ,24,ʕ,Hq,4030,4260,230,
+1,7,عَلَيْهِمْ,25,a,a,4260,4300,40,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+1,7,عَلَيْهِمْ,26,l,l,4300,4340,40,
+1,7,عَلَيْهِمْ,27,a,a,4340,4550,210,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+1,7,عَلَيْهِمْ,28,j,j,4550,4620,70,
+1,7,عَلَيْهِمْ,29,h,h,4620,4680,60,
+1,7,عَلَيْهِمْ,30,i,i,4680,4730,50,
+1,7,عَلَيْهِمْ,31,m,m,4730,6520,1790,idhhar_shafawi
+1,7,غَيْرِ,32,ɣ,G,6730,6760,30,
+1,7,غَيْرِ,33,a,a,6760,6900,140,emphasis_blocking_by_front_vowel; vowel_backing_after_emphatic_short; cross_word_emphasis_continuation
+1,7,غَيْرِ,34,j,j,6900,7000,100,
+1,7,غَيْرِ,35,r,r,7000,7070,70,
+1,7,غَيْرِ,36,i,i,7070,7130,60,
+1,7,ٱلْمَغْضُوبِ,37,l,l,7130,7180,50,
+1,7,ٱلْمَغْضُوبِ,38,m,m,7180,7210,30,
+1,7,ٱلْمَغْضُوبِ,39,a,a,7210,7240,30,emphasis_blocking_by_front_vowel; vowel_backing_before_emphatic_short; cross_word_emphasis_continuation
+1,7,ٱلْمَغْضُوبِ,40,ɣ,G,7240,7270,30,
+1,7,ٱلْمَغْضُوبِ,41,dˤ,D,7270,7300,30,
+1,7,ٱلْمَغْضُوبِ,42,u,u,7300,7330,30,
+1,7,ٱلْمَغْضُوبِ,43,uː,ul,7330,7520,190,madd_tabii
+1,7,ٱلْمَغْضُوبِ,44,b,b,7520,7550,30,
+1,7,ٱلْمَغْضُوبِ,45,i,i,7550,7580,30,
+1,7,عَلَيْهِمْ,46,ʕ,Hq,7580,7630,50,
+1,7,عَلَيْهِمْ,47,a,a,7630,7670,40,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+1,7,عَلَيْهِمْ,48,l,l,7670,7710,40,
+1,7,عَلَيْهِمْ,49,a,a,7710,7800,90,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+1,7,عَلَيْهِمْ,50,j,j,7800,7840,40,
+1,7,عَلَيْهِمْ,51,h,h,7840,7880,40,
+1,7,عَلَيْهِمْ,52,i,i,7880,7940,60,
+1,7,عَلَيْهِمْ,53,m,m,7940,8010,70,idhhar_shafawi
+1,7,وَلَا,54,w,w,8010,8040,30,
+1,7,وَلَا,55,a,a,8040,8070,30,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+1,7,وَلَا,56,l,l,8070,8250,180,
+1,7,وَلَا,57,a,a,8250,8280,30,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+1,7,وَلَا,58,aː,al,8280,8310,30,vowel_backing_before_emphatic_long
+1,7,ٱلضَّآلِّينَ,59,dˤ,D,8310,8340,30,
+1,7,ٱلضَّآلِّينَ,60,dˤ,D,8340,8420,80,
+1,7,ٱلضَّآلِّينَ,61,a,a,8420,8450,30,emphasis_blocking_by_front_vowel; vowel_backing_after_emphatic_short; cross_word_emphasis_continuation
+1,7,ٱلضَّآلِّينَ,62,ʔ,Q,8450,8480,30,
+1,7,ٱلضَّآلِّينَ,63,aː,al,8480,11120,2640,madd_lazim_kalimi
+1,7,ٱلضَّآلِّينَ,64,l,l,11120,11300,180,
+1,7,ٱلضَّآلِّينَ,65,l,l,11300,11450,150,
+1,7,ٱلضَّآلِّينَ,66,i,i,11450,11530,80,
+1,7,ٱلضَّآلِّينَ,67,iː,il,11530,12230,700,madd_arid_lissukun
+1,7,ٱلضَّآلِّينَ,68,n,n,12230,12520,290,
+1,7,ٱلضَّآلِّينَ,69,a,a,12520,12550,30,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,1,وَٱلضُّحَىٰ,1,w,w,460,600,140,
+93,1,وَٱلضُّحَىٰ,2,a,a,600,880,280,emphasis_blocking_by_front_vowel; vowel_backing_before_emphatic_short; cross_word_emphasis_continuation
+93,1,وَٱلضُّحَىٰ,3,dˤ,D,880,910,30,
+93,1,وَٱلضُّحَىٰ,4,dˤ,D,910,950,40,
+93,1,وَٱلضُّحَىٰ,5,u,u,950,1100,150,
+93,1,وَٱلضُّحَىٰ,6,ħ,H,1100,1230,130,
+93,1,وَٱلضُّحَىٰ,7,a,a,1230,1460,230,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,1,وَٱلضُّحَىٰ,8,aː,al,1460,2064,604,madd_arid_lissukun
+93,2,وَٱلَّيْلِ,1,w,w,460,540,80,
+93,2,وَٱلَّيْلِ,2,a,a,540,590,50,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,2,وَٱلَّيْلِ,3,l,l,590,620,30,
+93,2,وَٱلَّيْلِ,4,l,l,620,950,330,
+93,2,وَٱلَّيْلِ,5,a,a,950,1100,150,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,2,وَٱلَّيْلِ,6,j,j,1100,1310,210,
+93,2,وَٱلَّيْلِ,7,l,l,1310,1360,50,
+93,2,وَٱلَّيْلِ,8,i,i,1360,1410,50,
+93,2,إِذَا,9,ʔ,Q,1410,1720,310,
+93,2,إِذَا,10,i,i,1720,1790,70,
+93,2,إِذَا,11,ð,z,1790,1820,30,
+93,2,إِذَا,12,a,a,1820,1910,90,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,2,إِذَا,13,aː,al,1910,2160,250,madd_tabii
+93,2,سَجَىٰ,14,s,s,2160,2270,110,
+93,2,سَجَىٰ,15,a,a,2270,2430,160,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,2,سَجَىٰ,16,dʒ,j,2430,2590,160,
+93,2,سَجَىٰ,17,a,a,2590,2940,350,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,2,سَجَىٰ,18,aː,al,2940,3020,80,madd_arid_lissukun
+93,3,مَا,1,m,m,660,800,140,
+93,3,مَا,2,a,a,800,1080,280,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,3,مَا,3,aː,al,1080,1120,40,madd_tabii
+93,3,وَدَّعَكَ,4,w,w,1120,1260,140,
+93,3,وَدَّعَكَ,5,a,a,1260,1330,70,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,3,وَدَّعَكَ,6,d,d,1330,1570,240,qalqalah_with_shaddah
+93,3,وَدَّعَكَ,7,d,d,1570,1680,110,
+93,3,وَدَّعَكَ,8,a,a,1680,1820,140,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,3,وَدَّعَكَ,9,ʕ,Hq,1820,1990,170,
+93,3,وَدَّعَكَ,10,a,a,1990,2050,60,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,3,وَدَّعَكَ,11,k,k,2050,2160,110,
+93,3,وَدَّعَكَ,12,a,a,2160,2380,220,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,3,رَبُّكَ,13,r,r,2380,2430,50,
+93,3,رَبُّكَ,14,a,a,2430,2520,90,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,3,رَبُّكَ,15,b,b,2520,2840,320,qalqalah_with_shaddah
+93,3,رَبُّكَ,16,b,b,2840,3010,170,
+93,3,رَبُّكَ,17,u,u,3010,3040,30,
+93,3,رَبُّكَ,18,k,k,3040,3090,50,
+93,3,رَبُّكَ,19,a,a,3090,3220,130,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,3,وَمَا,20,w,w,3220,3350,130,
+93,3,وَمَا,21,a,a,3350,3470,120,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,3,وَمَا,22,m,m,3470,3580,110,
+93,3,وَمَا,23,a,a,3580,3800,220,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,3,وَمَا,24,aː,al,3800,3940,140,madd_tabii; vowel_backing_before_emphatic_long
+93,3,قَلَىٰ,25,q,q,3940,4070,130,
+93,3,قَلَىٰ,26,a,a,4070,4240,170,emphasis_blocking_by_front_vowel; vowel_backing_after_emphatic_short; cross_word_emphasis_continuation
+93,3,قَلَىٰ,27,l,l,4240,4310,70,
+93,3,قَلَىٰ,28,a,a,4310,4570,260,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,3,قَلَىٰ,29,aː,al,4570,5068,498,madd_arid_lissukun
+93,4,وَلَلْءَاخِرَةُ,1,w,w,1020,1150,130,
+93,4,وَلَلْءَاخِرَةُ,2,a,a,1150,1260,110,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,4,وَلَلْءَاخِرَةُ,3,l,l,1260,1320,60,
+93,4,وَلَلْءَاخِرَةُ,4,a,a,1320,1600,280,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,4,وَلَلْءَاخِرَةُ,5,l,l,1600,1680,80,
+93,4,وَلَلْءَاخِرَةُ,6,ʔ,Q,1680,1720,40,
+93,4,وَلَلْءَاخِرَةُ,7,a,a,1720,1770,50,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,4,وَلَلْءَاخِرَةُ,8,aː,al,1770,2040,270,madd_tabii; vowel_backing_before_emphatic_long
+93,4,وَلَلْءَاخِرَةُ,9,x,x,2040,2160,120,
+93,4,وَلَلْءَاخِرَةُ,10,i,i,2160,2320,160,
+93,4,وَلَلْءَاخِرَةُ,11,r,r,2320,2360,40,
+93,4,وَلَلْءَاخِرَةُ,12,a,a,2360,2470,110,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,4,وَلَلْءَاخِرَةُ,13,t,t,2470,2590,120,ta_marbuta_wasl
+93,4,وَلَلْءَاخِرَةُ,14,u,u,2590,2720,130,
+93,4,خَيْرٌ,15,x,x,2720,2820,100,
+93,4,خَيْرٌ,16,a,a,2820,2960,140,emphasis_blocking_by_front_vowel; vowel_backing_after_emphatic_short; cross_word_emphasis_continuation
+93,4,خَيْرٌ,17,j,j,2960,3150,190,
+93,4,خَيْرٌ,18,r,r,3150,3230,80,
+93,4,خَيْرٌ,19,u,u,3230,3390,160,
+93,4,خَيْرٌ,20,n,n,3390,3450,60,idgham_no_ghunnah
+93,4,لَّكَ,21,l,l,3450,3650,200,
+93,4,لَّكَ,22,l,l,3650,3690,40,
+93,4,لَّكَ,23,a,a,3690,3810,120,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,4,لَّكَ,24,k,k,3810,3940,130,
+93,4,لَّكَ,25,a,a,3940,4060,120,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,4,مِنَ,26,m,m,4060,4150,90,
+93,4,مِنَ,27,i,i,4150,4290,140,
+93,4,مِنَ,28,n,n,4290,4360,70,
+93,4,مِنَ,29,a,a,4360,4710,350,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,4,ٱلْأُولَىٰ,30,l,l,4710,4740,30,
+93,4,ٱلْأُولَىٰ,31,ʔ,Q,4740,4790,50,
+93,4,ٱلْأُولَىٰ,32,u,u,4790,4820,30,
+93,4,ٱلْأُولَىٰ,33,uː,ul,4820,5190,370,madd_tabii
+93,4,ٱلْأُولَىٰ,34,l,l,5190,5260,70,
+93,4,ٱلْأُولَىٰ,35,a,a,5260,5540,280,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,4,ٱلْأُولَىٰ,36,aː,al,5540,5956,416,madd_arid_lissukun
+93,5,وَلَسَوْفَ,1,w,w,830,920,90,
+93,5,وَلَسَوْفَ,2,a,a,920,1030,110,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,5,وَلَسَوْفَ,3,l,l,1030,1090,60,
+93,5,وَلَسَوْفَ,4,a,a,1090,1190,100,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,5,وَلَسَوْفَ,5,s,s,1190,1340,150,
+93,5,وَلَسَوْفَ,6,a,a,1340,1410,70,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,5,وَلَسَوْفَ,7,w,w,1410,1600,190,
+93,5,وَلَسَوْفَ,8,f,f,1600,1750,150,
+93,5,وَلَسَوْفَ,9,a,a,1750,1880,130,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,5,يُعْطِيكَ,10,j,j,1880,1980,100,
+93,5,يُعْطِيكَ,11,u,u,1980,2050,70,
+93,5,يُعْطِيكَ,12,ʕ,Hq,2050,2290,240,
+93,5,يُعْطِيكَ,13,tˤ,T,2290,2410,120,
+93,5,يُعْطِيكَ,14,i,i,2410,2520,110,
+93,5,يُعْطِيكَ,15,iː,il,2520,2760,240,madd_tabii
+93,5,يُعْطِيكَ,16,k,k,2760,2890,130,
+93,5,يُعْطِيكَ,17,a,a,2890,3080,190,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,5,رَبُّكَ,18,r,r,3080,3130,50,
+93,5,رَبُّكَ,19,a,a,3130,3230,100,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,5,رَبُّكَ,20,b,b,3230,3490,260,qalqalah_with_shaddah
+93,5,رَبُّكَ,21,b,b,3490,3530,40,
+93,5,رَبُّكَ,22,u,u,3530,3690,160,
+93,5,رَبُّكَ,23,k,k,3690,3800,110,
+93,5,رَبُّكَ,24,a,a,3800,3940,140,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,5,فَتَرْضَىٰٓ,25,f,f,3940,4050,110,
+93,5,فَتَرْضَىٰٓ,26,a,a,4050,4180,130,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,5,فَتَرْضَىٰٓ,27,t,t,4180,4320,140,
+93,5,فَتَرْضَىٰٓ,28,a,a,4320,4450,130,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,5,فَتَرْضَىٰٓ,29,r,r,4450,4570,120,
+93,5,فَتَرْضَىٰٓ,30,dˤ,D,4570,4700,130,
+93,5,فَتَرْضَىٰٓ,31,a,a,4700,4740,40,emphasis_blocking_by_front_vowel; vowel_backing_after_emphatic_short; cross_word_emphasis_continuation
+93,5,فَتَرْضَىٰٓ,32,aː,al,4740,5407,667,madd_arid_lissukun
+93,6,أَلَمْ,1,ʔ,Q,1640,1680,40,
+93,6,أَلَمْ,2,a,a,1680,1810,130,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,6,أَلَمْ,3,l,l,1810,1870,60,
+93,6,أَلَمْ,4,a,a,1870,1960,90,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,6,أَلَمْ,5,m,m,1960,2130,170,idhhar_shafawi
+93,6,يَجِدْكَ,6,j,j,2130,2300,170,
+93,6,يَجِدْكَ,7,a,a,2300,2380,80,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,6,يَجِدْكَ,8,dʒ,j,2380,2790,410,
+93,6,يَجِدْكَ,9,i,i,2790,2820,30,
+93,6,يَجِدْكَ,10,d,d,2820,2850,30,qalqalah_non_emphatic; qalqalah_minor
+93,6,يَجِدْكَ,11,k,k,2850,2950,100,
+93,6,يَجِدْكَ,12,a,a,2950,3110,160,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,6,يَتِيمًا,13,j,j,3110,3280,170,
+93,6,يَتِيمًا,14,a,a,3280,3310,30,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,6,يَتِيمًا,15,t,t,3310,3410,100,
+93,6,يَتِيمًا,16,i,i,3410,3480,70,
+93,6,يَتِيمًا,17,iː,il,3480,3780,300,madd_tabii
+93,6,يَتِيمًا,18,m,m,3780,3890,110,
+93,6,يَتِيمًا,19,a,a,3890,4010,120,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,6,يَتِيمًا,20,n,n,4010,4700,690,ikhfaa_light
+93,6,فََٔاوَىٰ,21,f,f,4730,4860,130,
+93,6,فََٔاوَىٰ,22,a,a,4860,5390,530,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,6,فََٔاوَىٰ,23,aː,al,5390,5430,40,madd_tabii
+93,6,فََٔاوَىٰ,24,w,w,5430,5560,130,
+93,6,فََٔاوَىٰ,25,a,a,5560,5770,210,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,6,فََٔاوَىٰ,26,aː,al,5770,6191,421,madd_arid_lissukun
+93,7,وَوَجَدَكَ,1,w,w,900,1010,110,
+93,7,وَوَجَدَكَ,2,a,a,1010,1100,90,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,7,وَوَجَدَكَ,3,w,w,1100,1190,90,
+93,7,وَوَجَدَكَ,4,a,a,1190,1290,100,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,7,وَوَجَدَكَ,5,dʒ,j,1290,1320,30,
+93,7,وَوَجَدَكَ,6,a,a,1320,1560,240,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,7,وَوَجَدَكَ,7,d,d,1560,1650,90,
+93,7,وَوَجَدَكَ,8,a,a,1650,1780,130,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,7,وَوَجَدَكَ,9,k,k,1780,1890,110,
+93,7,وَوَجَدَكَ,10,a,a,1890,2060,170,emphasis_blocking_by_front_vowel; vowel_backing_before_emphatic_short; cross_word_emphasis_continuation
+93,7,ضَآلًّا,11,dˤ,D,2060,2190,130,
+93,7,ضَآلًّا,12,a,a,2190,2220,30,emphasis_blocking_by_front_vowel; vowel_backing_after_emphatic_short; cross_word_emphasis_continuation
+93,7,ضَآلًّا,13,ʔ,Q,2220,2260,40,
+93,7,ضَآلًّا,14,aː,al,2260,4800,2540,madd_lazim_kalimi
+93,7,ضَآلًّا,15,l,l,4800,4960,160,
+93,7,ضَآلًّا,16,l,l,4960,5330,370,
+93,7,ضَآلًّا,17,a,a,5330,5570,240,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,7,ضَآلًّا,18,n,n,5570,6310,740,ikhfaa_light
+93,7,فَهَدَىٰ,19,f,f,6340,6420,80,
+93,7,فَهَدَىٰ,20,a,a,6420,6470,50,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,7,فَهَدَىٰ,21,h,h,6470,6660,190,
+93,7,فَهَدَىٰ,22,a,a,6660,6840,180,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,7,فَهَدَىٰ,23,d,d,6840,6920,80,
+93,7,فَهَدَىٰ,24,a,a,6920,7220,300,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,7,فَهَدَىٰ,25,aː,al,7220,7680,460,madd_arid_lissukun
+93,8,وَوَجَدَكَ,1,w,w,610,770,160,
+93,8,وَوَجَدَكَ,2,a,a,770,810,40,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,8,وَوَجَدَكَ,3,w,w,810,950,140,
+93,8,وَوَجَدَكَ,4,a,a,950,1040,90,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,8,وَوَجَدَكَ,5,dʒ,j,1040,1070,30,
+93,8,وَوَجَدَكَ,6,a,a,1070,1100,30,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,8,وَوَجَدَكَ,7,d,d,1100,1170,70,
+93,8,وَوَجَدَكَ,8,a,a,1170,1520,350,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,8,وَوَجَدَكَ,9,k,k,1520,1660,140,
+93,8,وَوَجَدَكَ,10,a,a,1660,1810,150,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,8,عَآئِلًا,11,ʕ,Hq,1810,1880,70,
+93,8,عَآئِلًا,12,a,a,1880,1910,30,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,8,عَآئِلًا,13,ʔ,Q,1910,1940,30,
+93,8,عَآئِلًا,14,aː,al,1940,3300,1360,madd_muttasil
+93,8,عَآئِلًا,15,ʔ,Q,3300,3360,60,
+93,8,عَآئِلًا,16,i,i,3360,3510,150,
+93,8,عَآئِلًا,17,l,l,3510,3580,70,
+93,8,عَآئِلًا,18,a,a,3580,4400,820,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,8,عَآئِلًا,19,n,n,4400,4460,60,ikhfaa_light
+93,8,فَأَغْنَىٰ,20,f,f,4460,4580,120,
+93,8,فَأَغْنَىٰ,21,a,a,4580,4740,160,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,8,فَأَغْنَىٰ,22,ʔ,Q,4740,4790,50,
+93,8,فَأَغْنَىٰ,23,a,a,4790,4960,170,emphasis_blocking_by_front_vowel; vowel_backing_before_emphatic_short; cross_word_emphasis_continuation
+93,8,فَأَغْنَىٰ,24,ɣ,G,4960,4990,30,
+93,8,فَأَغْنَىٰ,25,n,n,4990,5250,260,
+93,8,فَأَغْنَىٰ,26,a,a,5250,5570,320,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,8,فَأَغْنَىٰ,27,aː,al,5570,6034,464,madd_arid_lissukun
+93,9,فَأَمَّا,1,f,f,1270,1300,30,
+93,9,فَأَمَّا,2,a,a,1300,1350,50,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,9,فَأَمَّا,3,ʔ,Q,1350,1510,160,
+93,9,فَأَمَّا,4,a,a,1510,1610,100,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,9,فَأَمَّا,5,m,m,1610,2430,820,ghunnah_mushaddadah_meem; idgham_shafawi_meem
+93,9,فَأَمَّا,6,m,m,2430,2470,40,
+93,9,فَأَمَّا,7,a,a,2470,2540,70,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,9,فَأَمَّا,8,aː,al,2540,2600,60,
+93,9,ٱلْيَتِيمَ,9,l,l,2600,2660,60,
+93,9,ٱلْيَتِيمَ,10,j,j,2660,2910,250,
+93,9,ٱلْيَتِيمَ,11,a,a,2910,3040,130,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,9,ٱلْيَتِيمَ,12,t,t,3040,3170,130,
+93,9,ٱلْيَتِيمَ,13,i,i,3170,3260,90,
+93,9,ٱلْيَتِيمَ,14,iː,il,3260,3480,220,madd_tabii
+93,9,ٱلْيَتِيمَ,15,m,m,3480,3580,100,
+93,9,ٱلْيَتِيمَ,16,a,a,3580,3720,140,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,9,فَلَا,17,f,f,3720,3840,120,
+93,9,فَلَا,18,a,a,3840,4010,170,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,9,فَلَا,19,l,l,4010,4050,40,
+93,9,فَلَا,20,a,a,4050,4100,50,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,9,فَلَا,21,aː,al,4100,4360,260,madd_tabii
+93,9,تَقْهَرْ,22,t,t,4360,4520,160,
+93,9,تَقْهَرْ,23,a,a,4520,4650,130,emphasis_blocking_by_front_vowel; vowel_backing_before_emphatic_short; cross_word_emphasis_continuation
+93,9,تَقْهَرْ,24,q,q,4650,4800,150,qalqalah_emphatic; qalqalah_minor
+93,9,تَقْهَرْ,25,h,h,4800,4830,30,
+93,9,تَقْهَرْ,26,a,a,4830,5100,270,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,9,تَقْهَرْ,27,r,r,5100,5410,310,
+93,10,وَأَمَّا,1,w,w,0,760,760,
+93,10,وَأَمَّا,2,a,a,760,880,120,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,10,وَأَمَّا,3,ʔ,Q,880,990,110,
+93,10,وَأَمَّا,4,a,a,990,1050,60,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,10,وَأَمَّا,5,m,m,1050,1960,910,ghunnah_mushaddadah_meem; idgham_shafawi_meem
+93,10,وَأَمَّا,6,m,m,1960,2000,40,
+93,10,وَأَمَّا,7,a,a,2000,2060,60,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,10,وَأَمَّا,8,aː,al,2060,2150,90,
+93,10,ٱلسَّآئِلَ,9,s,s,2150,2440,290,
+93,10,ٱلسَّآئِلَ,10,s,s,2440,2470,30,
+93,10,ٱلسَّآئِلَ,11,a,a,2470,2520,50,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,10,ٱلسَّآئِلَ,12,ʔ,Q,2520,2550,30,
+93,10,ٱلسَّآئِلَ,13,aː,al,2550,3800,1250,madd_muttasil
+93,10,ٱلسَّآئِلَ,14,ʔ,Q,3800,3890,90,
+93,10,ٱلسَّآئِلَ,15,i,i,3890,4060,170,
+93,10,ٱلسَّآئِلَ,16,l,l,4060,4120,60,
+93,10,ٱلسَّآئِلَ,17,a,a,4120,4260,140,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,10,فَلَا,18,f,f,4260,4380,120,
+93,10,فَلَا,19,a,a,4380,4570,190,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,10,فَلَا,20,l,l,4570,4610,40,
+93,10,فَلَا,21,a,a,4610,4660,50,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,10,فَلَا,22,aː,al,4660,4930,270,madd_tabii
+93,10,تَنْهَرْ,23,t,t,4930,5070,140,
+93,10,تَنْهَرْ,24,a,a,5070,5190,120,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,10,تَنْهَرْ,25,n,n,5190,5420,230,idhhar_halqi_noon
+93,10,تَنْهَرْ,26,h,h,5420,5480,60,
+93,10,تَنْهَرْ,27,a,a,5480,5670,190,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,10,تَنْهَرْ,28,r,r,5670,6060,390,
+93,11,وَأَمَّا,1,w,w,730,820,90,
+93,11,وَأَمَّا,2,a,a,820,890,70,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,11,وَأَمَّا,3,ʔ,Q,890,1000,110,
+93,11,وَأَمَّا,4,a,a,1000,1200,200,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,11,وَأَمَّا,5,m,m,1200,1970,770,ghunnah_mushaddadah_meem; idgham_shafawi_meem
+93,11,وَأَمَّا,6,m,m,1970,2010,40,
+93,11,وَأَمَّا,7,a,a,2010,2060,50,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,11,وَأَمَّا,8,aː,al,2060,2330,270,madd_tabii
+93,11,بِنِعْمَةِ,9,b,b,2330,2440,110,
+93,11,بِنِعْمَةِ,10,i,i,2440,2520,80,
+93,11,بِنِعْمَةِ,11,n,n,2520,2690,170,
+93,11,بِنِعْمَةِ,12,i,i,2690,2780,90,
+93,11,بِنِعْمَةِ,13,ʕ,Hq,2780,2860,80,
+93,11,بِنِعْمَةِ,14,m,m,2860,3140,280,
+93,11,بِنِعْمَةِ,15,a,a,3140,3270,130,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,11,بِنِعْمَةِ,16,t,t,3270,3400,130,ta_marbuta_wasl
+93,11,بِنِعْمَةِ,17,i,i,3400,3570,170,
+93,11,رَبِّكَ,18,r,r,3570,3610,40,
+93,11,رَبِّكَ,19,a,a,3610,3720,110,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,11,رَبِّكَ,20,b,b,3720,3980,260,qalqalah_with_shaddah
+93,11,رَبِّكَ,21,b,b,3980,4040,60,
+93,11,رَبِّكَ,22,i,i,4040,4180,140,
+93,11,رَبِّكَ,23,k,k,4180,4280,100,
+93,11,رَبِّكَ,24,a,a,4280,4420,140,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,11,فَحَدِّثْ,25,f,f,4420,4530,110,
+93,11,فَحَدِّثْ,26,a,a,4530,4650,120,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,11,فَحَدِّثْ,27,ħ,H,4650,4780,130,
+93,11,فَحَدِّثْ,28,a,a,4780,4880,100,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+93,11,فَحَدِّثْ,29,d,d,4880,4910,30,qalqalah_with_shaddah
+93,11,فَحَدِّثْ,30,d,d,4910,5160,250,
+93,11,فَحَدِّثْ,31,i,i,5160,5480,320,
+93,11,فَحَدِّثْ,32,θ,s,5480,5570,90,
+97,0,بِّسْمِ,1,b,b,770,830,60,qalqalah_with_shaddah
+97,0,بِّسْمِ,2,b,b,830,860,30,
+97,0,بِّسْمِ,3,i,i,860,890,30,
+97,0,بِّسْمِ,4,s,s,890,920,30,
+97,0,بِّسْمِ,5,m,m,920,1360,440,
+97,0,بِّسْمِ,6,i,i,1360,1390,30,
+97,0,ٱللَّهِ,7,l,l,1390,2010,620,
+97,0,ٱللَّهِ,8,l,l,2010,2060,50,
+97,0,ٱللَّهِ,9,a,a,2060,2090,30,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+97,0,ٱللَّهِ,10,h,h,2090,2120,30,
+97,0,ٱللَّهِ,11,i,i,2120,2150,30,
+97,0,ٱلرَّحْمَٰنِ,12,r,r,2150,2180,30,
+97,0,ٱلرَّحْمَٰنِ,13,r,r,2180,4160,1980,
+97,0,ٱلرَّحْمَٰنِ,14,a,a,4160,4190,30,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+97,0,ٱلرَّحْمَٰنِ,15,ħ,H,4190,4220,30,
+97,0,ٱلرَّحْمَٰنِ,16,m,m,4220,4830,610,
+97,0,ٱلرَّحْمَٰنِ,17,a,a,4830,5060,230,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+97,0,ٱلرَّحْمَٰنِ,18,aː,al,5060,5110,50,madd_tabii
+97,0,ٱلرَّحْمَٰنِ,19,n,n,5110,5150,40,
+97,0,ٱلرَّحْمَٰنِ,20,i,i,5150,5370,220,
+97,0,ٱلرَّحِيمِ,21,r,r,5370,5440,70,
+97,0,ٱلرَّحِيمِ,22,r,r,5440,5700,260,
+97,0,ٱلرَّحِيمِ,23,a,a,5700,5740,40,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+97,0,ٱلرَّحِيمِ,24,ħ,H,5740,5770,30,
+97,0,ٱلرَّحِيمِ,25,i,i,5770,5800,30,
+97,0,ٱلرَّحِيمِ,26,iː,il,5800,5830,30,madd_arid_lissukun
+97,0,ٱلرَّحِيمِ,27,m,m,5830,5920,90,
+97,0,ٱلرَّحِيمِ,28,i,i,5920,6060,140,
+97,1,إِنَّآ,1,ʔ,Q,320,350,30,
+97,1,إِنَّآ,2,i,i,350,660,310,
+97,1,إِنَّآ,3,n,n,660,720,60,ghunnah_mushaddadah_noon
+97,1,إِنَّآ,4,n,n,720,750,30,
+97,1,إِنَّآ,5,a,a,750,800,50,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+97,1,إِنَّآ,6,ʔ,Q,800,830,30,
+97,1,إِنَّآ,7,aː,al,830,860,30,madd_munfasil
+97,1,أَنزَلْنَٰهُ,8,ʔ,Q,860,890,30,
+97,1,أَنزَلْنَٰهُ,9,a,a,890,920,30,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+97,1,أَنزَلْنَٰهُ,10,n,n,920,950,30,ikhfaa_light
+97,1,أَنزَلْنَٰهُ,11,z,z,950,980,30,
+97,1,أَنزَلْنَٰهُ,12,a,a,980,1010,30,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+97,1,أَنزَلْنَٰهُ,13,l,l,1010,1120,110,
+97,1,أَنزَلْنَٰهُ,14,n,n,1120,1170,50,
+97,1,أَنزَلْنَٰهُ,15,a,a,1170,1230,60,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+97,1,أَنزَلْنَٰهُ,16,aː,al,1230,1290,60,madd_tabii
+97,1,أَنزَلْنَٰهُ,17,h,h,1290,1350,60,
+97,1,أَنزَلْنَٰهُ,18,u,u,1350,1380,30,
+97,1,فِى,19,f,f,1380,1430,50,
+97,1,فِى,20,i,i,1430,1490,60,
+97,1,فِى,21,iː,il,1490,1560,70,madd_tabii
+97,1,لَيْلَةِ,22,l,l,1560,1620,60,
+97,1,لَيْلَةِ,23,a,a,1620,1650,30,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+97,1,لَيْلَةِ,24,j,j,1650,1690,40,
+97,1,لَيْلَةِ,25,l,l,1690,1720,30,
+97,1,لَيْلَةِ,26,a,a,1720,1760,40,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+97,1,لَيْلَةِ,27,t,t,1760,1790,30,ta_marbuta_wasl
+97,1,لَيْلَةِ,28,i,i,1790,1820,30,
+97,1,ٱلْقَدْرِ,29,l,l,1820,1850,30,
+97,1,ٱلْقَدْرِ,30,q,q,1850,1910,60,
+97,1,ٱلْقَدْرِ,31,a,a,1910,1940,30,emphasis_blocking_by_front_vowel; vowel_backing_after_emphatic_short; cross_word_emphasis_continuation
+97,1,ٱلْقَدْرِ,32,d,d,1940,1970,30,qalqalah_non_emphatic; qalqalah_minor
+97,1,ٱلْقَدْرِ,33,r,r,1970,2300,330,
+97,1,ٱلْقَدْرِ,34,i,i,2300,2510,210,
+97,2,وَمَآ,1,w,w,450,540,90,
+97,2,وَمَآ,2,a,a,540,680,140,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+97,2,وَمَآ,3,m,m,680,790,110,
+97,2,وَمَآ,4,a,a,790,820,30,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+97,2,وَمَآ,5,ʔ,Q,820,850,30,
+97,2,وَمَآ,6,aː,al,850,2150,1300,madd_munfasil
+97,2,أَدْرَىٰكَ,7,ʔ,Q,2150,2300,150,
+97,2,أَدْرَىٰكَ,8,a,a,2300,2340,40,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+97,2,أَدْرَىٰكَ,9,d,d,2340,2450,110,qalqalah_non_emphatic; qalqalah_minor
+97,2,أَدْرَىٰكَ,10,r,r,2450,2630,180,
+97,2,أَدْرَىٰكَ,11,a,a,2630,2890,260,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+97,2,أَدْرَىٰكَ,12,aː,al,2890,2940,50,madd_tabii
+97,2,أَدْرَىٰكَ,13,k,k,2940,3060,120,
+97,2,أَدْرَىٰكَ,14,a,a,3060,3220,160,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+97,2,مَا,15,m,m,3220,3330,110,
+97,2,مَا,16,a,a,3330,3470,140,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+97,2,مَا,17,aː,al,3470,3660,190,madd_tabii
+97,2,لَيْلَةُ,18,l,l,3660,3730,70,
+97,2,لَيْلَةُ,19,a,a,3730,3840,110,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+97,2,لَيْلَةُ,20,j,j,3840,4120,280,
+97,2,لَيْلَةُ,21,l,l,4120,4160,40,
+97,2,لَيْلَةُ,22,a,a,4160,4300,140,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+97,2,لَيْلَةُ,23,t,t,4300,4430,130,ta_marbuta_wasl
+97,2,لَيْلَةُ,24,u,u,4430,4600,170,
+97,2,ٱلْقَدْرِ,25,l,l,4600,4770,170,
+97,2,ٱلْقَدْرِ,26,q,q,4770,4900,130,
+97,2,ٱلْقَدْرِ,27,a,a,4900,5040,140,emphasis_blocking_by_front_vowel; vowel_backing_after_emphatic_short; cross_word_emphasis_continuation
+97,2,ٱلْقَدْرِ,28,d,d,5040,5120,80,qalqalah_non_emphatic; qalqalah_minor
+97,2,ٱلْقَدْرِ,29,r,r,5120,5250,130,
+97,2,ٱلْقَدْرِ,30,i,i,5250,5380,130,
+97,3,لَيْلَةُ,1,l,l,340,430,90,
+97,3,لَيْلَةُ,2,a,a,430,530,100,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+97,3,لَيْلَةُ,3,j,j,530,720,190,
+97,3,لَيْلَةُ,4,l,l,720,790,70,
+97,3,لَيْلَةُ,5,a,a,790,920,130,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+97,3,لَيْلَةُ,6,t,t,920,1060,140,ta_marbuta_wasl
+97,3,لَيْلَةُ,7,u,u,1060,1190,130,
+97,3,ٱلْقَدْرِ,8,l,l,1190,1360,170,
+97,3,ٱلْقَدْرِ,9,q,q,1360,1390,30,
+97,3,ٱلْقَدْرِ,10,a,a,1390,1420,30,emphasis_blocking_by_front_vowel; vowel_backing_after_emphatic_short; cross_word_emphasis_continuation
+97,3,ٱلْقَدْرِ,11,d,d,1420,1470,50,qalqalah_non_emphatic; qalqalah_minor
+97,3,ٱلْقَدْرِ,12,r,r,1470,1720,250,
+97,3,ٱلْقَدْرِ,13,i,i,1720,2060,340,
+97,3,خَيْرٌ,14,x,x,2100,2160,60,
+97,3,خَيْرٌ,15,a,a,2160,2300,140,emphasis_blocking_by_front_vowel; vowel_backing_after_emphatic_short; cross_word_emphasis_continuation
+97,3,خَيْرٌ,16,j,j,2300,2470,170,
+97,3,خَيْرٌ,17,r,r,2470,2520,50,
+97,3,خَيْرٌ,18,u,u,2520,2590,70,
+97,3,خَيْرٌ,19,n,n,2590,2790,200,idgham_ghunnah_noon
+97,3,مِّنْ,20,m,m,2790,2980,190,ghunnah_mushaddadah_meem; idgham_shafawi_meem
+97,3,مِّنْ,21,m,m,2980,3650,670,
+97,3,مِّنْ,22,i,i,3650,3770,120,
+97,3,مِّنْ,23,n,n,3770,3980,210,idhhar_halqi_noon
+97,3,أَلْفِ,24,ʔ,Q,3980,4090,110,
+97,3,أَلْفِ,25,a,a,4090,4160,70,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+97,3,أَلْفِ,26,l,l,4160,4340,180,
+97,3,أَلْفِ,27,f,f,4340,4450,110,
+97,3,أَلْفِ,28,i,i,4450,4580,130,
+97,3,شَهْرٍ,29,ʃ,C,4580,4710,130,
+97,3,شَهْرٍ,30,a,a,4710,4840,130,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+97,3,شَهْرٍ,31,h,h,4840,5120,280,
+97,3,شَهْرٍ,32,r,r,5120,5150,30,
+97,3,شَهْرٍ,33,i,i,5150,5190,40,
+97,3,شَهْرٍ,34,n,n,5190,5240,50,
+97,4,تَنَزَّلُ,1,t,t,530,600,70,
+97,4,تَنَزَّلُ,2,a,a,600,720,120,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+97,4,تَنَزَّلُ,3,n,n,720,790,70,
+97,4,تَنَزَّلُ,4,a,a,790,900,110,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+97,4,تَنَزَّلُ,5,z,z,900,1160,260,
+97,4,تَنَزَّلُ,6,z,z,1160,1200,40,
+97,4,تَنَزَّلُ,7,a,a,1200,1360,160,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+97,4,تَنَزَّلُ,8,l,l,1360,1430,70,
+97,4,تَنَزَّلُ,9,u,u,1430,1560,130,
+97,4,ٱلْمَلَٰٓئِكَةُ,10,l,l,1560,1760,200,
+97,4,ٱلْمَلَٰٓئِكَةُ,11,m,m,1760,1840,80,
+97,4,ٱلْمَلَٰٓئِكَةُ,12,a,a,1840,2010,170,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+97,4,ٱلْمَلَٰٓئِكَةُ,13,l,l,2010,2090,80,
+97,4,ٱلْمَلَٰٓئِكَةُ,14,a,a,2090,3490,1400,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+97,4,ٱلْمَلَٰٓئِكَةُ,15,aː,al,3490,3550,60,madd_muttasil
+97,4,ٱلْمَلَٰٓئِكَةُ,16,ʔ,Q,3550,3720,170,
+97,4,ٱلْمَلَٰٓئِكَةُ,17,i,i,3720,3770,50,
+97,4,ٱلْمَلَٰٓئِكَةُ,18,k,k,3770,3860,90,
+97,4,ٱلْمَلَٰٓئِكَةُ,19,a,a,3860,3990,130,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+97,4,ٱلْمَلَٰٓئِكَةُ,20,t,t,3990,4110,120,ta_marbuta_wasl
+97,4,ٱلْمَلَٰٓئِكَةُ,21,u,u,4110,4280,170,
+97,4,وَٱلرُّوحُ,22,w,w,4280,4370,90,
+97,4,وَٱلرُّوحُ,23,a,a,4370,4430,60,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+97,4,وَٱلرُّوحُ,24,r,r,4430,4460,30,
+97,4,وَٱلرُّوحُ,25,r,r,4460,4490,30,
+97,4,وَٱلرُّوحُ,26,u,u,4490,4530,40,
+97,4,وَٱلرُّوحُ,27,uː,ul,4530,5060,530,madd_tabii
+97,4,وَٱلرُّوحُ,28,ħ,H,5060,5200,140,
+97,4,وَٱلرُّوحُ,29,u,u,5200,5320,120,
+97,4,فِيهَا,30,f,f,5320,5440,120,
+97,4,فِيهَا,31,i,i,5440,5490,50,
+97,4,فِيهَا,32,iː,il,5490,5880,390,madd_tabii
+97,4,فِيهَا,33,h,h,5880,5940,60,
+97,4,فِيهَا,34,a,a,5940,5970,30,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+97,4,فِيهَا,35,aː,al,5970,6220,250,madd_tabii
+97,4,بِإِذْنِ,36,b,b,6220,6310,90,
+97,4,بِإِذْنِ,37,i,i,6310,6350,40,
+97,4,بِإِذْنِ,38,ʔ,Q,6350,6690,340,
+97,4,بِإِذْنِ,39,i,i,6690,6720,30,
+97,4,بِإِذْنِ,40,ð,z,6720,6810,90,
+97,4,بِإِذْنِ,41,n,n,6810,6950,140,
+97,4,بِإِذْنِ,42,i,i,6950,7130,180,
+97,4,رَبِّهِم,43,r,r,7130,7180,50,
+97,4,رَبِّهِم,44,a,a,7180,7300,120,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+97,4,رَبِّهِم,45,b,b,7300,7330,30,qalqalah_with_shaddah
+97,4,رَبِّهِم,46,b,b,7330,7360,30,
+97,4,رَبِّهِم,47,i,i,7360,7390,30,
+97,4,رَبِّهِم,48,h,h,7390,7420,30,
+97,4,رَبِّهِم,49,i,i,7420,7450,30,
+97,4,رَبِّهِم,50,m,m,7450,7480,30,ghunnah_mushaddadah_meem; idgham_shafawi_meem
+97,4,مِّن,51,m,m,7520,7550,30,ghunnah_mushaddadah_meem; idgham_shafawi_meem
+97,4,مِّن,52,m,m,7550,7590,40,
+97,4,مِّن,53,i,i,7590,7890,300,
+97,4,مِّن,54,n,n,7890,9860,1970,ikhfaa_light
+97,4,كُلِّ,55,k,k,9900,9960,60,
+97,4,كُلِّ,56,u,u,9960,10080,120,
+97,4,كُلِّ,57,l,l,10080,10330,250,
+97,4,كُلِّ,58,l,l,10330,10370,40,
+97,4,كُلِّ,59,i,i,10370,10450,80,
+97,4,أَمْرٍ,60,ʔ,Q,10450,10610,160,
+97,4,أَمْرٍ,61,a,a,10610,10720,110,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+97,4,أَمْرٍ,62,m,m,10720,10870,150,idhhar_shafawi
+97,4,أَمْرٍ,63,r,r,10870,10900,30,
+97,4,أَمْرٍ,64,i,i,10900,10930,30,
+97,4,أَمْرٍ,65,n,n,10930,11120,190,
+97,5,سَلَٰمٌ,1,s,s,280,440,160,
+97,5,سَلَٰمٌ,2,a,a,440,630,190,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+97,5,سَلَٰمٌ,3,l,l,630,690,60,
+97,5,سَلَٰمٌ,4,a,a,690,810,120,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+97,5,سَلَٰمٌ,5,aː,al,810,1030,220,madd_tabii
+97,5,سَلَٰمٌ,6,m,m,1030,1120,90,
+97,5,سَلَٰمٌ,7,u,u,1120,1230,110,
+97,5,سَلَٰمٌ,8,n,n,1230,1410,180,idhhar_halqi_noon
+97,5,هِىَ,9,h,h,1410,1530,120,
+97,5,هِىَ,10,i,i,1530,1580,50,
+97,5,هِىَ,11,j,j,1580,1760,180,
+97,5,هِىَ,12,a,a,1760,1880,120,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+97,5,حَتَّىٰ,13,ħ,H,1880,2020,140,
+97,5,حَتَّىٰ,14,a,a,2020,2300,280,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+97,5,حَتَّىٰ,15,t,t,2300,2380,80,
+97,5,حَتَّىٰ,16,t,t,2380,2420,40,
+97,5,حَتَّىٰ,17,a,a,2420,2500,80,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+97,5,حَتَّىٰ,18,aː,al,2500,2790,290,madd_tabii
+97,5,مَطْلَعِ,19,m,m,2790,2880,90,
+97,5,مَطْلَعِ,20,a,a,2880,3010,130,emphasis_blocking_by_front_vowel; vowel_backing_before_emphatic_short; cross_word_emphasis_continuation
+97,5,مَطْلَعِ,21,tˤ,T,3010,3100,90,qalqalah_emphatic; qalqalah_minor
+97,5,مَطْلَعِ,22,l,l,3100,3360,260,
+97,5,مَطْلَعِ,23,a,a,3360,3420,60,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+97,5,مَطْلَعِ,24,ʕ,Hq,3420,3600,180,
+97,5,مَطْلَعِ,25,i,i,3600,3860,260,
+97,5,ٱلْفَجْرِ,26,l,l,3860,3910,50,
+97,5,ٱلْفَجْرِ,27,f,f,3910,4060,150,
+97,5,ٱلْفَجْرِ,28,a,a,4060,4160,100,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+97,5,ٱلْفَجْرِ,29,dʒ,j,4160,4220,60,qalqalah_non_emphatic; qalqalah_minor
+97,5,ٱلْفَجْرِ,30,r,r,4220,4360,140,
+97,5,ٱلْفَجْرِ,31,i,i,4360,4754,394,
+113,1,قُلْ,1,q,q,840,890,50,
+113,1,قُلْ,2,u,u,890,970,80,
+113,1,قُلْ,3,l,l,970,1180,210,
+113,1,أَعُوذُ,4,ʔ,Q,1180,1240,60,
+113,1,أَعُوذُ,5,a,a,1240,1360,120,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+113,1,أَعُوذُ,6,ʕ,Hq,1360,1440,80,
+113,1,أَعُوذُ,7,u,u,1440,1470,30,
+113,1,أَعُوذُ,8,uː,ul,1470,1840,370,madd_tabii
+113,1,أَعُوذُ,9,ð,z,1840,1870,30,
+113,1,أَعُوذُ,10,u,u,1870,1930,60,
+113,1,بِرَبِّ,11,b,b,1930,2100,170,
+113,1,بِرَبِّ,12,i,i,2100,2240,140,
+113,1,بِرَبِّ,13,r,r,2240,2270,30,
+113,1,بِرَبِّ,14,a,a,2270,2390,120,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+113,1,بِرَبِّ,15,b,b,2390,2650,260,qalqalah_with_shaddah
+113,1,بِرَبِّ,16,b,b,2650,2700,50,
+113,1,بِرَبِّ,17,i,i,2700,2840,140,
+113,1,ٱلْفَلَقِ,18,l,l,2840,3030,190,
+113,1,ٱلْفَلَقِ,19,f,f,3030,3160,130,
+113,1,ٱلْفَلَقِ,20,a,a,3160,3310,150,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+113,1,ٱلْفَلَقِ,21,l,l,3310,3370,60,
+113,1,ٱلْفَلَقِ,22,a,a,3370,3540,170,emphasis_blocking_by_front_vowel; vowel_backing_before_emphatic_short; cross_word_emphasis_continuation
+113,1,ٱلْفَلَقِ,23,q,q,3540,3630,90,qalqalah_major; qalqalah_emphatic
+113,1,ٱلْفَلَقِ,24,i,i,3630,3710,80,
+113,2,مِن,1,m,m,370,500,130,
+113,2,مِن,2,i,i,500,540,40,
+113,2,مِن,3,n,n,540,1300,760,ikhfaa_light
+113,2,شَرِّ,4,ʃ,C,1330,1520,190,
+113,2,شَرِّ,5,a,a,1520,1640,120,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+113,2,شَرِّ,6,r,r,1640,1690,50,
+113,2,شَرِّ,7,r,r,1690,1870,180,
+113,2,شَرِّ,8,i,i,1870,2040,170,
+113,2,مَا,9,m,m,2040,2160,120,
+113,2,مَا,10,a,a,2160,2210,50,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+113,2,مَا,11,aː,al,2210,2470,260,madd_tabii; vowel_backing_before_emphatic_long
+113,2,خَلَقَ,12,x,x,2470,2600,130,
+113,2,خَلَقَ,13,a,a,2600,2780,180,emphasis_blocking_by_front_vowel; vowel_backing_after_emphatic_short; cross_word_emphasis_continuation
+113,2,خَلَقَ,14,l,l,2780,2840,60,
+113,2,خَلَقَ,15,a,a,2840,3010,170,emphasis_blocking_by_front_vowel; vowel_backing_before_emphatic_short; cross_word_emphasis_continuation
+113,2,خَلَقَ,16,q,q,3010,3100,90,qalqalah_major; qalqalah_emphatic
+113,2,خَلَقَ,17,a,a,3100,3709,609,emphasis_blocking_by_front_vowel; vowel_backing_after_emphatic_short; cross_word_emphasis_continuation
+113,3,وَمِن,1,w,w,520,640,120,
+113,3,وَمِن,2,a,a,640,720,80,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+113,3,وَمِن,3,m,m,720,820,100,
+113,3,وَمِن,4,i,i,820,870,50,
+113,3,وَمِن,5,n,n,870,1690,820,ikhfaa_light
+113,3,شَرِّ,6,ʃ,C,1720,1880,160,
+113,3,شَرِّ,7,a,a,1880,2020,140,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+113,3,شَرِّ,8,r,r,2020,2050,30,
+113,3,شَرِّ,9,r,r,2050,2100,50,
+113,3,شَرِّ,10,i,i,2100,2410,310,
+113,3,غَاسِقٍ,11,ɣ,G,2440,2470,30,
+113,3,غَاسِقٍ,12,a,a,2470,2730,260,emphasis_blocking_by_front_vowel; vowel_backing_after_emphatic_short; cross_word_emphasis_continuation
+113,3,غَاسِقٍ,13,aː,al,2730,2810,80,madd_tabii
+113,3,غَاسِقٍ,14,s,s,2810,2910,100,
+113,3,غَاسِقٍ,15,i,i,2910,3060,150,
+113,3,غَاسِقٍ,16,q,q,3060,3160,100,
+113,3,غَاسِقٍ,17,i,i,3160,3300,140,
+113,3,غَاسِقٍ,18,n,n,3300,3490,190,idhhar_halqi_noon
+113,3,إِذَا,19,ʔ,Q,3490,3640,150,
+113,3,إِذَا,20,i,i,3640,3720,80,
+113,3,إِذَا,21,ð,z,3720,3760,40,
+113,3,إِذَا,22,a,a,3760,4270,510,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+113,3,إِذَا,23,aː,al,4270,4370,100,madd_tabii
+113,3,وَقَبَ,24,w,w,4400,4430,30,
+113,3,وَقَبَ,25,a,a,4430,4460,30,emphasis_blocking_by_front_vowel; vowel_backing_before_emphatic_short; cross_word_emphasis_continuation
+113,3,وَقَبَ,26,q,q,4460,4500,40,
+113,3,وَقَبَ,27,a,a,4500,4660,160,emphasis_blocking_by_front_vowel; vowel_backing_after_emphatic_short; cross_word_emphasis_continuation
+113,3,وَقَبَ,28,b,b,4660,4730,70,qalqalah_major
+113,3,وَقَبَ,29,a,a,4730,5251,521,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+113,4,وَمِن,1,w,w,210,580,370,
+113,4,وَمِن,2,a,a,580,680,100,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+113,4,وَمِن,3,m,m,680,780,100,
+113,4,وَمِن,4,i,i,780,810,30,
+113,4,وَمِن,5,n,n,810,1610,800,ikhfaa_light
+113,4,شَرِّ,6,ʃ,C,1640,1800,160,
+113,4,شَرِّ,7,a,a,1800,1920,120,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+113,4,شَرِّ,8,r,r,1920,1960,40,
+113,4,شَرِّ,9,r,r,1960,1990,30,
+113,4,شَرِّ,10,i,i,1990,2430,440,
+113,4,ٱلنَّفَّٰثَٰتِ,11,n,n,2460,3130,670,ghunnah_mushaddadah_noon
+113,4,ٱلنَّفَّٰثَٰتِ,12,n,n,3130,3180,50,
+113,4,ٱلنَّفَّٰثَٰتِ,13,a,a,3180,3320,140,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+113,4,ٱلنَّفَّٰثَٰتِ,14,f,f,3320,3390,70,
+113,4,ٱلنَّفَّٰثَٰتِ,15,f,f,3390,3560,170,
+113,4,ٱلنَّفَّٰثَٰتِ,16,a,a,3560,3630,70,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+113,4,ٱلنَّفَّٰثَٰتِ,17,aː,al,3630,3900,270,madd_tabii
+113,4,ٱلنَّفَّٰثَٰتِ,18,θ,s,3900,3990,90,
+113,4,ٱلنَّفَّٰثَٰتِ,19,a,a,3990,4280,290,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+113,4,ٱلنَّفَّٰثَٰتِ,20,aː,al,4280,4330,50,madd_tabii
+113,4,ٱلنَّفَّٰثَٰتِ,21,t,t,4330,4440,110,
+113,4,ٱلنَّفَّٰثَٰتِ,22,i,i,4440,4570,130,
+113,4,فِى,23,f,f,4570,4690,120,
+113,4,فِى,24,i,i,4690,4750,60,
+113,4,فِى,25,iː,il,4750,4810,60,
+113,4,ٱلْعُقَدِ,26,l,l,4810,4940,130,
+113,4,ٱلْعُقَدِ,27,ʕ,Hq,4940,5160,220,
+113,4,ٱلْعُقَدِ,28,u,u,5160,5270,110,
+113,4,ٱلْعُقَدِ,29,q,q,5270,5370,100,
+113,4,ٱلْعُقَدِ,30,a,a,5370,5520,150,emphasis_blocking_by_front_vowel; vowel_backing_after_emphatic_short; cross_word_emphasis_continuation
+113,4,ٱلْعُقَدِ,31,d,d,5520,5600,80,qalqalah_major
+113,4,ٱلْعُقَدِ,32,i,i,5600,5710,110,
+113,5,وَمِن,1,w,w,430,550,120,
+113,5,وَمِن,2,a,a,550,650,100,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+113,5,وَمِن,3,m,m,650,770,120,
+113,5,وَمِن,4,i,i,770,820,50,
+113,5,وَمِن,5,n,n,820,1660,840,ikhfaa_light
+113,5,شَرِّ,6,ʃ,C,1690,1840,150,
+113,5,شَرِّ,7,a,a,1840,1970,130,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+113,5,شَرِّ,8,r,r,1970,2000,30,
+113,5,شَرِّ,9,r,r,2000,2030,30,
+113,5,شَرِّ,10,i,i,2030,2380,350,
+113,5,حَاسِدٍ,11,ħ,H,2420,2520,100,
+113,5,حَاسِدٍ,12,a,a,2520,2770,250,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+113,5,حَاسِدٍ,13,aː,al,2770,2800,30,madd_tabii
+113,5,حَاسِدٍ,14,s,s,2800,2910,110,
+113,5,حَاسِدٍ,15,i,i,2910,2960,50,
+113,5,حَاسِدٍ,16,d,d,2960,2990,30,
+113,5,حَاسِدٍ,17,i,i,2990,3260,270,
+113,5,حَاسِدٍ,18,n,n,3260,3430,170,idhhar_halqi_noon
+113,5,إِذَا,19,ʔ,Q,3430,3610,180,
+113,5,إِذَا,20,i,i,3610,3670,60,
+113,5,إِذَا,21,ð,z,3670,3720,50,
+113,5,إِذَا,22,a,a,3720,3830,110,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+113,5,إِذَا,23,aː,al,3830,4020,190,madd_tabii
+113,5,حَسَدَ,24,ħ,H,4020,4130,110,
+113,5,حَسَدَ,25,a,a,4130,4260,130,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+113,5,حَسَدَ,26,s,s,4260,4390,130,
+113,5,حَسَدَ,27,a,a,4390,4530,140,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+113,5,حَسَدَ,28,d,d,4530,4610,80,qalqalah_major
+113,5,حَسَدَ,29,a,a,4610,5146,536,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+114,0,بِسْمِ,1,b,b,520,550,30,
+114,0,بِسْمِ,2,i,i,550,580,30,
+114,0,بِسْمِ,3,s,s,580,610,30,
+114,0,بِسْمِ,4,m,m,610,640,30,
+114,0,بِسْمِ,5,i,i,640,670,30,
+114,0,ٱللَّهِ,6,l,l,670,810,140,
+114,0,ٱللَّهِ,7,l,l,810,870,60,
+114,0,ٱللَّهِ,8,a,a,870,1060,190,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+114,0,ٱللَّهِ,9,h,h,1060,1170,110,
+114,0,ٱللَّهِ,10,i,i,1170,1200,30,
+114,0,ٱلرَّحْمَٰنِ,11,r,r,1200,1240,40,
+114,0,ٱلرَّحْمَٰنِ,12,r,r,1240,1430,190,
+114,0,ٱلرَّحْمَٰنِ,13,a,a,1430,1480,50,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+114,0,ٱلرَّحْمَٰنِ,14,ħ,H,1480,1540,60,
+114,0,ٱلرَّحْمَٰنِ,15,m,m,1540,1570,30,
+114,0,ٱلرَّحْمَٰنِ,16,a,a,1570,1660,90,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+114,0,ٱلرَّحْمَٰنِ,17,aː,al,1660,1690,30,madd_tabii
+114,0,ٱلرَّحْمَٰنِ,18,n,n,1690,1760,70,
+114,0,ٱلرَّحْمَٰنِ,19,i,i,1760,1870,110,
+114,0,ٱلرَّحِيمِ,20,r,r,1870,1920,50,
+114,0,ٱلرَّحِيمِ,21,r,r,1920,1970,50,
+114,0,ٱلرَّحِيمِ,22,a,a,1970,2040,70,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+114,0,ٱلرَّحِيمِ,23,ħ,H,2040,2070,30,
+114,0,ٱلرَّحِيمِ,24,i,i,2070,2120,50,
+114,0,ٱلرَّحِيمِ,25,iː,il,2120,2150,30,madd_arid_lissukun
+114,0,ٱلرَّحِيمِ,26,m,m,2150,2180,30,
+114,0,ٱلرَّحِيمِ,27,i,i,2180,2210,30,
+114,1,قُلْ,1,q,q,280,310,30,
+114,1,قُلْ,2,u,u,310,340,30,
+114,1,قُلْ,3,l,l,340,370,30,
+114,1,أَعُوذُ,4,ʔ,Q,370,400,30,
+114,1,أَعُوذُ,5,a,a,400,430,30,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+114,1,أَعُوذُ,6,ʕ,Hq,430,460,30,
+114,1,أَعُوذُ,7,u,u,460,490,30,
+114,1,أَعُوذُ,8,uː,ul,490,520,30,madd_tabii
+114,1,أَعُوذُ,9,ð,z,520,550,30,
+114,1,أَعُوذُ,10,u,u,550,580,30,
+114,1,بِرَبِّ,11,b,b,580,610,30,
+114,1,بِرَبِّ,12,i,i,610,640,30,
+114,1,بِرَبِّ,13,r,r,640,670,30,
+114,1,بِرَبِّ,14,a,a,670,700,30,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+114,1,بِرَبِّ,15,b,b,700,730,30,qalqalah_with_shaddah
+114,1,بِرَبِّ,16,b,b,730,760,30,
+114,1,بِرَبِّ,17,i,i,760,790,30,
+114,1,ٱلنَّاسِ,18,n,n,790,1600,810,ghunnah_mushaddadah_noon
+114,1,ٱلنَّاسِ,19,n,n,1600,1650,50,
+114,1,ٱلنَّاسِ,20,a,a,1650,2110,460,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+114,1,ٱلنَّاسِ,21,aː,al,2110,2200,90,madd_arid_lissukun
+114,1,ٱلنَّاسِ,22,s,s,2200,2540,340,
+114,1,ٱلنَّاسِ,23,i,i,2540,2570,30,
+114,2,مَلِكِ,1,m,m,170,370,200,
+114,2,مَلِكِ,2,a,a,370,500,130,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+114,2,مَلِكِ,3,l,l,500,550,50,
+114,2,مَلِكِ,4,i,i,550,680,130,
+114,2,مَلِكِ,5,k,k,680,800,120,
+114,2,مَلِكِ,6,i,i,800,1010,210,
+114,2,ٱلنَّاسِ,7,n,n,1010,2070,1060,ghunnah_mushaddadah_noon
+114,2,ٱلنَّاسِ,8,n,n,2070,2110,40,
+114,2,ٱلنَّاسِ,9,a,a,2110,2150,40,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+114,2,ٱلنَّاسِ,10,aː,al,2150,2680,530,madd_arid_lissukun
+114,2,ٱلنَّاسِ,11,s,s,2680,3020,340,
+114,2,ٱلنَّاسِ,12,i,i,3020,3060,40,
+114,3,إِلَٰهِ,1,ʔ,Q,260,300,40,
+114,3,إِلَٰهِ,2,i,i,300,460,160,
+114,3,إِلَٰهِ,3,l,l,460,520,60,
+114,3,إِلَٰهِ,4,a,a,520,810,290,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+114,3,إِلَٰهِ,5,aː,al,810,920,110,madd_tabii
+114,3,إِلَٰهِ,6,h,h,920,1140,220,
+114,3,إِلَٰهِ,7,i,i,1140,1170,30,
+114,3,ٱلنَّاسِ,8,n,n,1170,2200,1030,ghunnah_mushaddadah_noon
+114,3,ٱلنَّاسِ,9,n,n,2200,2240,40,
+114,3,ٱلنَّاسِ,10,a,a,2240,2290,50,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+114,3,ٱلنَّاسِ,11,aː,al,2290,2860,570,madd_arid_lissukun
+114,3,ٱلنَّاسِ,12,s,s,2860,3170,310,
+114,3,ٱلنَّاسِ,13,i,i,3170,3220,50,
+114,4,مِن,1,m,m,400,500,100,
+114,4,مِن,2,i,i,500,570,70,
+114,4,مِن,3,n,n,570,1470,900,ikhfaa_light
+114,4,شَرِّ,4,ʃ,C,1500,1680,180,
+114,4,شَرِّ,5,a,a,1680,1830,150,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+114,4,شَرِّ,6,r,r,1830,1870,40,
+114,4,شَرِّ,7,r,r,1870,1910,40,
+114,4,شَرِّ,8,i,i,1910,2240,330,
+114,4,ٱلْوَسْوَاسِ,9,l,l,2270,2320,50,
+114,4,ٱلْوَسْوَاسِ,10,w,w,2320,2490,170,
+114,4,ٱلْوَسْوَاسِ,11,a,a,2490,2630,140,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+114,4,ٱلْوَسْوَاسِ,12,s,s,2630,2790,160,
+114,4,ٱلْوَسْوَاسِ,13,w,w,2790,2930,140,
+114,4,ٱلْوَسْوَاسِ,14,a,a,2930,3140,210,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+114,4,ٱلْوَسْوَاسِ,15,aː,al,3140,3280,140,madd_tabii
+114,4,ٱلْوَسْوَاسِ,16,s,s,3280,3390,110,
+114,4,ٱلْوَسْوَاسِ,17,i,i,3390,3660,270,
+114,4,ٱلْخَنَّاسِ,18,l,l,3660,3760,100,
+114,4,ٱلْخَنَّاسِ,19,x,x,3760,3800,40,
+114,4,ٱلْخَنَّاسِ,20,a,a,3800,4040,240,emphasis_blocking_by_front_vowel; vowel_backing_after_emphatic_short; cross_word_emphasis_continuation
+114,4,ٱلْخَنَّاسِ,21,n,n,4040,4930,890,ghunnah_mushaddadah_noon
+114,4,ٱلْخَنَّاسِ,22,n,n,4930,5010,80,
+114,4,ٱلْخَنَّاسِ,23,a,a,5010,5470,460,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+114,4,ٱلْخَنَّاسِ,24,aː,al,5470,5510,40,madd_arid_lissukun
+114,4,ٱلْخَنَّاسِ,25,s,s,5510,5730,220,
+114,4,ٱلْخَنَّاسِ,26,i,i,5730,5790,60,
+114,5,ٱلَّذِى,1,ʔ,Q,750,810,60,
+114,5,ٱلَّذِى,2,a,a,810,900,90,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+114,5,ٱلَّذِى,3,l,l,900,940,40,
+114,5,ٱلَّذِى,4,l,l,940,1200,260,
+114,5,ٱلَّذِى,5,a,a,1200,1310,110,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+114,5,ٱلَّذِى,6,ð,z,1310,1380,70,
+114,5,ٱلَّذِى,7,i,i,1380,1410,30,
+114,5,ٱلَّذِى,8,iː,il,1410,1730,320,madd_tabii
+114,5,يُوَسْوِسُ,9,j,j,1730,1840,110,
+114,5,يُوَسْوِسُ,10,u,u,1840,1930,90,
+114,5,يُوَسْوِسُ,11,w,w,1930,2050,120,
+114,5,يُوَسْوِسُ,12,a,a,2050,2150,100,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+114,5,يُوَسْوِسُ,13,s,s,2150,2320,170,
+114,5,يُوَسْوِسُ,14,w,w,2320,2460,140,
+114,5,يُوَسْوِسُ,15,i,i,2460,2580,120,
+114,5,يُوَسْوِسُ,16,s,s,2580,2690,110,
+114,5,يُوَسْوِسُ,17,u,u,2690,2850,160,
+114,5,فِى,18,f,f,2850,2940,90,
+114,5,فِى,19,i,i,2940,2970,30,
+114,5,فِى,20,iː,il,2970,3250,280,madd_tabii
+114,5,صُدُورِ,21,sˤ,S,3250,3360,110,
+114,5,صُدُورِ,22,u,u,3360,3520,160,
+114,5,صُدُورِ,23,d,d,3520,3610,90,
+114,5,صُدُورِ,24,u,u,3610,3660,50,
+114,5,صُدُورِ,25,uː,ul,3660,3990,330,madd_tabii
+114,5,صُدُورِ,26,r,r,3990,4030,40,
+114,5,صُدُورِ,27,i,i,4030,4230,200,
+114,5,ٱلنَّاسِ,28,n,n,4230,5200,970,ghunnah_mushaddadah_noon
+114,5,ٱلنَّاسِ,29,n,n,5200,5250,50,
+114,5,ٱلنَّاسِ,30,a,a,5250,5300,50,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+114,5,ٱلنَّاسِ,31,aː,al,5300,5760,460,madd_arid_lissukun
+114,5,ٱلنَّاسِ,32,s,s,5760,5970,210,
+114,5,ٱلنَّاسِ,33,i,i,5970,6060,90,
+114,6,مِنَ,1,m,m,240,350,110,
+114,6,مِنَ,2,i,i,350,490,140,
+114,6,مِنَ,3,n,n,490,560,70,
+114,6,مِنَ,4,a,a,560,690,130,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+114,6,ٱلْجِنَّةِ,5,l,l,690,1000,310,
+114,6,ٱلْجِنَّةِ,6,dʒ,j,1000,1140,140,
+114,6,ٱلْجِنَّةِ,7,i,i,1140,1170,30,
+114,6,ٱلْجِنَّةِ,8,n,n,1170,1970,800,ghunnah_mushaddadah_noon
+114,6,ٱلْجِنَّةِ,9,n,n,1970,2020,50,
+114,6,ٱلْجِنَّةِ,10,a,a,2020,2140,120,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+114,6,ٱلْجِنَّةِ,11,t,t,2140,2260,120,ta_marbuta_wasl
+114,6,ٱلْجِنَّةِ,12,i,i,2260,2380,120,
+114,6,وَٱلنَّاسِ,13,w,w,2380,2490,110,
+114,6,وَٱلنَّاسِ,14,a,a,2490,2590,100,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+114,6,وَٱلنَّاسِ,15,n,n,2590,3660,1070,ghunnah_mushaddadah_noon
+114,6,وَٱلنَّاسِ,16,n,n,3660,3720,60,
+114,6,وَٱلنَّاسِ,17,a,a,3720,3790,70,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+114,6,وَٱلنَّاسِ,18,aː,al,3790,4290,500,madd_arid_lissukun
+114,6,وَٱلنَّاسِ,19,s,s,4290,4640,350,
+114,6,وَٱلنَّاسِ,20,i,i,4640,4680,40,
+67,0,بِسْمِ,1,b,b,960,1010,50,
+67,0,بِسْمِ,2,i,i,1010,1040,30,
+67,0,بِسْمِ,3,s,s,1040,1070,30,
+67,0,بِسْمِ,4,m,m,1070,1100,30,
+67,0,بِسْمِ,5,i,i,1100,1140,40,
+67,0,ٱللَّهِ,6,l,l,1140,1190,50,
+67,0,ٱللَّهِ,7,l,l,1190,1230,40,
+67,0,ٱللَّهِ,8,a,a,1230,1660,430,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,0,ٱللَّهِ,9,h,h,1660,1740,80,
+67,0,ٱللَّهِ,10,i,i,1740,1780,40,
+67,0,ٱلرَّحْمَٰنِ,11,r,r,1780,1830,50,
+67,0,ٱلرَّحْمَٰنِ,12,r,r,1830,1860,30,
+67,0,ٱلرَّحْمَٰنِ,13,a,a,1860,1890,30,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,0,ٱلرَّحْمَٰنِ,14,ħ,H,1890,1920,30,
+67,0,ٱلرَّحْمَٰنِ,15,m,m,1920,1950,30,
+67,0,ٱلرَّحْمَٰنِ,16,a,a,1950,1980,30,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,0,ٱلرَّحْمَٰنِ,17,aː,al,1980,2070,90,madd_tabii
+67,0,ٱلرَّحْمَٰنِ,18,n,n,2070,2100,30,
+67,0,ٱلرَّحْمَٰنِ,19,i,i,2100,2360,260,
+67,0,ٱلرَّحِيمِ,20,r,r,2360,2410,50,
+67,0,ٱلرَّحِيمِ,21,r,r,2410,2560,150,
+67,0,ٱلرَّحِيمِ,22,a,a,2560,2590,30,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,0,ٱلرَّحِيمِ,23,ħ,H,2590,2640,50,
+67,0,ٱلرَّحِيمِ,24,i,i,2640,2670,30,
+67,0,ٱلرَّحِيمِ,25,iː,il,2670,3450,780,madd_arid_lissukun
+67,0,ٱلرَّحِيمِ,26,m,m,3450,3480,30,
+67,0,ٱلرَّحِيمِ,27,i,i,3480,5250,1770,
+67,1,تَبَٰرَكَ,1,t,t,260,300,40,
+67,1,تَبَٰرَكَ,2,a,a,300,330,30,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,1,تَبَٰرَكَ,3,b,b,330,360,30,
+67,1,تَبَٰرَكَ,4,a,a,360,950,590,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,1,تَبَٰرَكَ,5,aː,al,950,2090,1140,madd_tabii
+67,1,تَبَٰرَكَ,6,r,r,2090,2120,30,
+67,1,تَبَٰرَكَ,7,a,a,2120,2150,30,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,1,تَبَٰرَكَ,8,k,k,2150,2280,130,
+67,1,تَبَٰرَكَ,9,a,a,2280,2310,30,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,1,ٱلَّذِى,10,l,l,2310,2340,30,
+67,1,ٱلَّذِى,11,l,l,2340,2370,30,
+67,1,ٱلَّذِى,12,a,a,2370,2400,30,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,1,ٱلَّذِى,13,ð,z,2400,2440,40,
+67,1,ٱلَّذِى,14,i,i,2440,2470,30,
+67,1,ٱلَّذِى,15,iː,il,2470,2910,440,madd_tabii
+67,1,بِيَدِهِ,16,b,b,2910,2940,30,
+67,1,بِيَدِهِ,17,i,i,2940,3090,150,
+67,1,بِيَدِهِ,18,j,j,3090,3120,30,
+67,1,بِيَدِهِ,19,a,a,3120,3240,120,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,1,بِيَدِهِ,20,d,d,3240,3270,30,
+67,1,بِيَدِهِ,21,i,i,3270,3300,30,
+67,1,بِيَدِهِ,22,h,h,3300,3780,480,
+67,1,بِيَدِهِ,23,i,i,3780,3810,30,
+67,1,ٱلْمُلْكُ,24,l,l,3810,3840,30,
+67,1,ٱلْمُلْكُ,25,m,m,3840,4550,710,
+67,1,ٱلْمُلْكُ,26,u,u,4550,4580,30,
+67,1,ٱلْمُلْكُ,27,l,l,4580,4610,30,
+67,1,ٱلْمُلْكُ,28,k,k,4610,4640,30,
+67,1,ٱلْمُلْكُ,29,u,u,4640,4670,30,
+67,1,وَهُوَ,30,w,w,4670,4700,30,
+67,1,وَهُوَ,31,a,a,4700,4730,30,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,1,وَهُوَ,32,h,h,4730,4760,30,
+67,1,وَهُوَ,33,u,u,4760,4790,30,
+67,1,وَهُوَ,34,w,w,4790,4820,30,
+67,1,وَهُوَ,35,a,a,4820,4850,30,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,1,عَلَىٰ,36,ʕ,Hq,4850,4880,30,
+67,1,عَلَىٰ,37,a,a,4880,4910,30,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,1,عَلَىٰ,38,l,l,4910,4940,30,
+67,1,عَلَىٰ,39,a,a,4940,4970,30,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,1,عَلَىٰ,40,aː,al,4970,5000,30,madd_tabii
+67,1,كُلِّ,41,k,k,5000,5030,30,
+67,1,كُلِّ,42,u,u,5030,5060,30,
+67,1,كُلِّ,43,l,l,5060,5090,30,
+67,1,كُلِّ,44,l,l,5090,5120,30,
+67,1,كُلِّ,45,i,i,5120,5510,390,
+67,1,شَىْءٍ,46,ʃ,C,5540,5570,30,
+67,1,شَىْءٍ,47,a,a,5570,5600,30,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,1,شَىْءٍ,48,j,j,5600,5630,30,
+67,1,شَىْءٍ,49,ʔ,Q,5630,5660,30,
+67,1,شَىْءٍ,50,i,i,5660,5690,30,
+67,1,شَىْءٍ,51,n,n,5690,5720,30,ikhfaa_heavy
+67,1,قَدِيرٌ,52,q,q,5720,5750,30,
+67,1,قَدِيرٌ,53,a,a,5750,5780,30,emphasis_blocking_by_front_vowel; vowel_backing_after_emphatic_short; cross_word_emphasis_continuation
+67,1,قَدِيرٌ,54,d,d,5780,5810,30,
+67,1,قَدِيرٌ,55,i,i,5810,5840,30,
+67,1,قَدِيرٌ,56,iː,il,5840,5870,30,madd_tabii
+67,1,قَدِيرٌ,57,r,r,5870,5900,30,
+67,1,قَدِيرٌ,58,u,u,5900,5930,30,
+67,1,قَدِيرٌ,59,n,n,5930,6191,261,
+67,2,ٱلَّذِى,1,ʔ,Q,780,830,50,
+67,2,ٱلَّذِى,2,a,a,830,910,80,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,2,ٱلَّذِى,3,l,l,910,950,40,
+67,2,ٱلَّذِى,4,l,l,950,1310,360,
+67,2,ٱلَّذِى,5,a,a,1310,1440,130,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,2,ٱلَّذِى,6,ð,z,1440,1540,100,
+67,2,ٱلَّذِى,7,i,i,1540,1570,30,
+67,2,ٱلَّذِى,8,iː,il,1570,1930,360,madd_tabii
+67,2,خَلَقَ,9,x,x,1930,2050,120,
+67,2,خَلَقَ,10,a,a,2050,2190,140,emphasis_blocking_by_front_vowel; vowel_backing_after_emphatic_short; cross_word_emphasis_continuation
+67,2,خَلَقَ,11,l,l,2190,2290,100,
+67,2,خَلَقَ,12,a,a,2290,2540,250,emphasis_blocking_by_front_vowel; vowel_backing_before_emphatic_short; cross_word_emphasis_continuation
+67,2,خَلَقَ,13,q,q,2540,2580,40,
+67,2,خَلَقَ,14,a,a,2580,2740,160,emphasis_blocking_by_front_vowel; vowel_backing_after_emphatic_short; cross_word_emphasis_continuation
+67,2,ٱلْمَوْتَ,15,l,l,2740,2970,230,
+67,2,ٱلْمَوْتَ,16,m,m,2970,3140,170,
+67,2,ٱلْمَوْتَ,17,a,a,3140,3230,90,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,2,ٱلْمَوْتَ,18,w,w,3230,3560,330,
+67,2,ٱلْمَوْتَ,19,t,t,3560,3640,80,
+67,2,ٱلْمَوْتَ,20,a,a,3640,3790,150,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,2,وَٱلْحَيَوٰةَ,21,w,w,3790,3960,170,
+67,2,وَٱلْحَيَوٰةَ,22,a,a,3960,4060,100,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,2,وَٱلْحَيَوٰةَ,23,l,l,4060,4290,230,
+67,2,وَٱلْحَيَوٰةَ,24,ħ,H,4290,4440,150,
+67,2,وَٱلْحَيَوٰةَ,25,a,a,4440,4480,40,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,2,وَٱلْحَيَوٰةَ,26,j,j,4480,5040,560,
+67,2,وَٱلْحَيَوٰةَ,27,a,a,5040,5700,660,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,2,وَٱلْحَيَوٰةَ,28,w,w,5700,5730,30,
+67,2,وَٱلْحَيَوٰةَ,29,t,t,5730,5760,30,ta_marbuta_wasl
+67,2,وَٱلْحَيَوٰةَ,30,a,a,5760,5820,60,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,2,لِيَبْلُوَكُمْ,31,l,l,5850,5950,100,
+67,2,لِيَبْلُوَكُمْ,32,i,i,5950,5980,30,
+67,2,لِيَبْلُوَكُمْ,33,j,j,5980,6080,100,
+67,2,لِيَبْلُوَكُمْ,34,a,a,6080,6140,60,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,2,لِيَبْلُوَكُمْ,35,b,b,6140,6170,30,qalqalah_non_emphatic; qalqalah_minor
+67,2,لِيَبْلُوَكُمْ,36,l,l,6170,6210,40,
+67,2,لِيَبْلُوَكُمْ,37,u,u,6210,6410,200,
+67,2,لِيَبْلُوَكُمْ,38,w,w,6410,6480,70,
+67,2,لِيَبْلُوَكُمْ,39,a,a,6480,6730,250,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,2,لِيَبْلُوَكُمْ,40,k,k,6730,6770,40,
+67,2,لِيَبْلُوَكُمْ,41,u,u,6770,6880,110,
+67,2,لِيَبْلُوَكُمْ,42,m,m,6880,7260,380,idhhar_shafawi
+67,2,أَيُّكُمْ,43,ʔ,Q,7260,7300,40,
+67,2,أَيُّكُمْ,44,a,a,7300,7400,100,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,2,أَيُّكُمْ,45,j,j,7400,7760,360,
+67,2,أَيُّكُمْ,46,u,u,7760,7950,190,
+67,2,أَيُّكُمْ,47,k,k,7950,8070,120,
+67,2,أَيُّكُمْ,48,u,u,8070,8120,50,
+67,2,أَيُّكُمْ,49,m,m,8120,8540,420,idhhar_shafawi
+67,2,أَحْسَنُ,50,ʔ,Q,8540,8570,30,
+67,2,أَحْسَنُ,51,a,a,8570,8710,140,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,2,أَحْسَنُ,52,ħ,H,8710,8930,220,
+67,2,أَحْسَنُ,53,s,s,8930,9090,160,
+67,2,أَحْسَنُ,54,a,a,9090,9270,180,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,2,أَحْسَنُ,55,n,n,9270,9340,70,
+67,2,أَحْسَنُ,56,u,u,9340,9520,180,
+67,2,عَمَلًا,57,ʕ,Hq,9520,9760,240,
+67,2,عَمَلًا,58,a,a,9760,9800,40,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,2,عَمَلًا,59,m,m,9800,9910,110,
+67,2,عَمَلًا,60,a,a,9910,10100,190,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,2,عَمَلًا,61,l,l,10100,10180,80,
+67,2,عَمَلًا,62,a,a,10180,10510,330,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,2,عَمَلًا,63,n,n,10510,10630,120,idgham_ghunnah_noon
+67,2,وَهُوَ,64,w,w,11910,12020,110,
+67,2,وَهُوَ,65,a,a,12020,12090,70,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,2,وَهُوَ,66,h,h,12090,12230,140,
+67,2,وَهُوَ,67,u,u,12230,12420,190,
+67,2,وَهُوَ,68,w,w,12420,12550,130,
+67,2,وَهُوَ,69,a,a,12550,12620,70,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,2,ٱلْعَزِيزُ,70,l,l,12650,12860,210,
+67,2,ٱلْعَزِيزُ,71,ʕ,Hq,12860,13090,230,
+67,2,ٱلْعَزِيزُ,72,a,a,13090,13170,80,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,2,ٱلْعَزِيزُ,73,z,z,13170,13290,120,
+67,2,ٱلْعَزِيزُ,74,i,i,13290,13320,30,
+67,2,ٱلْعَزِيزُ,75,iː,il,13320,13670,350,madd_tabii
+67,2,ٱلْعَزِيزُ,76,z,z,13670,13760,90,
+67,2,ٱلْعَزِيزُ,77,u,u,13760,14190,430,
+67,2,ٱلْغَفُورُ,78,l,l,14190,14220,30,
+67,2,ٱلْغَفُورُ,79,ɣ,G,14220,14250,30,
+67,2,ٱلْغَفُورُ,80,a,a,14250,14420,170,emphasis_blocking_by_front_vowel; vowel_backing_after_emphatic_short; cross_word_emphasis_continuation
+67,2,ٱلْغَفُورُ,81,f,f,14420,14570,150,
+67,2,ٱلْغَفُورُ,82,u,u,14570,14610,40,
+67,2,ٱلْغَفُورُ,83,uː,ul,14610,15100,490,madd_arid_lissukun
+67,2,ٱلْغَفُورُ,84,r,r,15100,15130,30,
+67,2,ٱلْغَفُورُ,85,u,u,15130,15660,530,
+67,3,ٱلَّذِى,1,ʔ,Q,1280,1320,40,
+67,3,ٱلَّذِى,2,a,a,1320,1410,90,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,3,ٱلَّذِى,3,l,l,1410,1460,50,
+67,3,ٱلَّذِى,4,l,l,1460,1840,380,
+67,3,ٱلَّذِى,5,a,a,1840,1940,100,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,3,ٱلَّذِى,6,ð,z,1940,2060,120,
+67,3,ٱلَّذِى,7,i,i,2060,2090,30,
+67,3,ٱلَّذِى,8,iː,il,2090,2520,430,madd_tabii
+67,3,خَلَقَ,9,x,x,2520,2600,80,
+67,3,خَلَقَ,10,a,a,2600,2830,230,emphasis_blocking_by_front_vowel; vowel_backing_after_emphatic_short; cross_word_emphasis_continuation
+67,3,خَلَقَ,11,l,l,2830,2890,60,
+67,3,خَلَقَ,12,a,a,2890,3130,240,emphasis_blocking_by_front_vowel; vowel_backing_before_emphatic_short; cross_word_emphasis_continuation
+67,3,خَلَقَ,13,q,q,3130,3180,50,
+67,3,خَلَقَ,14,a,a,3180,3330,150,emphasis_blocking_by_front_vowel; vowel_backing_after_emphatic_short; cross_word_emphasis_continuation
+67,3,سَبْعَ,15,s,s,3330,3460,130,
+67,3,سَبْعَ,16,a,a,3460,3630,170,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,3,سَبْعَ,17,b,b,3630,3730,100,qalqalah_non_emphatic; qalqalah_minor
+67,3,سَبْعَ,18,ʕ,Hq,3730,4060,330,
+67,3,سَبْعَ,19,a,a,4060,4110,50,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,3,سَمَٰوَٰتٍ,20,s,s,4110,4260,150,
+67,3,سَمَٰوَٰتٍ,21,a,a,4260,4420,160,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,3,سَمَٰوَٰتٍ,22,m,m,4420,4520,100,
+67,3,سَمَٰوَٰتٍ,23,a,a,4520,4850,330,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,3,سَمَٰوَٰتٍ,24,aː,al,4850,4900,50,madd_tabii
+67,3,سَمَٰوَٰتٍ,25,w,w,4900,5110,210,
+67,3,سَمَٰوَٰتٍ,26,aː,al,5110,5450,340,madd_tabii
+67,3,سَمَٰوَٰتٍ,27,t,t,5450,5580,130,
+67,3,سَمَٰوَٰتٍ,28,i,i,5580,5750,170,
+67,3,سَمَٰوَٰتٍ,29,n,n,5750,6840,1090,ikhfaa_heavy
+67,3,طِبَاقًا,30,tˤ,T,6870,6900,30,
+67,3,طِبَاقًا,31,i,i,6900,6930,30,
+67,3,طِبَاقًا,32,b,b,6930,6960,30,
+67,3,طِبَاقًا,33,a,a,6960,7070,110,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,3,طِبَاقًا,34,aː,al,7070,7100,30,madd_tabii; vowel_backing_before_emphatic_long
+67,3,طِبَاقًا,35,q,q,7100,7130,30,
+67,3,طِبَاقًا,36,a,a,7130,7160,30,emphasis_blocking_by_front_vowel; vowel_backing_after_emphatic_short; cross_word_emphasis_continuation
+67,3,طِبَاقًا,37,n,n,7160,7190,30,idgham_ghunnah_noon
+67,3,مَّا,38,m,m,7190,7220,30,ghunnah_mushaddadah_meem; idgham_shafawi_meem
+67,3,مَّا,39,m,m,7220,7250,30,
+67,3,مَّا,40,a,a,7250,7620,370,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,3,مَّا,41,aː,al,7620,7710,90,madd_tabii
+67,3,تَرَىٰ,42,t,t,7710,7750,40,
+67,3,تَرَىٰ,43,a,a,7750,7780,30,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,3,تَرَىٰ,44,r,r,7780,7810,30,
+67,3,تَرَىٰ,45,a,a,7810,8020,210,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,3,تَرَىٰ,46,aː,al,8020,8310,290,madd_tabii
+67,3,فِى,47,f,f,9720,9760,40,
+67,3,فِى,48,i,i,9760,9790,30,
+67,3,فِى,49,iː,il,9790,10140,350,madd_tabii
+67,3,خَلْقِ,50,x,x,10140,10170,30,
+67,3,خَلْقِ,51,a,a,10170,10200,30,emphasis_blocking_by_front_vowel; vowel_backing_after_emphatic_short; cross_word_emphasis_continuation
+67,3,خَلْقِ,52,l,l,10200,10230,30,
+67,3,خَلْقِ,53,q,q,10230,10260,30,
+67,3,خَلْقِ,54,i,i,10260,10290,30,
+67,3,ٱلرَّحْمَٰنِ,55,r,r,10290,10330,40,
+67,3,ٱلرَّحْمَٰنِ,56,r,r,10330,10530,200,
+67,3,ٱلرَّحْمَٰنِ,57,a,a,10530,10970,440,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,3,ٱلرَّحْمَٰنِ,58,ħ,H,10970,11050,80,
+67,3,ٱلرَّحْمَٰنِ,59,m,m,11050,11080,30,
+67,3,ٱلرَّحْمَٰنِ,60,a,a,11080,11110,30,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,3,ٱلرَّحْمَٰنِ,61,aː,al,11110,11140,30,madd_tabii
+67,3,ٱلرَّحْمَٰنِ,62,n,n,11140,11170,30,
+67,3,ٱلرَّحْمَٰنِ,63,i,i,11170,11390,220,
+67,3,مِن,64,m,m,11390,11420,30,
+67,3,مِن,65,i,i,11420,11450,30,
+67,3,مِن,66,n,n,11450,11480,30,ikhfaa_light
+67,3,تَفَٰوُتٍ,67,t,t,11480,11510,30,
+67,3,تَفَٰوُتٍ,68,a,a,11510,11550,40,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,3,تَفَٰوُتٍ,69,f,f,11550,11590,40,
+67,3,تَفَٰوُتٍ,70,a,a,11590,11690,100,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,3,تَفَٰوُتٍ,71,aː,al,11690,11720,30,madd_tabii
+67,3,تَفَٰوُتٍ,72,w,w,11720,11990,270,
+67,3,تَفَٰوُتٍ,73,u,u,11990,12020,30,
+67,3,تَفَٰوُتٍ,74,t,t,12020,12140,120,
+67,3,تَفَٰوُتٍ,75,i,i,12140,12360,220,
+67,3,تَفَٰوُتٍ,76,n,n,12360,12610,250,ikhfaa_light
+67,3,فَٱرْجِعِ,77,f,f,13120,13160,40,
+67,3,فَٱرْجِعِ,78,a,a,13160,13590,430,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,3,فَٱرْجِعِ,79,r,r,13590,13670,80,
+67,3,فَٱرْجِعِ,80,dʒ,j,13670,15030,1360,
+67,3,فَٱرْجِعِ,81,i,i,15030,15070,40,
+67,3,فَٱرْجِعِ,82,ʕ,Hq,15070,15930,860,
+67,3,فَٱرْجِعِ,83,i,i,15930,16090,160,
+67,3,ٱلْبَصَرَ,84,l,l,17275,17315,40,
+67,3,ٱلْبَصَرَ,85,b,b,17315,17385,70,
+67,3,ٱلْبَصَرَ,86,a,a,17385,17415,30,emphasis_blocking_by_front_vowel; vowel_backing_before_emphatic_short; cross_word_emphasis_continuation
+67,3,ٱلْبَصَرَ,87,sˤ,S,17415,17445,30,
+67,3,ٱلْبَصَرَ,88,a,a,17445,17505,60,emphasis_blocking_by_front_vowel; vowel_backing_after_emphatic_short; cross_word_emphasis_continuation
+67,3,ٱلْبَصَرَ,89,r,r,17505,17555,50,
+67,3,ٱلْبَصَرَ,90,a,a,17555,17815,260,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,3,هَلْ,91,h,h,17815,18615,800,
+67,3,هَلْ,92,a,a,18615,18825,210,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,3,هَلْ,93,l,l,18825,18865,40,
+67,3,تَرَىٰ,94,t,t,18865,18945,80,
+67,3,تَرَىٰ,95,a,a,18945,19175,230,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,3,تَرَىٰ,96,r,r,19175,19215,40,
+67,3,تَرَىٰ,97,a,a,19215,19595,380,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,3,تَرَىٰ,98,aː,al,19595,19645,50,madd_tabii
+67,3,مِن,99,m,m,19645,19675,30,
+67,3,مِن,100,i,i,19675,19705,30,
+67,3,مِن,101,n,n,19705,19815,110,ikhfaa_light
+67,3,فُطُورٍ,102,f,f,19815,19845,30,
+67,3,فُطُورٍ,103,u,u,19845,19885,40,
+67,3,فُطُورٍ,104,tˤ,T,19885,19985,100,
+67,3,فُطُورٍ,105,u,u,19985,20035,50,
+67,3,فُطُورٍ,106,uː,ul,20035,20645,610,madd_tabii
+67,3,فُطُورٍ,107,r,r,20645,20755,110,
+67,3,فُطُورٍ,108,i,i,20755,20985,230,
+67,3,فُطُورٍ,109,n,n,20985,23685,2700,
+67,4,ثُمَّ,1,θ,s,760,790,30,
+67,4,ثُمَّ,2,u,u,790,840,50,
+67,4,ثُمَّ,3,m,m,840,1640,800,ghunnah_mushaddadah_meem; idgham_shafawi_meem
+67,4,ثُمَّ,4,m,m,1640,1930,290,
+67,4,ثُمَّ,5,a,a,1930,2080,150,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,4,ٱرْجِعِ,6,r,r,2080,2350,270,
+67,4,ٱرْجِعِ,7,dʒ,j,2350,2510,160,
+67,4,ٱرْجِعِ,8,i,i,2510,2550,40,
+67,4,ٱرْجِعِ,9,ʕ,Hq,2550,2720,170,
+67,4,ٱرْجِعِ,10,i,i,2720,2790,70,
+67,4,ٱلْبَصَرَ,11,l,l,2790,3120,330,
+67,4,ٱلْبَصَرَ,12,b,b,3120,3200,80,
+67,4,ٱلْبَصَرَ,13,a,a,3200,3360,160,emphasis_blocking_by_front_vowel; vowel_backing_before_emphatic_short; cross_word_emphasis_continuation
+67,4,ٱلْبَصَرَ,14,sˤ,S,3360,3490,130,
+67,4,ٱلْبَصَرَ,15,a,a,3490,3680,190,emphasis_blocking_by_front_vowel; vowel_backing_after_emphatic_short; cross_word_emphasis_continuation
+67,4,ٱلْبَصَرَ,16,r,r,3680,3710,30,
+67,4,ٱلْبَصَرَ,17,a,a,3710,3940,230,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,4,كَرَّتَيْنِ,18,k,k,3980,4030,50,
+67,4,كَرَّتَيْنِ,19,a,a,4030,4200,170,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,4,كَرَّتَيْنِ,20,r,r,4200,4270,70,
+67,4,كَرَّتَيْنِ,21,r,r,4270,4540,270,
+67,4,كَرَّتَيْنِ,22,a,a,4540,4790,250,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,4,كَرَّتَيْنِ,23,t,t,4790,4850,60,
+67,4,كَرَّتَيْنِ,24,a,a,4850,5010,160,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,4,كَرَّتَيْنِ,25,j,j,5010,5310,300,
+67,4,كَرَّتَيْنِ,26,n,n,5310,5380,70,
+67,4,كَرَّتَيْنِ,27,i,i,5380,5430,50,
+67,4,يَنقَلِبْ,28,j,j,5430,5690,260,
+67,4,يَنقَلِبْ,29,a,a,5690,5870,180,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,4,يَنقَلِبْ,30,n,n,5870,6530,660,ikhfaa_heavy
+67,4,يَنقَلِبْ,31,q,q,6530,6620,90,
+67,4,يَنقَلِبْ,32,a,a,6620,6650,30,emphasis_blocking_by_front_vowel; vowel_backing_after_emphatic_short; cross_word_emphasis_continuation
+67,4,يَنقَلِبْ,33,l,l,6650,6680,30,
+67,4,يَنقَلِبْ,34,i,i,6680,6710,30,
+67,4,يَنقَلِبْ,35,b,b,6710,6810,100,qalqalah_major; qalqalah_non_emphatic
+67,4,إِلَيْكَ,36,ʔ,Q,6789,6819,30,
+67,4,إِلَيْكَ,37,i,i,6819,7559,740,
+67,4,إِلَيْكَ,38,l,l,7559,7639,80,
+67,4,إِلَيْكَ,39,a,a,7639,7799,160,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,4,إِلَيْكَ,40,j,j,7799,8049,250,
+67,4,إِلَيْكَ,41,k,k,8049,8179,130,
+67,4,إِلَيْكَ,42,a,a,8179,8339,160,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,4,ٱلْبَصَرُ,43,l,l,8339,8539,200,
+67,4,ٱلْبَصَرُ,44,b,b,8539,8679,140,
+67,4,ٱلْبَصَرُ,45,a,a,8679,8829,150,emphasis_blocking_by_front_vowel; vowel_backing_before_emphatic_short; cross_word_emphasis_continuation
+67,4,ٱلْبَصَرُ,46,sˤ,S,8829,8949,120,
+67,4,ٱلْبَصَرُ,47,a,a,8949,9119,170,emphasis_blocking_by_front_vowel; vowel_backing_after_emphatic_short; cross_word_emphasis_continuation
+67,4,ٱلْبَصَرُ,48,r,r,9119,9199,80,
+67,4,ٱلْبَصَرُ,49,u,u,9199,9389,190,
+67,4,خَاسِئًا,50,x,x,9389,9489,100,
+67,4,خَاسِئًا,51,a,a,9489,9899,410,emphasis_blocking_by_front_vowel; vowel_backing_after_emphatic_short; cross_word_emphasis_continuation
+67,4,خَاسِئًا,52,aː,al,9899,9949,50,madd_tabii
+67,4,خَاسِئًا,53,s,s,9949,10049,100,
+67,4,خَاسِئًا,54,i,i,10049,10159,110,
+67,4,خَاسِئًا,55,ʔ,Q,10159,10459,300,
+67,4,خَاسِئًا,56,a,a,10459,10509,50,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,4,خَاسِئًا,57,n,n,10509,11279,770,idgham_ghunnah_noon
+67,4,وَهُوَ,58,w,w,11309,11339,30,
+67,4,وَهُوَ,59,a,a,11339,11419,80,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,4,وَهُوَ,60,h,h,11419,11739,320,
+67,4,وَهُوَ,61,u,u,11739,11869,130,
+67,4,وَهُوَ,62,w,w,11869,11909,40,
+67,4,وَهُوَ,63,a,a,11909,12039,130,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,4,حَسِيرٌ,64,ħ,H,12039,12159,120,
+67,4,حَسِيرٌ,65,a,a,12159,12289,130,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,4,حَسِيرٌ,66,s,s,12289,12459,170,
+67,4,حَسِيرٌ,67,i,i,12459,12489,30,
+67,4,حَسِيرٌ,68,iː,il,12489,12959,470,madd_tabii
+67,4,حَسِيرٌ,69,r,r,12959,12989,30,
+67,4,حَسِيرٌ,70,u,u,12989,13029,40,
+67,4,حَسِيرٌ,71,n,n,13029,13199,170,
+67,5,وَلَقَدْ,1,w,w,1590,1720,130,
+67,5,وَلَقَدْ,2,a,a,1720,1790,70,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,5,وَلَقَدْ,3,l,l,1790,2090,300,
+67,5,وَلَقَدْ,4,a,a,2090,2140,50,emphasis_blocking_by_front_vowel; vowel_backing_before_emphatic_short; cross_word_emphasis_continuation
+67,5,وَلَقَدْ,5,q,q,2140,2180,40,
+67,5,وَلَقَدْ,6,a,a,2180,2340,160,emphasis_blocking_by_front_vowel; vowel_backing_after_emphatic_short; cross_word_emphasis_continuation
+67,5,وَلَقَدْ,7,d,d,2340,2540,200,qalqalah_major; qalqalah_non_emphatic
+67,5,زَيَّنَّا,8,z,z,2540,2690,150,
+67,5,زَيَّنَّا,9,a,a,2690,2810,120,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,5,زَيَّنَّا,10,j,j,2810,3210,400,
+67,5,زَيَّنَّا,11,a,a,3210,3340,130,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,5,زَيَّنَّا,12,n,n,3340,4250,910,ghunnah_mushaddadah_noon
+67,5,زَيَّنَّا,13,n,n,4250,4290,40,
+67,5,زَيَّنَّا,14,a,a,4290,4330,40,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,5,زَيَّنَّا,15,aː,al,4330,4440,110,
+67,5,ٱلسَّمَآءَ,16,s,s,4440,4560,120,
+67,5,ٱلسَّمَآءَ,17,s,s,4560,4800,240,
+67,5,ٱلسَّمَآءَ,18,a,a,4800,4990,190,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,5,ٱلسَّمَآءَ,19,m,m,4990,5090,100,
+67,5,ٱلسَّمَآءَ,20,a,a,5090,5120,30,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,5,ٱلسَّمَآءَ,21,ʔ,Q,5120,5150,30,
+67,5,ٱلسَّمَآءَ,22,aː,al,5150,6760,1610,madd_muttasil
+67,5,ٱلسَّمَآءَ,23,ʔ,Q,6760,6920,160,
+67,5,ٱلسَّمَآءَ,24,a,a,6920,6960,40,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,5,ٱلدُّنْيَا,25,d,d,6960,7280,320,qalqalah_with_shaddah
+67,5,ٱلدُّنْيَا,26,d,d,7280,7330,50,
+67,5,ٱلدُّنْيَا,27,u,u,7330,7490,160,
+67,5,ٱلدُّنْيَا,28,n,n,7490,7690,200,idgham_ghunnah_noon
+67,5,ٱلدُّنْيَا,29,j,j,7690,7820,130,
+67,5,ٱلدُّنْيَا,30,a,a,7820,8240,420,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,5,ٱلدُّنْيَا,31,aː,al,8240,8300,60,madd_tabii
+67,5,بِمَصَٰبِيحَ,32,b,b,8270,8380,110,
+67,5,بِمَصَٰبِيحَ,33,i,i,8380,8540,160,
+67,5,بِمَصَٰبِيحَ,34,m,m,8540,8640,100,
+67,5,بِمَصَٰبِيحَ,35,a,a,8640,8800,160,emphasis_blocking_by_front_vowel; vowel_backing_before_emphatic_short; cross_word_emphasis_continuation
+67,5,بِمَصَٰبِيحَ,36,sˤ,S,8800,8930,130,
+67,5,بِمَصَٰبِيحَ,37,a,a,8930,9330,400,emphasis_blocking_by_front_vowel; vowel_backing_after_emphatic_short; cross_word_emphasis_continuation
+67,5,بِمَصَٰبِيحَ,38,aː,al,9330,9370,40,madd_tabii
+67,5,بِمَصَٰبِيحَ,39,b,b,9370,9460,90,
+67,5,بِمَصَٰبِيحَ,40,i,i,9460,9490,30,
+67,5,بِمَصَٰبِيحَ,41,iː,il,9490,9860,370,madd_tabii
+67,5,بِمَصَٰبِيحَ,42,ħ,H,9860,10010,150,
+67,5,بِمَصَٰبِيحَ,43,a,a,10010,10220,210,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,5,وَجَعَلْنَٰهَا,44,w,w,10220,10250,30,
+67,5,وَجَعَلْنَٰهَا,45,a,a,10250,10380,130,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,5,وَجَعَلْنَٰهَا,46,dʒ,j,10380,10540,160,
+67,5,وَجَعَلْنَٰهَا,47,a,a,10540,10640,100,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,5,وَجَعَلْنَٰهَا,48,ʕ,Hq,10640,10880,240,
+67,5,وَجَعَلْنَٰهَا,49,a,a,10880,10910,30,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,5,وَجَعَلْنَٰهَا,50,l,l,10910,11300,390,
+67,5,وَجَعَلْنَٰهَا,51,n,n,11300,11350,50,
+67,5,وَجَعَلْنَٰهَا,52,a,a,11350,11800,450,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,5,وَجَعَلْنَٰهَا,53,aː,al,11800,11830,30,madd_tabii
+67,5,وَجَعَلْنَٰهَا,54,h,h,11830,11930,100,
+67,5,وَجَعَلْنَٰهَا,55,a,a,11930,11990,60,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,5,وَجَعَلْنَٰهَا,56,aː,al,11990,12340,350,madd_tabii
+67,5,رُجُومًا,57,r,r,12340,12420,80,
+67,5,رُجُومًا,58,u,u,12420,12660,240,
+67,5,رُجُومًا,59,dʒ,j,12660,12690,30,
+67,5,رُجُومًا,60,u,u,12690,12720,30,
+67,5,رُجُومًا,61,uː,ul,12720,13150,430,madd_tabii
+67,5,رُجُومًا,62,m,m,13150,13240,90,
+67,5,رُجُومًا,63,a,a,13240,13370,130,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,5,رُجُومًا,64,n,n,13370,13400,30,idgham_no_ghunnah
+67,5,لِّلشَّيَٰطِينِ,65,l,l,13400,13700,300,
+67,5,لِّلشَّيَٰطِينِ,66,l,l,13700,13730,30,
+67,5,لِّلشَّيَٰطِينِ,67,i,i,13730,13880,150,
+67,5,لِّلشَّيَٰطِينِ,68,ʃ,C,13880,14020,140,
+67,5,لِّلشَّيَٰطِينِ,69,ʃ,C,14020,14280,260,
+67,5,لِّلشَّيَٰطِينِ,70,a,a,14280,14380,100,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,5,لِّلشَّيَٰطِينِ,71,j,j,14380,14590,210,
+67,5,لِّلشَّيَٰطِينِ,72,aː,al,14590,15030,440,madd_tabii; vowel_backing_before_emphatic_long
+67,5,لِّلشَّيَٰطِينِ,73,tˤ,T,15030,15180,150,
+67,5,لِّلشَّيَٰطِينِ,74,i,i,15180,15240,60,
+67,5,لِّلشَّيَٰطِينِ,75,iː,il,15240,15660,420,madd_tabii
+67,5,لِّلشَّيَٰطِينِ,76,n,n,15660,15700,40,
+67,5,لِّلشَّيَٰطِينِ,77,i,i,15700,16920,1220,
+67,5,وَأَعْتَدْنَا,78,w,w,17020,17100,80,
+67,5,وَأَعْتَدْنَا,79,a,a,17100,17240,140,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,5,وَأَعْتَدْنَا,80,ʔ,Q,17240,17290,50,
+67,5,وَأَعْتَدْنَا,81,a,a,17290,17330,40,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,5,وَأَعْتَدْنَا,82,ʕ,Hq,17330,17650,320,
+67,5,وَأَعْتَدْنَا,83,t,t,17650,17850,200,
+67,5,وَأَعْتَدْنَا,84,a,a,17850,18010,160,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,5,وَأَعْتَدْنَا,85,d,d,18010,18080,70,qalqalah_non_emphatic; qalqalah_minor
+67,5,وَأَعْتَدْنَا,86,n,n,18080,18130,50,
+67,5,وَأَعْتَدْنَا,87,a,a,18130,18440,310,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,5,وَأَعْتَدْنَا,88,aː,al,18440,18820,380,madd_tabii
+67,5,لَهُمْ,89,l,l,18820,18900,80,
+67,5,لَهُمْ,90,a,a,18900,18960,60,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,5,لَهُمْ,91,h,h,18960,19230,270,
+67,5,لَهُمْ,92,u,u,19230,19320,90,
+67,5,لَهُمْ,93,m,m,19320,19570,250,idhhar_shafawi
+67,5,عَذَابَ,94,ʕ,Hq,19570,19820,250,
+67,5,عَذَابَ,95,a,a,19820,19950,130,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,5,عَذَابَ,96,ð,z,19950,19980,30,
+67,5,عَذَابَ,97,a,a,19980,20040,60,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,5,عَذَابَ,98,aː,al,20040,20430,390,madd_tabii
+67,5,عَذَابَ,99,b,b,20430,20540,110,
+67,5,عَذَابَ,100,a,a,20540,20660,120,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,5,ٱلسَّعِيرِ,101,s,s,20660,20900,240,
+67,5,ٱلسَّعِيرِ,102,s,s,20900,21070,170,
+67,5,ٱلسَّعِيرِ,103,a,a,21070,21120,50,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+67,5,ٱلسَّعِيرِ,104,ʕ,Hq,21120,21350,230,
+67,5,ٱلسَّعِيرِ,105,i,i,21350,21400,50,
+67,5,ٱلسَّعِيرِ,106,iː,il,21400,21810,410,madd_arid_lissukun
+67,5,ٱلسَّعِيرِ,107,r,r,21810,21870,60,
+67,5,ٱلسَّعِيرِ,108,i,i,21870,22570,700,
+56,0,بِسْمِ,1,b,b,480,520,40,
+56,0,بِسْمِ,2,i,i,520,570,50,
+56,0,بِسْمِ,3,s,s,570,600,30,
+56,0,بِسْمِ,4,m,m,600,630,30,
+56,0,بِسْمِ,5,i,i,630,660,30,
+56,0,ٱللَّهِ,6,l,l,660,690,30,
+56,0,ٱللَّهِ,7,l,l,690,730,40,
+56,0,ٱللَّهِ,8,a,a,730,770,40,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+56,0,ٱللَّهِ,9,h,h,770,800,30,
+56,0,ٱللَّهِ,10,i,i,800,830,30,
+56,0,ٱلرَّحْمَٰنِ,11,r,r,830,860,30,
+56,0,ٱلرَّحْمَٰنِ,12,r,r,860,1060,200,
+56,0,ٱلرَّحْمَٰنِ,13,a,a,1060,1090,30,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+56,0,ٱلرَّحْمَٰنِ,14,ħ,H,1090,1120,30,
+56,0,ٱلرَّحْمَٰنِ,15,m,m,1120,1150,30,
+56,0,ٱلرَّحْمَٰنِ,16,a,a,1150,1220,70,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+56,0,ٱلرَّحْمَٰنِ,17,aː,al,1220,1290,70,madd_tabii
+56,0,ٱلرَّحْمَٰنِ,18,n,n,1290,1320,30,
+56,0,ٱلرَّحْمَٰنِ,19,i,i,1320,1350,30,
+56,0,ٱلرَّحِيمِ,20,r,r,1350,1420,70,
+56,0,ٱلرَّحِيمِ,21,r,r,1420,1630,210,
+56,0,ٱلرَّحِيمِ,22,a,a,1630,1790,160,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+56,0,ٱلرَّحِيمِ,23,ħ,H,1790,1820,30,
+56,0,ٱلرَّحِيمِ,24,i,i,1820,1850,30,
+56,0,ٱلرَّحِيمِ,25,iː,il,1850,1880,30,madd_arid_lissukun
+56,0,ٱلرَّحِيمِ,26,m,m,1880,1910,30,
+56,0,ٱلرَّحِيمِ,27,i,i,1910,1980,70,
+56,1,إِذَا,1,ʔ,Q,310,350,40,
+56,1,إِذَا,2,i,i,350,470,120,
+56,1,إِذَا,3,ð,z,470,500,30,
+56,1,إِذَا,4,a,a,500,530,30,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+56,1,إِذَا,5,aː,al,530,620,90,madd_tabii
+56,1,وَقَعَتِ,6,w,w,620,810,190,
+56,1,وَقَعَتِ,7,a,a,810,840,30,emphasis_blocking_by_front_vowel; vowel_backing_before_emphatic_short; cross_word_emphasis_continuation
+56,1,وَقَعَتِ,8,q,q,840,870,30,
+56,1,وَقَعَتِ,9,a,a,870,900,30,emphasis_blocking_by_front_vowel; vowel_backing_after_emphatic_short; cross_word_emphasis_continuation
+56,1,وَقَعَتِ,10,ʕ,Hq,900,1060,160,
+56,1,وَقَعَتِ,11,a,a,1060,1180,120,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+56,1,وَقَعَتِ,12,t,t,1180,1210,30,
+56,1,وَقَعَتِ,13,i,i,1210,1240,30,
+56,1,ٱلْوَاقِعَةُ,14,l,l,1240,1270,30,
+56,1,ٱلْوَاقِعَةُ,15,w,w,1270,1300,30,
+56,1,ٱلْوَاقِعَةُ,16,a,a,1300,1330,30,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+56,1,ٱلْوَاقِعَةُ,17,aː,al,1330,1360,30,madd_tabii; vowel_backing_before_emphatic_long
+56,1,ٱلْوَاقِعَةُ,18,q,q,1360,1390,30,
+56,1,ٱلْوَاقِعَةُ,19,i,i,1390,1490,100,
+56,1,ٱلْوَاقِعَةُ,20,ʕ,Hq,1490,1730,240,
+56,1,ٱلْوَاقِعَةُ,21,a,a,1730,1780,50,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+56,1,ٱلْوَاقِعَةُ,22,t,t,1780,1810,30,ta_marbuta_waqf
+56,1,ٱلْوَاقِعَةُ,23,u,u,1810,1840,30,
+56,2,لَيْسَ,1,l,l,410,510,100,
+56,2,لَيْسَ,2,a,a,510,610,100,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+56,2,لَيْسَ,3,j,j,610,800,190,
+56,2,لَيْسَ,4,s,s,800,940,140,
+56,2,لَيْسَ,5,a,a,940,1110,170,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+56,2,لِوَقْعَتِهَا,6,l,l,1110,1180,70,
+56,2,لِوَقْعَتِهَا,7,i,i,1180,1300,120,
+56,2,لِوَقْعَتِهَا,8,w,w,1300,1480,180,
+56,2,لِوَقْعَتِهَا,9,a,a,1480,1520,40,emphasis_blocking_by_front_vowel; vowel_backing_before_emphatic_short; cross_word_emphasis_continuation
+56,2,لِوَقْعَتِهَا,10,q,q,1520,1550,30,qalqalah_emphatic; qalqalah_minor
+56,2,لِوَقْعَتِهَا,11,ʕ,Hq,1550,1920,370,
+56,2,لِوَقْعَتِهَا,12,a,a,1920,2020,100,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+56,2,لِوَقْعَتِهَا,13,t,t,2020,2140,120,
+56,2,لِوَقْعَتِهَا,14,i,i,2140,2430,290,
+56,2,لِوَقْعَتِهَا,15,h,h,2430,2470,40,
+56,2,لِوَقْعَتِهَا,16,a,a,2470,2500,30,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+56,2,لِوَقْعَتِهَا,17,aː,al,2500,2800,300,madd_tabii
+56,2,كَاذِبَةٌ,18,k,k,2800,2910,110,
+56,2,كَاذِبَةٌ,19,a,a,2910,2970,60,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+56,2,كَاذِبَةٌ,20,aː,al,2970,3340,370,madd_tabii
+56,2,كَاذِبَةٌ,21,ð,z,3340,3400,60,
+56,2,كَاذِبَةٌ,22,i,i,3400,3550,150,
+56,2,كَاذِبَةٌ,23,b,b,3550,3630,80,
+56,2,كَاذِبَةٌ,24,a,a,3630,3780,150,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+56,2,كَاذِبَةٌ,25,t,t,3780,3810,30,ta_marbuta_waqf
+56,2,كَاذِبَةٌ,26,u,u,3810,3840,30,
+56,2,كَاذِبَةٌ,27,n,n,3840,4310,470,
+56,3,خَافِضَةٌ,1,x,x,540,570,30,
+56,3,خَافِضَةٌ,2,a,a,570,930,360,emphasis_blocking_by_front_vowel; vowel_backing_after_emphatic_short; cross_word_emphasis_continuation
+56,3,خَافِضَةٌ,3,aː,al,930,990,60,madd_tabii
+56,3,خَافِضَةٌ,4,f,f,990,1100,110,
+56,3,خَافِضَةٌ,5,i,i,1100,1270,170,
+56,3,خَافِضَةٌ,6,dˤ,D,1270,1300,30,
+56,3,خَافِضَةٌ,7,a,a,1300,1330,30,emphasis_blocking_by_front_vowel; vowel_backing_after_emphatic_short; cross_word_emphasis_continuation
+56,3,خَافِضَةٌ,8,t,t,1330,1360,30,ta_marbuta_wasl
+56,3,خَافِضَةٌ,9,u,u,1360,1650,290,
+56,3,خَافِضَةٌ,10,n,n,1650,2020,370,idgham_no_ghunnah
+56,3,رَّافِعَةٌ,11,r,r,2020,2050,30,
+56,3,رَّافِعَةٌ,12,r,r,2050,2080,30,
+56,3,رَّافِعَةٌ,13,a,a,2080,2290,210,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+56,3,رَّافِعَةٌ,14,aː,al,2290,2440,150,madd_tabii
+56,3,رَّافِعَةٌ,15,f,f,2440,2570,130,
+56,3,رَّافِعَةٌ,16,i,i,2570,2700,130,
+56,3,رَّافِعَةٌ,17,ʕ,Hq,2700,2950,250,
+56,3,رَّافِعَةٌ,18,a,a,2950,3020,70,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+56,3,رَّافِعَةٌ,19,t,t,3020,3050,30,ta_marbuta_waqf
+56,3,رَّافِعَةٌ,20,u,u,3050,3080,30,
+56,3,رَّافِعَةٌ,21,n,n,3080,3605,525,
+56,4,إِذَا,1,ʔ,Q,530,570,40,
+56,4,إِذَا,2,i,i,570,780,210,
+56,4,إِذَا,3,ð,z,780,820,40,
+56,4,إِذَا,4,a,a,820,870,50,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+56,4,إِذَا,5,aː,al,870,1210,340,madd_tabii
+56,4,رُجَّتِ,6,r,r,1210,1240,30,
+56,4,رُجَّتِ,7,u,u,1240,1690,450,
+56,4,رُجَّتِ,8,dʒ,j,1690,1730,40,qalqalah_with_shaddah
+56,4,رُجَّتِ,9,dʒ,j,1730,1770,40,
+56,4,رُجَّتِ,10,a,a,1770,1910,140,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+56,4,رُجَّتِ,11,t,t,1910,2020,110,
+56,4,رُجَّتِ,12,i,i,2020,2400,380,
+56,4,ٱلْأَرْضُ,13,l,l,2400,2470,70,
+56,4,ٱلْأَرْضُ,14,ʔ,Q,2470,2510,40,
+56,4,ٱلْأَرْضُ,15,a,a,2510,2640,130,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+56,4,ٱلْأَرْضُ,16,r,r,2640,2900,260,
+56,4,ٱلْأَرْضُ,17,dˤ,D,2900,2940,40,
+56,4,ٱلْأَرْضُ,18,u,u,2940,3140,200,
+56,4,رَجًّا,19,r,r,3140,3190,50,
+56,4,رَجًّا,20,a,a,3190,3250,60,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+56,4,رَجًّا,21,dʒ,j,3250,3280,30,qalqalah_with_shaddah
+56,4,رَجًّا,22,dʒ,j,3280,3310,30,
+56,4,رَجًّا,23,a,a,3310,3340,30,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+56,4,رَجًّا,24,n,n,3340,4598,1258,
+56,5,وَبُسَّتِ,1,w,w,460,560,100,
+56,5,وَبُسَّتِ,2,a,a,560,640,80,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+56,5,وَبُسَّتِ,3,b,b,640,810,170,
+56,5,وَبُسَّتِ,4,u,u,810,930,120,
+56,5,وَبُسَّتِ,5,s,s,930,1250,320,
+56,5,وَبُسَّتِ,6,s,s,1250,1310,60,
+56,5,وَبُسَّتِ,7,a,a,1310,1460,150,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+56,5,وَبُسَّتِ,8,t,t,1460,1580,120,
+56,5,وَبُسَّتِ,9,i,i,1580,1730,150,
+56,5,ٱلْجِبَالُ,10,l,l,1730,2050,320,
+56,5,ٱلْجِبَالُ,11,dʒ,j,2050,2180,130,
+56,5,ٱلْجِبَالُ,12,i,i,2180,2220,40,
+56,5,ٱلْجِبَالُ,13,b,b,2220,2330,110,
+56,5,ٱلْجِبَالُ,14,a,a,2330,2390,60,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+56,5,ٱلْجِبَالُ,15,aː,al,2390,2710,320,madd_tabii
+56,5,ٱلْجِبَالُ,16,l,l,2710,2760,50,
+56,5,ٱلْجِبَالُ,17,u,u,2760,2950,190,
+56,5,بَسًّا,18,b,b,2950,3050,100,
+56,5,بَسًّا,19,a,a,3050,3170,120,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+56,5,بَسًّا,20,s,s,3170,3440,270,
+56,5,بَسًّا,21,s,s,3440,3500,60,
+56,5,بَسًّا,22,a,a,3500,3880,380,emphasis_blocking_by_front_vowel; cross_word_emphasis_continuation
+56,5,بَسًّا,23,n,n,3880,4441,561,

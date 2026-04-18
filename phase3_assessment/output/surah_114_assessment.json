@@ -1,0 +1,249 @@
+{
+  "surah": 114,
+  "reciter": "reciter_2",
+  "harakah_ms": 120.0,
+  "calibration": {
+    "short_vowel_median_ms": 120.0,
+    "madd_tabii_median_ms": 320.0,
+    "ratio": 2.67,
+    "short_vowel_count": 32,
+    "madd_tabii_count": 3,
+    "is_default": false,
+    "tolerance_factor": 1.0
+  },
+  "ayahs": [
+    {
+      "surah": 114,
+      "ayah": 0,
+      "reciter": "reciter_2",
+      "harakah_ms": 120.0,
+      "errors": [],
+      "score": 100.0,
+      "score_reliability": "low",
+      "total_phones_assessed": 0,
+      "phones_skipped": 2,
+      "error_count": 0
+    },
+    {
+      "surah": 114,
+      "ayah": 1,
+      "reciter": "reciter_2",
+      "harakah_ms": 120.0,
+      "errors": [
+        {
+          "word": "ٱلنَّاسِ",
+          "phone": "n",
+          "phone_index": 17,
+          "timestamp_ms": 790.0,
+          "rule": "ghunnah_mushaddadah_noon",
+          "assessment": "duration",
+          "expected": 2.0,
+          "actual": 4.17,
+          "unit": "counts",
+          "severity": "style",
+          "description": "Ghunnah Mushaddadah Noon too long — held 4.2 counts, expected 1.2–2.8 [acoustic=500ms vs MFA=860ms]"
+        }
+      ],
+      "score": 100.0,
+      "score_reliability": "low",
+      "total_phones_assessed": 1,
+      "phones_skipped": 3,
+      "error_count": 1
+    },
+    {
+      "surah": 114,
+      "ayah": 2,
+      "reciter": "reciter_2",
+      "harakah_ms": 120.0,
+      "errors": [
+        {
+          "word": "ٱلنَّاسِ",
+          "phone": "n",
+          "phone_index": 6,
+          "timestamp_ms": 1000.0,
+          "rule": "ghunnah_mushaddadah_noon",
+          "assessment": "duration",
+          "expected": 2.0,
+          "actual": 9.25,
+          "unit": "counts",
+          "severity": "minor",
+          "description": "Ghunnah Mushaddadah Noon too long — held 9.2 counts, expected 1.2–2.8"
+        }
+      ],
+      "score": 75.0,
+      "score_reliability": "low",
+      "total_phones_assessed": 2,
+      "phones_skipped": 0,
+      "error_count": 1
+    },
+    {
+      "surah": 114,
+      "ayah": 3,
+      "reciter": "reciter_2",
+      "harakah_ms": 120.0,
+      "errors": [
+        {
+          "word": "ٱلنَّاسِ",
+          "phone": "n",
+          "phone_index": 7,
+          "timestamp_ms": 1170.0,
+          "rule": "ghunnah_mushaddadah_noon",
+          "assessment": "duration",
+          "expected": 2.0,
+          "actual": 8.92,
+          "unit": "counts",
+          "severity": "minor",
+          "description": "Ghunnah Mushaddadah Noon too long — held 8.9 counts, expected 1.2–2.8"
+        }
+      ],
+      "score": 75.0,
+      "score_reliability": "low",
+      "total_phones_assessed": 2,
+      "phones_skipped": 1,
+      "error_count": 1
+    },
+    {
+      "surah": 114,
+      "ayah": 4,
+      "reciter": "reciter_2",
+      "harakah_ms": 120.0,
+      "errors": [
+        {
+          "word": "ٱلْوَسْوَاسِ",
+          "phone": "aː",
+          "phone_index": 14,
+          "timestamp_ms": 3140.0,
+          "rule": "madd_tabii",
+          "assessment": "duration",
+          "expected": 2.0,
+          "actual": 1.17,
+          "unit": "counts",
+          "severity": "style",
+          "description": "Madd Tabii too short — held 1.2 counts, expected 1.5–2.5 [near-floor (MFA quantization)]"
+        },
+        {
+          "word": "مِن",
+          "phone": "n",
+          "phone_index": 2,
+          "timestamp_ms": 570.0,
+          "rule": "ikhfaa_light",
+          "assessment": "duration",
+          "expected": 1.5,
+          "actual": 7.5,
+          "unit": "counts",
+          "severity": "minor",
+          "description": "Ghunnah Ikhfaa Light too long — held 7.5 counts, expected 1.0–3.0"
+        },
+        {
+          "word": "ٱلْخَنَّاسِ",
+          "phone": "n",
+          "phone_index": 20,
+          "timestamp_ms": 4040.0,
+          "rule": "ghunnah_mushaddadah_noon",
+          "assessment": "duration",
+          "expected": 2.0,
+          "actual": 8.08,
+          "unit": "counts",
+          "severity": "minor",
+          "description": "Ghunnah Mushaddadah Noon too long — held 8.1 counts, expected 1.2–2.8"
+        }
+      ],
+      "score": 80.0,
+      "score_reliability": "low",
+      "total_phones_assessed": 5,
+      "phones_skipped": 1,
+      "error_count": 3
+    },
+    {
+      "surah": 114,
+      "ayah": 5,
+      "reciter": "reciter_2",
+      "harakah_ms": 120.0,
+      "errors": [
+        {
+          "word": "ٱلَّذِى",
+          "phone": "iː",
+          "phone_index": 7,
+          "timestamp_ms": 1410.0,
+          "rule": "madd_tabii",
+          "assessment": "duration",
+          "expected": 2.0,
+          "actual": 2.67,
+          "unit": "counts",
+          "severity": "style",
+          "description": "Madd Tabii too long — held 2.7 counts, expected 1.5–2.5"
+        },
+        {
+          "word": "صُدُورِ",
+          "phone": "uː",
+          "phone_index": 24,
+          "timestamp_ms": 3660.0,
+          "rule": "madd_tabii",
+          "assessment": "duration",
+          "expected": 2.0,
+          "actual": 2.75,
+          "unit": "counts",
+          "severity": "style",
+          "description": "Madd Tabii too long — held 2.8 counts, expected 1.5–2.5"
+        },
+        {
+          "word": "ٱلنَّاسِ",
+          "phone": "n",
+          "phone_index": 27,
+          "timestamp_ms": 4230.0,
+          "rule": "ghunnah_mushaddadah_noon",
+          "assessment": "duration",
+          "expected": 2.0,
+          "actual": 8.5,
+          "unit": "counts",
+          "severity": "minor",
+          "description": "Ghunnah Mushaddadah Noon too long — held 8.5 counts, expected 1.2–2.8"
+        }
+      ],
+      "score": 90.0,
+      "score_reliability": "low",
+      "total_phones_assessed": 5,
+      "phones_skipped": 0,
+      "error_count": 3
+    },
+    {
+      "surah": 114,
+      "ayah": 6,
+      "reciter": "reciter_2",
+      "harakah_ms": 120.0,
+      "errors": [
+        {
+          "word": "ٱلْجِنَّةِ",
+          "phone": "n",
+          "phone_index": 7,
+          "timestamp_ms": 1170.0,
+          "rule": "ghunnah_mushaddadah_noon",
+          "assessment": "duration",
+          "expected": 2.0,
+          "actual": 7.08,
+          "unit": "counts",
+          "severity": "style",
+          "description": "Ghunnah Mushaddadah Noon too long — held 7.1 counts, expected 1.2–2.8"
+        },
+        {
+          "word": "وَٱلنَّاسِ",
+          "phone": "n",
+          "phone_index": 14,
+          "timestamp_ms": 2590.0,
+          "rule": "ghunnah_mushaddadah_noon",
+          "assessment": "duration",
+          "expected": 2.0,
+          "actual": 8.92,
+          "unit": "counts",
+          "severity": "minor",
+          "description": "Ghunnah Mushaddadah Noon too long — held 8.9 counts, expected 1.2–2.8 [acoustic=1070ms vs MFA=1130ms]"
+        }
+      ],
+      "score": 83.3,
+      "score_reliability": "low",
+      "total_phones_assessed": 3,
+      "phones_skipped": 0,
+      "error_count": 2
+    }
+  ]
+}

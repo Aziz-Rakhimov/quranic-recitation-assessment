@@ -1,0 +1,198 @@
+{
+  "surah": 113,
+  "reciter": "reciter_2",
+  "harakah_ms": 130.0,
+  "calibration": {
+    "short_vowel_median_ms": 120.0,
+    "madd_tabii_median_ms": 270.0,
+    "ratio": 2.25,
+    "short_vowel_count": 37,
+    "madd_tabii_count": 4,
+    "is_default": false,
+    "tolerance_factor": 1.0
+  },
+  "ayahs": [
+    {
+      "surah": 113,
+      "ayah": 1,
+      "reciter": "reciter_2",
+      "harakah_ms": 130.0,
+      "errors": [
+        {
+          "word": "أَعُوذُ",
+          "phone": "uː",
+          "phone_index": 7,
+          "timestamp_ms": 1470.0,
+          "rule": "madd_tabii",
+          "assessment": "duration",
+          "expected": 2.0,
+          "actual": 2.77,
+          "unit": "counts",
+          "severity": "style",
+          "description": "Madd Tabii too long — held 2.8 counts, expected 1.5–2.5"
+        }
+      ],
+      "score": 100.0,
+      "score_reliability": "low",
+      "total_phones_assessed": 3,
+      "phones_skipped": 1,
+      "error_count": 1
+    },
+    {
+      "surah": 113,
+      "ayah": 2,
+      "reciter": "reciter_2",
+      "harakah_ms": 130.0,
+      "errors": [
+        {
+          "word": "مِن",
+          "phone": "n",
+          "phone_index": 2,
+          "timestamp_ms": 540.0,
+          "rule": "ikhfaa_light",
+          "assessment": "duration",
+          "expected": 1.5,
+          "actual": 5.85,
+          "unit": "counts",
+          "severity": "style",
+          "description": "Ghunnah Ikhfaa Light too long — held 5.8 counts, expected 1.0–3.0"
+        },
+        {
+          "word": "مَا",
+          "phone": "aː",
+          "phone_index": 10,
+          "timestamp_ms": 2210.0,
+          "rule": "vowel_backing_before_emphatic_long",
+          "assessment": "formant",
+          "expected": 1400.0,
+          "actual": 1490.5,
+          "unit": "hz",
+          "severity": "minor",
+          "description": "Vowel Backing (Vowel Backing Before Emphatic Long) — borderline, vowel insufficiently backed (F2=1491 Hz, correct<1400)"
+        }
+      ],
+      "score": 94.4,
+      "score_reliability": "low",
+      "total_phones_assessed": 9,
+      "phones_skipped": 0,
+      "error_count": 2
+    },
+    {
+      "surah": 113,
+      "ayah": 3,
+      "reciter": "reciter_2",
+      "harakah_ms": 130.0,
+      "errors": [
+        {
+          "word": "وَمِن",
+          "phone": "n",
+          "phone_index": 4,
+          "timestamp_ms": 870.0,
+          "rule": "ikhfaa_light",
+          "assessment": "duration",
+          "expected": 1.5,
+          "actual": 6.31,
+          "unit": "counts",
+          "severity": "style",
+          "description": "Ghunnah Ikhfaa Light too long — held 6.3 counts, expected 1.0–3.0"
+        },
+        {
+          "word": "وَقَبَ",
+          "phone": "a",
+          "phone_index": 24,
+          "timestamp_ms": 4430.0,
+          "rule": "vowel_backing_before_emphatic_short",
+          "assessment": "formant",
+          "expected": 1400.0,
+          "actual": 1473.7,
+          "unit": "hz",
+          "severity": "minor",
+          "description": "Vowel Backing (Vowel Backing Before Emphatic Short) — borderline, vowel insufficiently backed (F2=1474 Hz, correct<1400)"
+        }
+      ],
+      "score": 91.7,
+      "score_reliability": "low",
+      "total_phones_assessed": 6,
+      "phones_skipped": 2,
+      "error_count": 2
+    },
+    {
+      "surah": 113,
+      "ayah": 4,
+      "reciter": "reciter_2",
+      "harakah_ms": 130.0,
+      "errors": [
+        {
+          "word": "وَمِن",
+          "phone": "n",
+          "phone_index": 4,
+          "timestamp_ms": 810.0,
+          "rule": "ikhfaa_light",
+          "assessment": "duration",
+          "expected": 1.5,
+          "actual": 6.15,
+          "unit": "counts",
+          "severity": "style",
+          "description": "Ghunnah Ikhfaa Light too long — held 6.2 counts, expected 1.0–3.0"
+        },
+        {
+          "word": "ٱلنَّفَّٰثَٰتِ",
+          "phone": "n",
+          "phone_index": 10,
+          "timestamp_ms": 2460.0,
+          "rule": "ghunnah_mushaddadah_noon",
+          "assessment": "duration",
+          "expected": 2.0,
+          "actual": 5.62,
+          "unit": "counts",
+          "severity": "style",
+          "description": "Ghunnah Mushaddadah Noon too long — held 5.6 counts, expected 1.2–2.8"
+        }
+      ],
+      "score": 100.0,
+      "score_reliability": "low",
+      "total_phones_assessed": 6,
+      "phones_skipped": 2,
+      "error_count": 2
+    },
+    {
+      "surah": 113,
+      "ayah": 5,
+      "reciter": "reciter_2",
+      "harakah_ms": 130.0,
+      "errors": [
+        {
+          "word": "إِذَا",
+          "phone": "aː",
+          "phone_index": 22,
+          "timestamp_ms": 3830.0,
+          "rule": "madd_tabii",
+          "assessment": "duration",
+          "expected": 2.0,
+          "actual": 1.46,
+          "unit": "counts",
+          "severity": "style",
+          "description": "Madd Tabii too short — held 1.5 counts, expected 1.5–2.5 [within MFA resolution (30ms)]"
+        },
+        {
+          "word": "وَمِن",
+          "phone": "n",
+          "phone_index": 4,
+          "timestamp_ms": 830.0,
+          "rule": "ikhfaa_light",
+          "assessment": "duration",
+          "expected": 1.5,
+          "actual": 6.38,
+          "unit": "counts",
+          "severity": "style",
+          "description": "Ghunnah Ikhfaa Light too long — held 6.4 counts, expected 1.0–3.0"
+        }
+      ],
+      "score": 100.0,
+      "score_reliability": "low",
+      "total_phones_assessed": 4,
+      "phones_skipped": 1,
+      "error_count": 2
+    }
+  ]
+}

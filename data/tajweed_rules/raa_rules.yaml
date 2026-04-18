@@ -1,0 +1,427 @@
+rules:
+- name: raa_tafkheem_with_fatha
+  category: raa
+  priority: 90
+  description: Heavy rāʾ when carrying fatha
+  arabic_name: راء مفخمة - مفتوحة
+  pattern:
+    target: r
+    conditions:
+      has_fatha: true
+  action:
+    type: replace
+    original_phoneme: r
+    replacement_phoneme: rˤ
+    notes: Rāʾ with fatha is always heavy
+  acoustic_expectations:
+    emphatic: true
+    f0_lowering_factor: 0.9
+    f2_lowering_hz: 200
+    f3_lowering_hz: 100
+    pharyngeal_constriction: true
+    darker_quality: true
+    verification_criteria:
+    - feature: f0_lowering
+      factor_range:
+      - 0.85
+      - 0.95
+      description: F0 lowered compared to baseline
+    - feature: f2_lowering
+      min_lowering_hz: 150
+      description: F2 significantly lowered
+    - feature: emphatic_quality
+      threshold: 0.8
+      description: Clear emphatic/pharyngealized quality
+  examples:
+  - text: رَبِّ
+    phonemes:
+    - rˤ
+    - a
+    - b
+    - b
+    - i
+    description: rabbi - heavy raa with fatha
+  - text: رَحْمَة
+    phonemes:
+    - rˤ
+    - a
+    - ħ
+    - m
+    - a
+    - h
+    description: rahmah - heavy raa with fatha
+  error_types:
+  - code: R001
+    description: Light rāʾ used instead of heavy
+    severity: critical
+- name: raa_tafkheem_with_damma
+  category: raa
+  priority: 90
+  description: Heavy rāʾ when carrying damma
+  arabic_name: راء مفخمة - مضمومة
+  pattern:
+    target: r
+    conditions:
+      has_damma: true
+  action:
+    type: replace
+    original_phoneme: r
+    replacement_phoneme: rˤ
+    notes: Rāʾ with damma is always heavy
+  acoustic_expectations:
+    emphatic: true
+    f0_lowering_factor: 0.9
+    f2_lowering_hz: 200
+    f3_lowering_hz: 100
+    pharyngeal_constriction: true
+  examples:
+  - text: رُسُل
+    phonemes:
+    - rˤ
+    - u
+    - s
+    - u
+    - l
+    description: rusul - heavy raa with damma
+- name: raa_tarqeeq_with_kasra
+  category: raa
+  priority: 91
+  description: Light rāʾ when carrying kasra
+  arabic_name: راء مرققة - مكسورة
+  pattern:
+    target: r
+    conditions:
+      has_kasra: true
+      no_emphatic_after: true
+  action:
+    type: keep_original
+    phoneme: r
+    notes: Rāʾ with kasra is light (unless followed by emphatic)
+  acoustic_expectations:
+    emphatic: false
+    f0_normal: true
+    f2_normal: true
+    no_pharyngeal_constriction: true
+    lighter_quality: true
+    verification_criteria:
+    - feature: no_f0_lowering
+      description: F0 at normal baseline
+    - feature: no_f2_lowering
+      description: F2 not lowered
+    - feature: light_quality
+      threshold: 0.8
+      description: Clear light/non-emphatic quality
+  examples:
+  - text: رِجَال
+    phonemes:
+    - r
+    - i
+    - dʒ
+    - aː
+    - l
+    description: rijaal - light raa with kasra
+  - text: رِزْق
+    phonemes:
+    - r
+    - i
+    - z
+    - q
+    description: rizq - light raa with kasra
+  error_types:
+  - code: R101
+    description: Heavy rāʾ used instead of light
+    severity: critical
+- name: raa_tafkheem_sakinah_after_fatha
+  category: raa
+  priority: 85
+  description: Heavy rāʾ sākinah when preceded by fatha
+  arabic_name: راء ساكنة بعد فتحة
+  pattern:
+    target: r
+    conditions:
+      has_sukoon: true
+      preceded_by_fatha: true
+  action:
+    type: replace
+    replacement_phoneme: rˤ
+  acoustic_expectations:
+    emphatic: true
+    f0_lowering_factor: 0.9
+    f2_lowering_hz: 200
+  examples:
+  - text: فِرْعَوْن
+    phonemes:
+    - f
+    - i
+    - rˤ
+    - ʕ
+    - aw
+    - n
+    description: fir'awn - heavy saakin raa after kasra but before ayn (special case)
+  - text: قَرْيَة
+    phonemes:
+    - q
+    - a
+    - rˤ
+    - j
+    - a
+    - h
+    description: qaryah - heavy saakin raa after fatha
+- name: raa_tafkheem_sakinah_after_damma
+  category: raa
+  priority: 85
+  description: Heavy rāʾ sākinah when preceded by damma
+  arabic_name: راء ساكنة بعد ضمة
+  pattern:
+    target: r
+    conditions:
+      has_sukoon: true
+      preceded_by_damma: true
+  action:
+    type: replace
+    replacement_phoneme: rˤ
+  acoustic_expectations:
+    emphatic: true
+  examples:
+  - text: قُرْآن
+    phonemes:
+    - q
+    - u
+    - rˤ
+    - ʔ
+    - aː
+    - n
+    description: qur'aan - heavy saakin raa after damma
+- name: raa_tarqeeq_sakinah_after_kasra
+  category: raa
+  priority: 86
+  description: Light rāʾ sākinah after kasra (with conditions)
+  arabic_name: راء ساكنة بعد كسرة
+  pattern:
+    target: r
+    conditions:
+      has_sukoon: true
+      preceded_by_kasra: true
+      not_followed_by_emphatic_in_word: true
+      not_followed_by_fatha_or_damma: true
+  action:
+    type: keep_original
+    phoneme: r
+  acoustic_expectations:
+    emphatic: false
+  examples:
+  - text: فِرْقَة
+    phonemes:
+    - f
+    - i
+    - rˤ
+    - q
+    - a
+    - h
+    description: firqah - HEAVY despite kasra, because qaaf follows (emphatic letter)
+  - text: شِرْذِمَة
+    phonemes:
+    - ʃ
+    - i
+    - r
+    - ð
+    - i
+    - m
+    - a
+    - h
+    description: shirdhimah - light raa after kasra, light letter follows
+- name: raa_after_yaa_sakinah
+  category: raa
+  priority: 87
+  description: Rāʾ after yāʾ sākinah - usually light
+  arabic_name: راء بعد ياء ساكنة
+  pattern:
+    target: r
+    conditions:
+      preceded_by_yaa_sakinah: true
+  action:
+    type: keep_original
+    phoneme: r
+    notes: Usually light, unless followed by emphatic letter
+  examples:
+  - text: خَيْر
+    phonemes:
+    - x
+    - a
+    - j
+    - r
+    description: khayr - light raa after yaa sakinah
+  - text: طَيْر
+    phonemes:
+    - tˤ
+    - a
+    - j
+    - rˤ
+    description: tayr - heavy raa due to taa emphatic influence
+- name: raa_misr_exception
+  category: raa
+  priority: 100
+  description: 'Special case: rāʾ in مِصْر can be light or heavy'
+  arabic_name: راء في مصر
+  pattern:
+    word: مِصْر
+    target_position: -1
+  action:
+    type: keep_original
+    options:
+    - r
+    - rˤ
+    notes: Both pronunciations are valid in Hafs
+  examples:
+  - text: مِصْر
+    phonemes_option1:
+    - m
+    - i
+    - sˤ
+    - r
+    phonemes_option2:
+    - m
+    - i
+    - sˤ
+    - rˤ
+    description: misr - both light and heavy are acceptable
+- name: raa_after_hamzat_wasl_kasra
+  category: raa
+  priority: 88
+  description: Rāʾ after connecting hamza with kasra
+  arabic_name: راء بعد همزة وصل مكسورة
+  pattern:
+    target: r
+    conditions:
+      preceded_by_hamzat_wasl: true
+      hamzat_wasl_has_kasra: true
+  action:
+    type: keep_original
+    phoneme: r
+    notes: Light when hamzat wasl has kasra
+  examples:
+  - text: ٱرْكَعُوا
+    phonemes:
+    - ʔ
+    - i
+    - r
+    - k
+    - a
+    - ʕ
+    - uː
+    description: irka'uu - light raa
+- name: raa_emphatic_context_override
+  category: raa
+  priority: 95
+  description: Rāʾ becomes heavy when in emphatic context
+  arabic_name: راء في سياق الاستعلاء
+  pattern:
+    target: r
+    conditions:
+      in_same_word_as_emphatic: true
+      emphatic_influences_raa: true
+  action:
+    type: replace
+    replacement_phoneme: rˤ
+    notes: Emphatic letters (ص ض ط ظ ق غ خ) can make rāʾ heavy
+  examples:
+  - text: فِرْعَوْن
+    phonemes:
+    - f
+    - i
+    - rˤ
+    - ʕ
+    - aw
+    - n
+    description: fir'awn - heavy due to ayn influence (debated)
+decision_tree:
+  1:
+    condition: raa_has_fatha
+    result: heavy (rˤ)
+  2:
+    condition: raa_has_damma
+    result: heavy (rˤ)
+  3:
+    condition: raa_has_kasra_and_no_emphatic_after
+    result: light (r)
+  4:
+    condition: raa_has_kasra_and_emphatic_after_in_same_word
+    result: heavy (rˤ)
+  5:
+    condition: raa_sakinah_after_fatha
+    result: heavy (rˤ)
+  6:
+    condition: raa_sakinah_after_damma
+    result: heavy (rˤ)
+  7:
+    condition: raa_sakinah_after_kasra_original
+    check: what_follows
+    if_emphatic_follows: heavy (rˤ)
+    if_light_follows: light (r)
+  8:
+    condition: raa_sakinah_after_yaa_sakinah
+    default: light (r)
+    unless: emphatic_in_word
+  9:
+    condition: word_is_misr
+    result: both valid (r or rˤ)
+emphatic_letters:
+  strong_influence:
+  - sˤ
+  - dˤ
+  - tˤ
+  - ðˤ
+  - q
+  debated_influence:
+  - ɣ
+  - x
+  - ʕ
+application_order:
+  1: raa_misr_exception
+  2: raa_emphatic_context_override
+  3: raa_tafkheem_with_fatha
+  4: raa_tafkheem_with_damma
+  5: raa_tarqeeq_with_kasra
+  6: raa_tafkheem_sakinah_after_fatha
+  7: raa_tafkheem_sakinah_after_damma
+  8: raa_tarqeeq_sakinah_after_kasra
+  9: raa_after_yaa_sakinah
+  10: raa_after_hamzat_wasl_kasra
+common_errors:
+- error: wrong_raa_quality
+  description: Heavy rāʾ used when should be light, or vice versa
+  severity: critical
+- error: inconsistent_quality
+  description: Rāʾ quality varies inconsistently in similar contexts
+  severity: major
+- error: missing_emphatic_influence
+  description: Failed to make rāʾ heavy when emphatic letter follows
+  severity: major
+- error: over_emphasizing
+  description: Making light rāʾ heavy without justification
+  severity: major
+verification_criteria:
+  heavy_raa:
+    f0_lowering_min: 0.85
+    f0_lowering_max: 0.95
+    f2_lowering_min_hz: 150
+    f2_lowering_max_hz: 250
+    emphatic_quality_threshold: 0.75
+  light_raa:
+    f0_normal: true
+    f2_normal: true
+    no_emphatic_quality_threshold: 0.2
+    lighter_quality_threshold: 0.75
+acoustic_parameters:
+  heavy_raa_rˤ:
+    f0_factor: 0.9
+    f2_lowering: 200
+    f3_lowering: 100
+    pharyngeal_constriction: true
+    spectral_tilt: darker
+  light_raa_r:
+    f0_factor: 1.0
+    f2_normal: true
+    f3_normal: true
+    no_pharyngeal_constriction: true
+    spectral_tilt: brighter

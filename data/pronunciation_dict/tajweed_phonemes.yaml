@@ -1,0 +1,277 @@
+# Tajwīd-Specific Phonemes
+# Special phonemes that result from Tajwīd rule applications
+# These extend the base IPA phoneme set
+
+tajweed_phonemes:
+  # Iqlāb (إقلاب) - Conversion
+  - symbol: "m̃"
+    rule: "iqlab"
+    description: "Nasalized mīm from nūn sākinah before bāʾ"
+    base_phoneme: "m"
+    features:
+      manner: "nasal"
+      place: "bilabial"
+      voicing: true
+      nasalized: true
+      ghunnah: true
+      ghunnah_counts: 2
+    duration_factor: 2.0  # 2 counts = 400ms
+    acoustic:
+      nasalization_strength: 0.9
+      f1_reduction_factor: 0.7
+      nasal_formant_hz: 300
+      bandwidth_increase: 1.5
+
+  # Idghām (إدغام) - Assimilation with Ghunnah
+  - symbol: "ñ"
+    rule: "idgham_ghunnah"
+    description: "Nūn/mīm assimilated with ghunnah"
+    base_phoneme: "n"
+    features:
+      manner: "nasal"
+      place: "alveolar"
+      voicing: true
+      nasalized: true
+      ghunnah: true
+      ghunnah_counts: 2
+    duration_factor: 2.0  # 2 counts = 400ms
+    acoustic:
+      nasalization_strength: 0.9
+      f1_reduction_factor: 0.7
+      nasal_formant_hz: 300
+
+  - symbol: "m̄"
+    rule: "idgham_meem"
+    description: "Mīm sākinah assimilated before mīm"
+    base_phoneme: "m"
+    features:
+      manner: "nasal"
+      place: "bilabial"
+      voicing: true
+      nasalized: true
+      ghunnah: true
+      ghunnah_counts: 2
+    duration_factor: 2.0
+    acoustic:
+      nasalization_strength: 0.9
+      f1_reduction_factor: 0.7
+
+  # Ikhfāʾ (إخفاء) - Concealment
+  - symbol: "ŋ"
+    rule: "ikhfaa_light"
+    description: "Light concealment of nūn sākinah"
+    base_phoneme: "n"
+    features:
+      manner: "nasal"
+      place: "contextual"  # Place varies by following letter
+      voicing: true
+      nasalized: true
+      ghunnah: true
+      ghunnah_counts: 2
+      emphatic: false
+    duration_factor: 2.0  # 2 counts = 400ms
+    acoustic:
+      nasalization_strength: 0.7
+      f1_reduction_factor: 0.7
+      articulation_varies: true
+
+  - symbol: "ŋˤ"
+    rule: "ikhfaa_heavy"
+    description: "Heavy concealment of nūn sākinah (before emphatic letters)"
+    base_phoneme: "n"
+    features:
+      manner: "nasal"
+      place: "contextual"
+      voicing: true
+      nasalized: true
+      ghunnah: true
+      ghunnah_counts: 2
+      emphatic: true  # Takes on emphatic quality from following letter
+    duration_factor: 2.0
+    acoustic:
+      nasalization_strength: 0.7
+      f1_reduction_factor: 0.7
+      f2_lowering: 150  # Emphatic effect
+      articulation_varies: true
+
+  # Qalqalah (قلقلة) - Echoing/Bouncing
+  - symbol: "Q"
+    rule: "qalqalah_minor"
+    description: "Minor qalqalah (within word)"
+    applies_to: ["q", "tˤ", "b", "dʒ", "d"]
+    features:
+      type: "modifier"
+      echo_present: true
+      echo_strength: "minor"
+    duration_factor: 1.0
+    acoustic:
+      burst_strength: 0.6
+      echo_duration_ms: 30
+      burst_frequency_varies: true  # Depends on consonant
+
+  - symbol: "QQ"
+    rule: "qalqalah_major"
+    description: "Major qalqalah (end of word/verse)"
+    applies_to: ["q", "tˤ", "b", "dʒ", "d"]
+    features:
+      type: "modifier"
+      echo_present: true
+      echo_strength: "major"
+    duration_factor: 1.2
+    acoustic:
+      burst_strength: 1.0
+      echo_duration_ms: 60
+      burst_frequency_varies: true
+
+  # Rāʾ (ر) - Tafkhīm/Tarqīq
+  - symbol: "rˤ"
+    rule: "raa_tafkheem"
+    description: "Heavy/emphatic rāʾ (تفخيم)"
+    base_phoneme: "r"
+    features:
+      manner: "trill"
+      place: "alveolar"
+      voicing: true
+      emphatic: true
+    duration_factor: 1.0
+    acoustic:
+      f0_lowering_factor: 0.9
+      f2_lowering_hz: 200
+      pharyngeal_constriction: true
+
+  # Note: Light rāʾ is just "r" (from base phonemes)
+
+  # Lām (ل) - Special case for Allah
+  - symbol: "lˤ"
+    rule: "lam_tafkheem"
+    description: "Emphatic lām in لله (Allah) after fatha/damma"
+    base_phoneme: "l"
+    features:
+      manner: "lateral"
+      place: "alveolar"
+      voicing: true
+      emphatic: true
+    duration_factor: 1.0
+    acoustic:
+      f0_lowering_factor: 0.9
+      f2_lowering_hz: 200
+      pharyngeal_constriction: true
+
+  # Ghunnah (غنة) - Generic nasal prolongation
+  - symbol: "◌̃"
+    rule: "ghunnah"
+    description: "Nasal prolongation modifier (2 counts)"
+    features:
+      type: "modifier"
+      duration_counts: 2
+      nasalized: true
+    duration_factor: 2.0
+    acoustic:
+      duration_ms: 400
+      nasalization_strength: 0.9
+      f1_reduction: 0.7
+
+  # Madd (مد) - Prolongation markers
+  # Note: Madd is typically handled by modifying vowel duration
+  # But we can have special markers for different madd types
+  - symbol: "◌ː"
+    rule: "madd_tabii"
+    description: "Natural prolongation (2 counts)"
+    features:
+      type: "duration_modifier"
+      duration_counts: 2
+    duration_factor: 2.0
+
+  - symbol: "◌ːː"
+    rule: "madd_muttasil"
+    description: "Connected prolongation (4-5 counts)"
+    features:
+      type: "duration_modifier"
+      duration_counts: 4.5
+    duration_factor: 4.5
+
+  - symbol: "◌ːːː"
+    rule: "madd_munfasil"
+    description: "Disconnected prolongation (2-5 counts, typically 3.5)"
+    features:
+      type: "duration_modifier"
+      duration_counts: 3.5
+    duration_factor: 3.5
+
+# Contextual variations
+contextual_phonemes:
+  # Sun letters (الحروف الشمسية) - Lām assimilation
+  sun_letters:
+    description: "Letters that assimilate the lām of ال"
+    letters: ["t", "θ", "d", "ð", "r", "z", "s", "ʃ", "sˤ", "dˤ", "tˤ", "ðˤ", "n", "l"]
+    rule: "lam_shamsiyyah"
+    effect: "Lām is assimilated into the following letter (gemination)"
+
+  # Moon letters (الحروف القمرية) - No lām assimilation
+  moon_letters:
+    description: "Letters where lām of ال is pronounced clearly"
+    letters: ["ʔ", "b", "dʒ", "ħ", "x", "ʕ", "ɣ", "f", "q", "k", "m", "h", "w", "j"]
+    rule: "lam_qamariyyah"
+    effect: "Lām is pronounced clearly"
+
+  # Throat letters (حروف الحلق)
+  throat_letters:
+    description: "Letters from the throat (for Iẓhār rule)"
+    letters: ["ʔ", "h", "ʕ", "ħ", "ɣ", "x"]
+    tajweed_rule: "idhhar_halqi"
+
+  # Iqlāb letter
+  iqlab_letter:
+    letter: "b"
+    tajweed_rule: "iqlab"
+
+  # Idghām letters with ghunnah
+  idgham_ghunnah_letters:
+    letters: ["j", "w", "n", "m"]
+    tajweed_rule: "idgham_ghunnah"
+
+  # Idghām letters without ghunnah
+  idgham_no_ghunnah_letters:
+    letters: ["l", "r"]
+    tajweed_rule: "idgham_no_ghunnah"
+
+  # Qalqalah letters
+  qalqalah_letters:
+    description: "Letters that exhibit qalqalah when sākin"
+    letters: ["q", "tˤ", "b", "dʒ", "d"]
+    mnemonic: "قطب جد"
+    rule: "qalqalah"
+
+  # Emphatic/Heavy letters (حروف الاستعلاء)
+  emphatic_letters:
+    description: "Letters with inherent pharyngealization"
+    letters: ["sˤ", "dˤ", "tˤ", "ðˤ", "q", "ɣ", "x"]
+    mnemonic: "خص ضغط قظ"
+    acoustic_effect: "Lower F0, raise F1, lower F2"
+
+# Acoustic expectations for verification
+acoustic_expectations:
+  ghunnah:
+    duration_ms: 400
+    duration_tolerance_ms: 50
+    nasalization_threshold: 0.8
+    f1_reduction_min: 0.6
+    nasal_formant_range: [250, 350]
+
+  qalqalah:
+    burst_duration_ms: 30
+    burst_strength_minor: 0.6
+    burst_strength_major: 1.0
+    burst_threshold: 0.5
+
+  emphatic_effect:
+    f0_lowering_factor: [0.85, 0.95]
+    f1_raising_hz: [30, 70]
+    f2_lowering_hz: [150, 250]
+
+  madd:
+    tabii_duration_ms: 200
+    muttasil_duration_ms: 450
+    munfasil_duration_ms: 350
+    tolerance_ms: 50
+    steady_formant_threshold: 0.9  # Formants should be stable during madd

@@ -1,0 +1,318 @@
+rules:
+- name: vowel_backing_after_emphatic_short
+  category: general
+  priority: 50
+  description: Back short vowel [a] → [ɑ] after emphatic consonants
+  arabic_name: تفخيم الحركات
+  pattern:
+    target: a
+    conditions:
+      is_short_vowel: true
+      preceded_by_emphatic: true
+    preceding_context: '[sˤ dˤ tˤ ðˤ q x ɣ rˤ]'
+    preceding_arabic:
+    - ص
+    - ض
+    - ط
+    - ظ
+    - ق
+    - خ
+    - غ
+    - رˤ
+  action:
+    type: replace
+    original_phoneme: a
+    replacement_phoneme: ɑ
+    notes: Vowel backed due to adjacent emphatic consonant
+  acoustic_expectations:
+    f2_lowering_hz: 200
+    darker_quality: true
+    emphatic_context: true
+    verification_criteria:
+    - feature: f2_frequency
+      expected_hz: 1000
+      max_hz: 1100
+      description: F2 should be lowered due to emphasis
+    - feature: spectral_tilt
+      description: Darker spectral quality
+  examples:
+  - text: صَالِح
+    phonemes:
+    - sˤ
+    - ɑ
+    - l
+    - i
+    - ħ
+    description: saaliH - [a] backed after ṣād
+  - text: ضَرَبَ
+    phonemes:
+    - dˤ
+    - ɑ
+    - r
+    - ɑ
+    - b
+    - a
+    description: Daraba - first two [a] backed near ḍād
+  - text: طَالِب
+    phonemes:
+    - tˤ
+    - ɑ
+    - l
+    - i
+    - b
+    description: Taalib - [a] backed after ṭāʾ
+  - text: ظَلَمَ
+    phonemes:
+    - ðˤ
+    - ɑ
+    - l
+    - ɑ
+    - m
+    - a
+    description: Dalama - first two [a] backed near ḍhāʾ
+  - text: قَالَ
+    phonemes:
+    - q
+    - ɑ
+    - l
+    - a
+    description: qaala - [a] backed after qāf
+  - text: الرَّحْمٰن
+    phonemes:
+    - ʔ
+    - a
+    - r
+    - r
+    - ɑ
+    - ħ
+    - m
+    - aː
+    - n
+    description: ar-raHmaan - [a] backed after heavy rāʾ
+  - text: خَلَقَ
+    phonemes:
+    - x
+    - ɑ
+    - l
+    - a
+    - q
+    - a
+    description: xalaqa - [a] backed after khāʾ
+  - text: غَضِبَ
+    phonemes:
+    - ɣ
+    - ɑ
+    - dˤ
+    - i
+    - b
+    - a
+    description: ghadiba - [a] backed after ghayn
+  error_types:
+  - code: E401
+    description: Used front [a] instead of back [ɑ] after emphatic
+    severity: major
+- name: vowel_backing_after_emphatic_long
+  category: general
+  priority: 50
+  description: Back long vowel [aː] → [ɑː] after emphatic consonants
+  arabic_name: تفخيم المد
+  pattern:
+    target: aː
+    conditions:
+      is_long_vowel: true
+      preceded_by_emphatic: true
+    preceding_context: '[sˤ dˤ tˤ ðˤ q x ɣ rˤ]'
+  action:
+    type: replace
+    original_phoneme: aː
+    replacement_phoneme: ɑː
+  acoustic_expectations:
+    f2_lowering_hz: 200
+    darker_quality: true
+    duration_ms: 200
+  examples:
+  - text: الصَّلَاة
+    phonemes:
+    - ʔ
+    - a
+    - sˤ
+    - sˤ
+    - ɑ
+    - l
+    - ɑː
+    - h
+    description: aS-Salaah - long [aː] backed after ṣād
+  - text: الطَّاغُوت
+    phonemes:
+    - ʔ
+    - a
+    - tˤ
+    - tˤ
+    - ɑː
+    - ɣ
+    - uː
+    - t
+    description: aT-Taaghout - long [aː] backed after ṭāʾ
+- name: vowel_backing_before_emphatic_short
+  category: general
+  priority: 48
+  description: Back short vowel [a] → [ɑ] before emphatic consonants (regressive spread)
+  arabic_name: تفخيم رجعي
+  pattern:
+    target: a
+    conditions:
+      is_short_vowel: true
+      followed_by_emphatic: true
+    following_context: '[sˤ dˤ tˤ ðˤ q x ɣ rˤ]'
+  action:
+    type: replace
+    original_phoneme: a
+    replacement_phoneme: ɑ
+    notes: Regressive emphasis spread
+  acoustic_expectations:
+    f2_lowering_hz: 200
+    darker_quality: true
+  examples:
+  - text: مَصْدَر
+    phonemes:
+    - m
+    - ɑ
+    - sˤ
+    - d
+    - ɑ
+    - r
+    description: maSdar - [a] backed before ṣād
+  - text: بَطْن
+    phonemes:
+    - b
+    - ɑ
+    - tˤ
+    - n
+    description: baTn - [a] backed before ṭāʾ
+- name: vowel_backing_before_emphatic_long
+  category: general
+  priority: 48
+  description: Back long vowel [aː] → [ɑː] before emphatic consonants
+  pattern:
+    target: aː
+    conditions:
+      is_long_vowel: true
+      followed_by_emphatic: true
+    following_context: '[sˤ dˤ tˤ ðˤ q x ɣ rˤ]'
+  action:
+    type: replace
+    original_phoneme: aː
+    replacement_phoneme: ɑː
+  examples:
+  - text: سَاطِع
+    phonemes:
+    - s
+    - ɑː
+    - tˤ
+    - i
+    - ʕ
+    description: saaTi' - long [aː] backed before ṭāʾ
+- name: emphasis_blocking_by_front_vowel
+  category: general
+  priority: 52
+  description: Front vowels (i, iː, u, uː) block emphasis spread
+  arabic_name: منع التفخيم
+  pattern:
+    target: a
+    conditions:
+      blocked_by_front_vowel: true
+    notes: Kasra or damma blocks emphasis spread to following vowels
+  action:
+    type: keep_original
+    notes: Remain as front [a] due to blocking
+  examples:
+  - text: صِين
+    phonemes:
+    - sˤ
+    - i
+    - n
+    description: Siin - kasra blocks emphasis, no backing
+  - text: قُرْآن
+    phonemes:
+    - q
+    - u
+    - r
+    - ʔ
+    - aː
+    - n
+    description: qur'aan - damma blocks emphasis to following syllables
+- name: cross_word_emphasis_continuation
+  category: general
+  priority: 45
+  description: Emphasis can spread across word boundaries in connected speech
+  pattern:
+    target: a
+    conditions:
+      at_word_boundary: true
+      previous_word_ends_with_emphatic: true
+  action:
+    type: replace
+    replacement_phoneme: ɑ
+    notes: Optional in some pronunciations
+  examples:
+  - text: قال الله
+    description: Emphasis from qāf may spread to next word (dialect-dependent)
+emphatic_consonants:
+  inherently_emphatic:
+  - sˤ
+  - dˤ
+  - tˤ
+  - ðˤ
+  - q
+  - x
+  - ɣ
+  contextual_emphasis:
+  - rˤ
+  - lˤ
+emphasis_blockers:
+  description: These sounds block emphasis spread
+  front_vowels:
+  - i
+  - iː
+  non_emphatic_with_front_vowel: true
+  notes: Kasra is the strongest blocker of emphasis spread
+acoustic_parameters:
+  front_a:
+    f1: 700
+    f2: 1200
+    f3: 2500
+    description: Normal front [a]
+  back_ɑ:
+    f1: 700
+    f2: 1000
+    f3: 2500
+    description: Back [ɑ] in emphatic context
+  difference:
+    f2_shift: -200
+    perceptual: darker, more backed quality
+application_order:
+  1: emphasis_blocking_by_front_vowel
+  2: vowel_backing_after_emphatic_short
+  3: vowel_backing_after_emphatic_long
+  4: vowel_backing_before_emphatic_short
+  5: vowel_backing_before_emphatic_long
+  6: cross_word_emphasis_continuation
+common_errors:
+- error: front_vowel_in_emphatic_context
+  description: Using [a] instead of [ɑ] near emphatic consonants
+  severity: major
+  example: Saying [sˤalah] instead of [sˤɑlɑh]
+- error: excessive_backing
+  description: Backing vowels beyond emphatic domain
+  severity: minor
+  example: Backing [a] after emphasis has been blocked
+- error: missing_emphasis_blocking
+  description: Continuing backing despite kasra blocker
+  severity: major
+  example: Backing vowels after kasra which should block spread
+verification_thresholds:
+  f2_front_a_min: 1150
+  f2_front_a_max: 1250
+  f2_back_ɑ_min: 950
+  f2_back_ɑ_max: 1050
+  f2_difference_threshold: 150

@@ -1,0 +1,210 @@
+{
+  "surah": 97,
+  "reciter": "reciter_2",
+  "harakah_ms": 120.0,
+  "calibration": {
+    "short_vowel_median_ms": 120.0,
+    "madd_tabii_median_ms": 270.0,
+    "ratio": 2.25,
+    "short_vowel_count": 47,
+    "madd_tabii_count": 6,
+    "is_default": false,
+    "tolerance_factor": 1.0
+  },
+  "ayahs": [
+    {
+      "surah": 97,
+      "ayah": 0,
+      "reciter": "reciter_2",
+      "harakah_ms": 120.0,
+      "errors": [],
+      "score": 100.0,
+      "score_reliability": "low",
+      "total_phones_assessed": 0,
+      "phones_skipped": 3,
+      "error_count": 0
+    },
+    {
+      "surah": 97,
+      "ayah": 1,
+      "reciter": "reciter_2",
+      "harakah_ms": 120.0,
+      "errors": [
+        {
+          "word": "ٱلْقَدْرِ",
+          "phone": "a",
+          "phone_index": 30,
+          "timestamp_ms": 1950.0,
+          "rule": "vowel_backing_after_emphatic_short",
+          "assessment": "formant",
+          "expected": 1400.0,
+          "actual": 1626.1,
+          "unit": "hz",
+          "severity": "minor",
+          "description": "Vowel Backing (Vowel Backing After Emphatic Short) — borderline, vowel insufficiently backed (F2=1626 Hz, correct<1400)"
+        }
+      ],
+      "score": 50.0,
+      "score_reliability": "low",
+      "total_phones_assessed": 1,
+      "phones_skipped": 7,
+      "error_count": 1
+    },
+    {
+      "surah": 97,
+      "ayah": 2,
+      "reciter": "reciter_2",
+      "harakah_ms": 120.0,
+      "errors": [
+        {
+          "word": "وَمَآ",
+          "phone": "aː",
+          "phone_index": 5,
+          "timestamp_ms": 850.0,
+          "rule": "madd_munfasil",
+          "assessment": "duration",
+          "expected": 3.5,
+          "actual": 10.83,
+          "unit": "counts",
+          "severity": "style",
+          "description": "Madd Munfasil too long — held 10.8 counts, expected 1.5–5.5 [MFA artifact (downgraded)]"
+        }
+      ],
+      "score": 100.0,
+      "score_reliability": "low",
+      "total_phones_assessed": 7,
+      "phones_skipped": 1,
+      "error_count": 1
+    },
+    {
+      "surah": 97,
+      "ayah": 3,
+      "reciter": "reciter_2",
+      "harakah_ms": 120.0,
+      "errors": [
+        {
+          "word": "مِّنْ",
+          "phone": "m",
+          "phone_index": 19,
+          "timestamp_ms": 2790.0,
+          "rule": "ghunnah_mushaddadah_meem",
+          "assessment": "duration",
+          "expected": 2.0,
+          "actual": 7.17,
+          "unit": "counts",
+          "severity": "style",
+          "description": "Ghunnah Mushaddadah Meem too long — held 7.2 counts, expected 1.2–2.8"
+        },
+        {
+          "word": "ٱلْقَدْرِ",
+          "phone": "a",
+          "phone_index": 9,
+          "timestamp_ms": 1390.0,
+          "rule": "vowel_backing_after_emphatic_short",
+          "assessment": "formant",
+          "expected": 1400.0,
+          "actual": 1513.4,
+          "unit": "hz",
+          "severity": "minor",
+          "description": "Vowel Backing (Vowel Backing After Emphatic Short) — borderline, vowel insufficiently backed (F2=1513 Hz, correct<1400)"
+        }
+      ],
+      "score": 91.7,
+      "score_reliability": "low",
+      "total_phones_assessed": 6,
+      "phones_skipped": 0,
+      "error_count": 2
+    },
+    {
+      "surah": 97,
+      "ayah": 4,
+      "reciter": "reciter_2",
+      "harakah_ms": 120.0,
+      "errors": [
+        {
+          "word": "وَٱلرُّوحُ",
+          "phone": "uː",
+          "phone_index": 26,
+          "timestamp_ms": 4530.0,
+          "rule": "madd_tabii",
+          "assessment": "duration",
+          "expected": 2.0,
+          "actual": 4.42,
+          "unit": "counts",
+          "severity": "style",
+          "description": "Madd Tabii too long — held 4.4 counts, expected 1.5–2.5"
+        },
+        {
+          "word": "فِيهَا",
+          "phone": "iː",
+          "phone_index": 31,
+          "timestamp_ms": 5490.0,
+          "rule": "madd_tabii",
+          "assessment": "duration",
+          "expected": 2.0,
+          "actual": 3.25,
+          "unit": "counts",
+          "severity": "style",
+          "description": "Madd Tabii too long — held 3.2 counts, expected 1.5–2.5"
+        },
+        {
+          "word": "مِّن",
+          "phone": "n",
+          "phone_index": 53,
+          "timestamp_ms": 7890.0,
+          "rule": "ikhfaa_light",
+          "assessment": "duration",
+          "expected": 1.5,
+          "actual": 16.42,
+          "unit": "counts",
+          "severity": "style",
+          "description": "Ghunnah Ikhfaa Light too long — held 16.4 counts, expected 1.0–3.0 [likely pause absorption (1970ms > 1500ms)]"
+        },
+        {
+          "word": "مِّن",
+          "phone": "n",
+          "phone_index": 53,
+          "timestamp_ms": 7890.0,
+          "rule": "ikhfaa_light",
+          "assessment": "nasalization_quality",
+          "expected": 0.14,
+          "actual": 0.6415,
+          "unit": "ratio",
+          "severity": "style",
+          "description": "Ikhfa Ikhfaa Light — over-nasalized, too much ghunnah (mean ratio=0.6415, ceiling=0.55, frames=197)"
+        }
+      ],
+      "score": 100.0,
+      "score_reliability": "low",
+      "total_phones_assessed": 5,
+      "phones_skipped": 4,
+      "error_count": 4
+    },
+    {
+      "surah": 97,
+      "ayah": 5,
+      "reciter": "reciter_2",
+      "harakah_ms": 120.0,
+      "errors": [
+        {
+          "word": "مَطْلَعِ",
+          "phone": "a",
+          "phone_index": 19,
+          "timestamp_ms": 2880.0,
+          "rule": "vowel_backing_before_emphatic_short",
+          "assessment": "formant",
+          "expected": 1400.0,
+          "actual": 1407.5,
+          "unit": "hz",
+          "severity": "minor",
+          "description": "Vowel Backing (Vowel Backing Before Emphatic Short) — borderline, vowel insufficiently backed (F2=1408 Hz, correct<1400)"
+        }
+      ],
+      "score": 90.0,
+      "score_reliability": "low",
+      "total_phones_assessed": 5,
+      "phones_skipped": 1,
+      "error_count": 1
+    }
+  ]
+}

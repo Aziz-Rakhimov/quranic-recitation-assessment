@@ -1,0 +1,39 @@
+# Git
+.git
+.gitignore
+
+# Python cache
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info
+
+# Conda environments
+envs/
+miniconda/
+anaconda/
+
+# Large data files not needed at runtime
+data/recitations/
+data/acoustic_features/
+phase2_alignment/output/
+phase3_assessment/output/
+output/
+examples/
+tests/
+docs/
+scripts/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temp files
+tmp/
+temp/

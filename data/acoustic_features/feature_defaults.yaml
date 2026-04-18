@@ -1,0 +1,303 @@
+# Acoustic Feature Default Parameters
+# Used by AcousticFeatureGenerator to compute expected acoustic features
+
+# ============================================
+# Duration Parameters (in milliseconds)
+# ============================================
+durations:
+  # Base durations for different phoneme types
+  base:
+    consonant: 80          # Base consonant duration
+    short_vowel: 100       # Short vowels (a, i, u)
+    long_vowel: 200        # Long vowels (aː, iː, uː)
+    geminate: 160          # Geminated consonants (2× base)
+
+  # Tajweed-specific durations (in counts, 1 count ≈ 200ms)
+  tajweed:
+    ghunnah: 400           # 2 counts for ghunnah
+    madd_tabii: 400        # 2 counts for natural madd
+    madd_muttasil: 900     # 4.5 counts for connected madd
+    madd_munfasil: 700     # 3.5 counts for disconnected madd
+    madd_lazim: 1200       # 6 counts for necessary madd
+    madd_arid: 800         # 4 counts for accidental madd (average)
+    qalqalah_minor: 120    # Minor qalqalah (mid-word)
+    qalqalah_major: 150    # Major qalqalah (word/verse end)
+
+  # Context-based multipliers
+  context_multipliers:
+    word_final: 1.3        # +30% at word end
+    verse_final: 1.5       # +50% at verse end
+    pre_pause: 1.5         # +50% before pause
+    stressed: 1.2          # +20% for stressed syllables
+    unstressed: 0.9        # -10% for unstressed
+
+  # Tolerance ranges (±)
+  tolerance:
+    consonant: 20          # ±20ms for consonants
+    short_vowel: 25        # ±25ms for short vowels
+    long_vowel: 50         # ±50ms for long vowels
+    ghunnah: 80            # ±80ms for ghunnah
+    madd: 100              # ±100ms for madd
+
+# ============================================
+# Pitch Parameters (F0 in Hz)
+# ============================================
+pitch:
+  # Baseline F0 by speaker type
+  baseline:
+    male: 120
+    female: 220
+    child: 280
+
+  # Contour types and modifications
+  contours:
+    level:
+      description: "Flat pitch contour"
+      f0_delta: 0
+    rising:
+      description: "Rising pitch (questions, incomplete)"
+      f0_delta: 20          # +20 Hz at end
+    falling:
+      description: "Falling pitch (statements, verse end)"
+      f0_delta: -30         # -30 Hz at end
+    final_fall:
+      description: "Final fall at verse end"
+      f0_delta: -50         # -50 Hz at end
+
+  # Phoneme-specific modifications
+  emphatic_factor: 0.9     # Lower F0 by 10% for emphatic consonants
+  pharyngeal_factor: 0.85  # Lower F0 by 15% for pharyngeal consonants
+  high_vowel_factor: 1.1   # Raise F0 by 10% for high vowels (i, u)
+
+  # Acceptable ranges
+  tolerance:
+    min_deviation: 10      # ±10 Hz minimum
+    max_deviation: 30      # ±30 Hz maximum
+    emphatic_range: 15     # ±15 Hz for emphatic context
+
+# ============================================
+# Formant Parameters (in Hz)
+# ============================================
+formants:
+  # Vowel formants (F1, F2, F3)
+  vowels:
+    # Front vowels
+    a:
+      f1: 700
+      f2: 1200
+      f3: 2500
+      description: "Front low vowel"
+    i:
+      f1: 300
+      f2: 2300
+      f3: 3000
+      description: "Front high vowel"
+
+    # Back vowels
+    u:
+      f1: 350
+      f2: 800
+      f3: 2200
+      description: "Back high vowel"
+    ɑ:
+      f1: 700
+      f2: 1000
+      f3: 2500
+      description: "Back low vowel (emphatic context)"
+
+    # Long vowels (same formants, longer duration)
+    aː:
+      f1: 700
+      f2: 1200
+      f3: 2500
+    iː:
+      f1: 300
+      f2: 2300
+      f3: 3000
+    uː:
+      f1: 350
+      f2: 800
+      f3: 2200
+    ɑː:
+      f1: 700
+      f2: 1000
+      f3: 2500
+
+  # Emphatic consonant effects on adjacent vowels
+  emphatic_effects:
+    f1_shift: 50           # +50 Hz for F1
+    f2_shift: -200         # -200 Hz for F2 (backing)
+    f3_shift: 0            # No change to F3
+    description: "Emphatic consonants lower F2 and raise F1 slightly"
+
+  # Nasalization effects
+  nasal_effects:
+    nasal_formant: 300     # Additional nasal formant around 300 Hz
+    f1_reduction: 0.7      # F1 reduced to 70% during nasalization
+    bandwidth_increase: 50  # Formant bandwidths increase by 50 Hz
+
+  # Tolerance ranges
+  tolerance:
+    f1: 50                 # ±50 Hz for F1
+    f2: 100                # ±100 Hz for F2
+    f3: 150                # ±150 Hz for F3
+
+# ============================================
+# Nasalization Parameters
+# ============================================
+nasalization:
+  # Ghunnah types and intensities (0-1 scale)
+  types:
+    idgham:
+      intensity: 0.9
+      duration_counts: 2
+      description: "Full nasalization with assimilation"
+    iqlab:
+      intensity: 0.85
+      duration_counts: 2
+      description: "Conversion to mīm with ghunnah"
+    ikhfaa:
+      intensity: 0.75
+      duration_counts: 2
+      description: "Concealment with partial nasalization"
+    noon_meem_mushaddad:
+      intensity: 0.95
+      duration_counts: 2
+      description: "Geminated noon/meem with strong ghunnah"
+
+  # Acoustic markers
+  markers:
+    nasal_formant_hz: 300
+    nasal_formant_bandwidth: 100
+    f1_reduction_factor: 0.7
+    antiformant_hz: 800     # Nasal antiformant around 800 Hz
+
+  # Verification thresholds
+  thresholds:
+    min_intensity: 0.6      # Minimum for acceptable ghunnah
+    min_duration_ms: 300    # Minimum duration for 2-count ghunnah
+    max_duration_ms: 500    # Maximum duration for 2-count ghunnah
+
+# ============================================
+# Qalqalah (Echo) Parameters
+# ============================================
+qalqalah:
+  # Acoustic characteristics
+  characteristics:
+    burst_duration_ms: 30   # Duration of release burst
+    burst_intensity: 0.8    # Relative intensity of burst
+    formant_transition_ms: 40  # Transition duration
+
+  # Types
+  minor:
+    intensity: 0.6
+    duration_ms: 120
+    description: "Mid-word qalqalah"
+  major:
+    intensity: 0.9
+    duration_ms: 150
+    description: "Word-final or verse-final qalqalah"
+
+  # Letters that undergo qalqalah
+  letters: ['q', 'tˤ', 'b', 'dʒ', 'd']
+
+# ============================================
+# Emphasis (Tafkhīm) Parameters
+# ============================================
+emphasis:
+  # Emphatic consonants
+  inherently_emphatic:
+    - sˤ  # ṣād
+    - dˤ  # ḍād
+    - tˤ  # ṭāʾ
+    - ðˤ  # ḍhāʾ
+    - q   # qāf
+
+  contextual_emphatic:
+    - rˤ  # heavy rāʾ
+    - lˤ  # heavy lām (in "Allah" after fatha/damma)
+
+  # Acoustic effects
+  effects:
+    f0_lowering_hz: 15      # Lower F0 by ~15 Hz
+    f2_lowering_hz: 200     # Lower F2 by ~200 Hz
+    f1_raising_hz: 50       # Raise F1 by ~50 Hz
+    spectral_tilt: -3       # Darker spectral tilt (dB)
+
+  # Spread domain
+  spread:
+    progressive: true       # Spreads forward
+    regressive: true        # Spreads backward
+    blocked_by: ['i', 'iː'] # Kasra blocks spread
+
+# ============================================
+# General Verification Parameters
+# ============================================
+verification:
+  confidence_thresholds:
+    high: 0.9               # High confidence threshold
+    medium: 0.7             # Medium confidence
+    low: 0.5                # Low confidence (flag for review)
+
+  # Feature weights for overall scoring
+  feature_weights:
+    duration: 0.3
+    pitch: 0.2
+    formants: 0.3
+    nasalization: 0.15
+    emphasis: 0.05
+
+  # Error severity mappings
+  error_severity:
+    critical:
+      duration_deviation_percent: 50
+      pitch_deviation_hz: 50
+      formant_deviation_hz: 300
+    major:
+      duration_deviation_percent: 30
+      pitch_deviation_hz: 30
+      formant_deviation_hz: 200
+    minor:
+      duration_deviation_percent: 15
+      pitch_deviation_hz: 15
+      formant_deviation_hz: 100
+
+# ============================================
+# Context-Aware Adjustments
+# ============================================
+context_adjustments:
+  # Speaking rate effects
+  speaking_rate:
+    slow:
+      duration_multiplier: 1.3
+      pause_duration_ms: 400
+    normal:
+      duration_multiplier: 1.0
+      pause_duration_ms: 250
+    fast:
+      duration_multiplier: 0.8
+      pause_duration_ms: 150
+
+  # Pause durations
+  pauses:
+    word_boundary: 50       # Brief pause between words
+    verse_boundary: 300     # Longer pause between verses
+    breath_pause: 500       # Full breath pause
+
+# ============================================
+# Notes
+# ============================================
+notes: |
+  These default parameters are based on:
+  1. Qur'anic recitation acoustic studies
+  2. Arabic phonetics literature
+  3. Tajwīd rule specifications
+  4. Empirical measurements from expert reciters
+
+  Actual values may vary by:
+  - Recitation style (murattal vs mujawwad)
+  - Reciter's voice characteristics
+  - Regional pronunciation variations
+  - Recording conditions
+
+  All parameters can be overridden at runtime for specific verification tasks.

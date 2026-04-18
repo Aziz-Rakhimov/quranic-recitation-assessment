@@ -1,0 +1,31 @@
+# Audio alignment and forced alignment
+montreal-forced-aligner
+
+# Numerical computing and data manipulation
+numpy
+pandas
+
+# Audio processing and analysis
+librosa
+
+# Audio file handling and conversion
+pydub
+
+# Testing framework
+pytest
+
+# Text similarity and comparison (for evaluating recitation accuracy)
+python-Levenshtein
+
+# Data modeling and validation
+pydantic>=2.0
+
+# YAML configuration file parsing
+PyYAML
+
+# HTTP requests for data acquisition
+requests
+
+# Arabic text processing and reshaping
+arabic-reshaper
+python-bidi

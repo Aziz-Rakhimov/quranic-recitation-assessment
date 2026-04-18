@@ -1,0 +1,18 @@
+FROM condaforge/mambaforge:23.3.1-1
+
+USER root
+
+ARG DEBIAN_FRONTEND=noninteractive
+ENV TZ=Etc/UTC
+
+RUN ln -snf /usr/share/zoneinfo/Etc/UTC /etc/localtime \
+    && echo "Etc/UTC" > /etc/timezone \
+    && apt-get update && apt-get install -y --no-install-recommends \
+       ffmpeg git wget tzdata \
+    && apt-get clean && rm -rf /var/lib/apt/lists/*
+
+RUN conda create -n aligner -c conda-forge -y \
+    python=3.9 montreal-forced-aligner=2.2.17 \
+    && conda clean -afy
+
+ENV PATH=/opt/conda/envs/aligner/bin:$PATH

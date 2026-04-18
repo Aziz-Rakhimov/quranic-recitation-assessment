@@ -1,0 +1,494 @@
+# Base Arabic Phoneme Inventory (IPA-based)
+# For Qur'anic Arabic (Ḥafṣ ʿan ʿĀṣim)
+# Total: 28 consonants + 8 vowels + 24 geminates
+
+# Arabic Consonants (28 phonemes)
+consonants:
+  # Stops/Plosives
+  - symbol: "b"
+    arabic: "ب"
+    name: "baa"
+    description: "Voiced bilabial stop"
+    features:
+      manner: "stop"
+      place: "bilabial"
+      voicing: true
+      emphatic: false
+    duration_factor: 1.0
+
+  - symbol: "t"
+    arabic: "ت"
+    name: "taa"
+    description: "Voiceless dental stop"
+    features:
+      manner: "stop"
+      place: "dental"
+      voicing: false
+      emphatic: false
+    duration_factor: 1.0
+
+  - symbol: "tˤ"
+    arabic: "ط"
+    name: "taa (emphatic)"
+    description: "Voiceless pharyngealized dental stop"
+    features:
+      manner: "stop"
+      place: "dental"
+      voicing: false
+      emphatic: true
+    duration_factor: 1.0
+
+  - symbol: "d"
+    arabic: "د"
+    name: "daal"
+    description: "Voiced dental stop"
+    features:
+      manner: "stop"
+      place: "dental"
+      voicing: true
+      emphatic: false
+    duration_factor: 1.0
+
+  - symbol: "dˤ"
+    arabic: "ض"
+    name: "daad"
+    description: "Voiced pharyngealized dental stop"
+    features:
+      manner: "stop"
+      place: "dental"
+      voicing: true
+      emphatic: true
+    duration_factor: 1.0
+
+  - symbol: "k"
+    arabic: "ك"
+    name: "kaaf"
+    description: "Voiceless velar stop"
+    features:
+      manner: "stop"
+      place: "velar"
+      voicing: false
+      emphatic: false
+    duration_factor: 1.0
+
+  - symbol: "q"
+    arabic: "ق"
+    name: "qaaf"
+    description: "Voiceless uvular stop"
+    features:
+      manner: "stop"
+      place: "uvular"
+      voicing: false
+      emphatic: false
+    duration_factor: 1.0
+
+  - symbol: "ʔ"
+    arabic: "ء"
+    name: "hamza"
+    description: "Glottal stop"
+    features:
+      manner: "stop"
+      place: "glottal"
+      voicing: false
+      emphatic: false
+    duration_factor: 0.8
+
+  # Fricatives
+  - symbol: "f"
+    arabic: "ف"
+    name: "faa"
+    description: "Voiceless labiodental fricative"
+    features:
+      manner: "fricative"
+      place: "labiodental"
+      voicing: false
+      emphatic: false
+    duration_factor: 1.2
+
+  - symbol: "θ"
+    arabic: "ث"
+    name: "thaa"
+    description: "Voiceless dental fricative"
+    features:
+      manner: "fricative"
+      place: "dental"
+      voicing: false
+      emphatic: false
+    duration_factor: 1.2
+
+  - symbol: "ð"
+    arabic: "ذ"
+    name: "dhaal"
+    description: "Voiced dental fricative"
+    features:
+      manner: "fricative"
+      place: "dental"
+      voicing: true
+      emphatic: false
+    duration_factor: 1.2
+
+  - symbol: "ðˤ"
+    arabic: "ظ"
+    name: "dhaa (emphatic)"
+    description: "Voiced pharyngealized dental fricative"
+    features:
+      manner: "fricative"
+      place: "dental"
+      voicing: true
+      emphatic: true
+    duration_factor: 1.2
+
+  - symbol: "s"
+    arabic: "س"
+    name: "seen"
+    description: "Voiceless alveolar fricative"
+    features:
+      manner: "fricative"
+      place: "alveolar"
+      voicing: false
+      emphatic: false
+    duration_factor: 1.2
+
+  - symbol: "sˤ"
+    arabic: "ص"
+    name: "saad"
+    description: "Voiceless pharyngealized alveolar fricative"
+    features:
+      manner: "fricative"
+      place: "alveolar"
+      voicing: false
+      emphatic: true
+    duration_factor: 1.2
+
+  - symbol: "z"
+    arabic: "ز"
+    name: "zaay"
+    description: "Voiced alveolar fricative"
+    features:
+      manner: "fricative"
+      place: "alveolar"
+      voicing: true
+      emphatic: false
+    duration_factor: 1.2
+
+  - symbol: "ʃ"
+    arabic: "ش"
+    name: "sheen"
+    description: "Voiceless postalveolar fricative"
+    features:
+      manner: "fricative"
+      place: "postalveolar"
+      voicing: false
+      emphatic: false
+    duration_factor: 1.2
+
+  - symbol: "x"
+    arabic: "خ"
+    name: "khaa"
+    description: "Voiceless uvular fricative"
+    features:
+      manner: "fricative"
+      place: "uvular"
+      voicing: false
+      emphatic: false
+    duration_factor: 1.2
+
+  - symbol: "ɣ"
+    arabic: "غ"
+    name: "ghayn"
+    description: "Voiced uvular fricative"
+    features:
+      manner: "fricative"
+      place: "uvular"
+      voicing: true
+      emphatic: false
+    duration_factor: 1.2
+
+  - symbol: "ħ"
+    arabic: "ح"
+    name: "haa"
+    description: "Voiceless pharyngeal fricative"
+    features:
+      manner: "fricative"
+      place: "pharyngeal"
+      voicing: false
+      emphatic: false
+    duration_factor: 1.2
+
+  - symbol: "ʕ"
+    arabic: "ع"
+    name: "ayn"
+    description: "Voiced pharyngeal fricative"
+    features:
+      manner: "fricative"
+      place: "pharyngeal"
+      voicing: true
+      emphatic: false
+    duration_factor: 1.2
+
+  - symbol: "h"
+    arabic: "ه"
+    name: "haa"
+    description: "Voiceless glottal fricative"
+    features:
+      manner: "fricative"
+      place: "glottal"
+      voicing: false
+      emphatic: false
+    duration_factor: 1.0
+
+  # Affricates
+  - symbol: "dʒ"
+    arabic: "ج"
+    name: "jeem"
+    description: "Voiced postalveolar affricate"
+    features:
+      manner: "affricate"
+      place: "postalveolar"
+      voicing: true
+      emphatic: false
+    duration_factor: 1.1
+
+  # Nasals
+  - symbol: "m"
+    arabic: "م"
+    name: "meem"
+    description: "Voiced bilabial nasal"
+    features:
+      manner: "nasal"
+      place: "bilabial"
+      voicing: true
+      emphatic: false
+      nasalized: true
+    duration_factor: 1.0
+
+  - symbol: "n"
+    arabic: "ن"
+    name: "noon"
+    description: "Voiced alveolar nasal"
+    features:
+      manner: "nasal"
+      place: "alveolar"
+      voicing: true
+      emphatic: false
+      nasalized: true
+    duration_factor: 1.0
+
+  # Liquids/Approximants
+  - symbol: "l"
+    arabic: "ل"
+    name: "laam"
+    description: "Voiced alveolar lateral approximant"
+    features:
+      manner: "lateral"
+      place: "alveolar"
+      voicing: true
+      emphatic: false
+    duration_factor: 1.0
+
+  - symbol: "r"
+    arabic: "ر"
+    name: "raa"
+    description: "Voiced alveolar trill (light)"
+    features:
+      manner: "trill"
+      place: "alveolar"
+      voicing: true
+      emphatic: false
+    duration_factor: 1.0
+
+  # Semivowels/Glides
+  - symbol: "w"
+    arabic: "و"
+    name: "waaw"
+    description: "Voiced labio_velar approximant"
+    features:
+      manner: "approximant"
+      place: "labio_velar"
+      voicing: true
+      emphatic: false
+    duration_factor: 0.9
+
+  - symbol: "j"
+    arabic: "ي"
+    name: "yaa"
+    description: "Voiced palatal approximant"
+    features:
+      manner: "approximant"
+      place: "palatal"
+      voicing: true
+      emphatic: false
+    duration_factor: 0.9
+
+# Arabic Vowels (8 phonemes: 3 short + 3 long + 2 additional)
+vowels:
+  # Short vowels
+  - symbol: "a"
+    arabic: "َ"
+    diacritic: "fatha"
+    description: "Short low front vowel"
+    features:
+      height: "low"
+      backness: "front"
+      rounding: false
+      length: "short"
+    duration_factor: 1.0
+    formants:
+      f1: 700
+      f2: 1200
+      f3: 2500
+
+  - symbol: "i"
+    arabic: "ِ"
+    diacritic: "kasra"
+    description: "Short high front vowel"
+    features:
+      height: "high"
+      backness: "front"
+      rounding: false
+      length: "short"
+    duration_factor: 1.0
+    formants:
+      f1: 300
+      f2: 2300
+      f3: 3000
+
+  - symbol: "u"
+    arabic: "ُ"
+    diacritic: "damma"
+    description: "Short high back vowel"
+    features:
+      height: "high"
+      backness: "back"
+      rounding: true
+      length: "short"
+    duration_factor: 1.0
+    formants:
+      f1: 350
+      f2: 800
+      f3: 2500
+
+  # Long vowels
+  - symbol: "aː"
+    arabic: "َا"
+    diacritic: "fatha + alif"
+    description: "Long low front vowel"
+    features:
+      height: "low"
+      backness: "front"
+      rounding: false
+      length: "long"
+    duration_factor: 2.0
+    formants:
+      f1: 700
+      f2: 1200
+      f3: 2500
+
+  - symbol: "iː"
+    arabic: "ِي"
+    diacritic: "kasra + yaa"
+    description: "Long high front vowel"
+    features:
+      height: "high"
+      backness: "front"
+      rounding: false
+      length: "long"
+    duration_factor: 2.0
+    formants:
+      f1: 300
+      f2: 2300
+      f3: 3000
+
+  - symbol: "uː"
+    arabic: "ُو"
+    diacritic: "damma + waaw"
+    description: "Long high back vowel"
+    features:
+      height: "high"
+      backness: "back"
+      rounding: true
+      length: "long"
+    duration_factor: 2.0
+    formants:
+      f1: 350
+      f2: 800
+      f3: 2500
+
+  # Emphatic vowel allophones (for emphasis spread)
+  - symbol: "ɑ"
+    description: "Short low back vowel (emphatic allophone of /a/)"
+    features:
+      height: "low"
+      backness: "back"
+      rounding: false
+      length: "short"
+    duration_factor: 1.0
+    formants:
+      f1: 700
+      f2: 1000  # Lower F2 than [a] due to pharyngealization
+      f3: 2500
+    notes: "Used near emphatic consonants (ص ض ط ظ ق) and heavy rāʾ (رˤ)"
+
+  - symbol: "ɑː"
+    description: "Long low back vowel (emphatic allophone of /aː/)"
+    features:
+      height: "low"
+      backness: "back"
+      rounding: false
+      length: "long"
+    duration_factor: 2.0
+    formants:
+      f1: 700
+      f2: 1000  # Lower F2 than [aː] due to pharyngealization
+      f3: 2500
+    notes: "Used near emphatic consonants (ص ض ط ظ ق) and heavy rāʾ (رˤ)"
+
+  # Additional vowel forms
+  - symbol: "aːʔ"
+    description: "Long vowel with hamza"
+    features:
+      height: "low"
+      backness: "front"
+      rounding: false
+      length: "long"
+    duration_factor: 2.0
+
+  - symbol: "aw"
+    description: "Diphthong aw"
+    features:
+      type: "diphthong"
+    duration_factor: 1.5
+
+  - symbol: "aj"
+    description: "Diphthong aj — used for the spelled-out ʿayn letter-name (ʕajn) inside Muqaṭṭaʿāt openings"
+    features:
+      type: "diphthong"
+    duration_factor: 1.5
+
+# Geminated consonants (Shaddah)
+# Represented by doubling the consonant phoneme
+geminates:
+  # Generated by adding shaddah to any consonant
+  # Duration is typically 1.5-2x the single consonant
+  description: "Gemination is represented by doubling the phoneme symbol (e.g., bb, tt, ss)"
+  duration_multiplier: 1.5
+  examples:
+    - grapheme: "بّ"
+      phoneme: "bb"
+    - grapheme: "لّ"
+      phoneme: "ll"
+    - grapheme: "رّ"
+      phoneme: "rr"
+
+# Special phonemes for Tajwīd rules
+# These are defined in tajweed_phonemes.yaml
+
+# Acoustic parameters
+acoustic_defaults:
+  base_duration_ms: 80  # Base duration for consonants
+  vowel_short_ms: 100   # Short vowels
+  vowel_long_ms: 200    # Long vowels (2 counts)
+  baseline_f0_hz: 120   # Male voice baseline
+  emphatic_f0_factor: 0.9  # F0 lowering for emphatic consonants
+  emphatic_f1_shift: 50    # F1 raising for emphatic (Hz)
+  emphatic_f2_shift: -200  # F2 lowering for emphatic (Hz)

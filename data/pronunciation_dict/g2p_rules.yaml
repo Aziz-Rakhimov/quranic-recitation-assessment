@@ -1,0 +1,290 @@
+# Grapheme-to-Phoneme (G2P) Conversion Rules
+# Maps Arabic graphemes (letters + diacritics) to IPA phonemes
+
+# Basic consonant mappings
+consonant_mappings:
+  "ء": "ʔ"     # Hamza
+  "ا": "aː"    # Alif (context-dependent)
+  "ب": "b"     # Baa
+  "ت": "t"     # Taa
+  "ث": "θ"     # Thaa
+  "ج": "dʒ"    # Jeem
+  "ح": "ħ"     # Haa
+  "خ": "x"     # Khaa
+  "د": "d"     # Daal
+  "ذ": "ð"     # Dhaal
+  "ر": "r"     # Raa (default light, Tajwīd rules determine heavy/light)
+  "ز": "z"     # Zaay
+  "س": "s"     # Seen
+  "ش": "ʃ"     # Sheen
+  "ص": "sˤ"    # Saad (emphatic)
+  "ض": "dˤ"    # Daad (emphatic)
+  "ط": "tˤ"    # Taa (emphatic)
+  "ظ": "ðˤ"    # Dhaa (emphatic)
+  "ع": "ʕ"     # Ayn
+  "غ": "ɣ"     # Ghayn
+  "ف": "f"     # Faa
+  "ق": "q"     # Qaaf
+  "ك": "k"     # Kaaf
+  "ل": "l"     # Laam
+  "م": "m"     # Meem
+  "ن": "n"     # Noon
+  "ه": "h"     # Haa
+  "و": "w"     # Waaw (context-dependent)
+  "ي": "j"     # Yaa (context-dependent)
+  "ة": "h"     # Taa marbutah (usually silent or pronounced as 'h' in construct state)
+
+# Diacritic mappings
+diacritic_mappings:
+  "َ": "a"     # Fatha - short 'a'
+  "ِ": "i"     # Kasra - short 'i'
+  "ُ": "u"     # Damma - short 'u'
+  "ْ": ""      # Sukoon - no vowel
+  "ّ": "geminate"  # Shaddah - gemination (double consonant)
+  "ً": "an"    # Tanween fath - 'an'
+  "ٍ": "in"    # Tanween kasr - 'in'
+  "ٌ": "un"    # Tanween damm - 'un'
+  "ـ": ""      # Tatweel - elongation (visual only, no phonetic value)
+  "ٰ": "aː"    # Alif khanjariyah (dagger alif) - long 'a'
+  "ٔ": "ʔ"     # Hamza above
+  "ٕ": "ʔ"     # Hamza below
+
+# Context-dependent rules
+context_rules:
+  # Alif rules
+  - grapheme: "ا"
+    rules:
+      - context: "word_initial"
+        phoneme: ""  # Silent alif at word start (e.g., بِسْمِ ٱللَّهِ)
+        condition: "not_after_hamza"
+
+      - context: "after_fatha"
+        phoneme: "aː"
+        description: "Long 'aa' after fatha"
+
+      - context: "after_kasra"
+        phoneme: ""
+        description: "Silent alif after kasra (rare in Quranic text)"
+
+      - context: "after_damma"
+        phoneme: ""
+        description: "Silent alif after damma (rare)"
+
+      - context: "with_hamza_above"
+        phoneme: "ʔa"
+        description: "أ = hamza + short a"
+
+      - context: "with_hamza_below"
+        phoneme: "ʔi"
+        description: "إ = hamza + short i"
+
+      - context: "with_madda"
+        phoneme: "ʔaː"
+        description: "آ = hamza + long a"
+
+  # Waaw rules
+  - grapheme: "و"
+    rules:
+      - context: "with_sukoon_after_damma"
+        phoneme: "uː"
+        description: "Long 'uu' - ُو"
+
+      - context: "with_sukoon_after_fatha"
+        phoneme: "aw"
+        description: "Diphthong 'aw' - َوْ"
+
+      - context: "with_vowel"
+        phoneme: "w"
+        description: "Consonant waaw"
+
+      - context: "with_hamza"
+        phoneme: "ʔu"
+        description: "ؤ = hamza + short u"
+
+  # Yaa rules
+  - grapheme: "ي"
+    rules:
+      - context: "with_sukoon_after_kasra"
+        phoneme: "iː"
+        description: "Long 'ii' - ِي"
+
+      - context: "with_sukoon_after_fatha"
+        phoneme: "aj"
+        description: "Diphthong 'ay' - َيْ"
+
+      - context: "with_vowel"
+        phoneme: "j"
+        description: "Consonant yaa"
+
+      - context: "with_hamza"
+        phoneme: "ʔi"
+        description: "ئ = hamza + short i"
+
+      - context: "word_final_after_kasra"
+        phoneme: "iː"
+        description: "Final yaa after kasra = long ii"
+
+      - context: "word_final_without_vowel"
+        phoneme: "aː"
+        description: "Alif maqsurah (final yaa without dots) = long aa"
+
+  # Taa marbutah rules
+  - grapheme: "ة"
+    rules:
+      - context: "word_final_pausa"
+        phoneme: ""
+        description: "Silent in pausal form"
+
+      - context: "word_final_construct"
+        phoneme: "t"
+        description: "Pronounced as 't' in construct state"
+
+  # Shaddah (gemination) rules
+  - grapheme: "ّ"
+    rules:
+      - context: "on_any_consonant"
+        action: "double_consonant"
+        description: "Geminate the consonant (e.g., بّ → bb)"
+
+  # Lam-alif ligature
+  - grapheme: "لا"
+    rules:
+      - context: "default"
+        phoneme: "laː"
+        description: "Lam + alif ligature"
+
+  # Tanween rules
+  - grapheme: "ً"
+    rules:
+      - context: "word_final"
+        phoneme: "an"
+        description: "Tanween fath (often includes implicit alif)"
+
+  - grapheme: "ٍ"
+    rules:
+      - context: "word_final"
+        phoneme: "in"
+        description: "Tanween kasr"
+
+  - grapheme: "ٌ"
+    rules:
+      - context: "word_final"
+        phoneme: "un"
+        description: "Tanween damm"
+
+# Special cases
+special_cases:
+  # Allah (الله)
+  - pattern: "الله"
+    rules:
+      - context: "after_fatha_or_damma"
+        phoneme: "ʔalˤlˤaːh"
+        description: "Allah with emphatic lam after fatha/damma"
+
+      - context: "after_kasra"
+        phoneme: "ʔallaːh"
+        description: "Allah with light lam after kasra"
+
+  # Definite article (ال)
+  - pattern: "ال"
+    rules:
+      - context: "before_sun_letter"
+        action: "assimilate_lam"
+        description: "Lam assimilates into sun letter (e.g., الشَّمْس → aʃʃams)"
+
+      - context: "before_moon_letter"
+        phoneme: "ʔal"
+        description: "Lam pronounced clearly before moon letters"
+
+  # Hamzat al-wasl (ٱ)
+  - grapheme: "ٱ"
+    rules:
+      - context: "word_initial_pause"
+        phoneme: "ʔ"
+        description: "Pronounced as hamza at beginning of speech"
+
+      - context: "word_initial_continuation"
+        phoneme: ""
+        description: "Silent when continuing from previous word"
+
+  # Silent letters
+  - grapheme: "ـ"
+    phoneme: ""
+    description: "Tatweel (kashida) - purely visual, no sound"
+
+  # Pause (waqf) rules
+  - context: "word_final_pause"
+    rules:
+      - action: "drop_final_vowel"
+        description: "Drop final short vowel in pausal form"
+
+      - action: "drop_tanween"
+        description: "Drop tanween in pausal form (except tanween fath may retain alif)"
+
+# Phoneme combination rules
+combination_rules:
+  # Long vowels
+  - pattern: "َ + ا"
+    phoneme: "aː"
+    description: "Fatha + alif = long aa"
+
+  - pattern: "ِ + ي"
+    phoneme: "iː"
+    description: "Kasra + yaa = long ii"
+
+  - pattern: "ُ + و"
+    phoneme: "uː"
+    description: "Damma + waaw = long uu"
+
+  # Diphthongs
+  - pattern: "َ + وْ"
+    phoneme: "aw"
+    description: "Fatha + waaw sukoon = diphthong aw"
+
+  - pattern: "َ + يْ"
+    phoneme: "aj"
+    description: "Fatha + yaa sukoon = diphthong ay"
+
+  # Gemination
+  - pattern: "consonant + ّ"
+    action: "double_consonant"
+    description: "Shaddah doubles the consonant"
+
+  # Tanween + alif
+  - pattern: "ً + ا"
+    phoneme: "an"
+    description: "Tanween fath with alif (most common form)"
+
+# Edge cases and exceptions
+exceptions:
+  # Common Quranic words with special pronunciation
+  - word: "الرَّحْمَٰنِ"
+    phoneme_sequence: ["ʔa", "r", "r", "a", "ħ", "m", "aː", "n", "i"]
+    notes: "Dagger alif for long 'aa'"
+
+  - word: "هَٰذَا"
+    phoneme_sequence: ["h", "aː", "ð", "aː"]
+    notes: "Dagger alif"
+
+  - word: "لَٰكِنِ"
+    phoneme_sequence: ["l", "aː", "k", "i", "n", "i"]
+    notes: "Dagger alif"
+
+# Priority order for rule application
+rule_priority:
+  1: "special_cases"
+  2: "context_rules"
+  3: "combination_rules"
+  4: "consonant_mappings"
+  5: "diacritic_mappings"
+
+# Notes for implementation
+implementation_notes:
+  - "Always normalize Unicode to NFD before processing"
+  - "Process text character by character, considering context"
+  - "Shaddah must be processed before generating phoneme sequence"
+  - "Sukoon indicates absence of vowel, not a phoneme itself"
+  - "Tajwīd rules will further modify the phoneme sequence"
+  - "Sun letter assimilation creates gemination: ال + ش → aʃʃ (not alʃ)"
+  - "Handle hamza carriers properly (ء أ إ ؤ ئ)"
+  - "Alif maqsurah (final yaa without dots) should map to 'aː'"

@@ -1,0 +1,366 @@
+qalqalah_letters:
+  phonemes:
+  - q
+  - tˤ
+  - b
+  - dʒ
+  - d
+  arabic:
+  - ق
+  - ط
+  - ب
+  - ج
+  - د
+  mnemonic: قطب جد
+  description: Five letters that exhibit qalqalah when sākin
+rules:
+- name: qalqalah_minor
+  category: qalqalah
+  priority: 70
+  description: Minor qalqalah - weak echoing sound mid-word
+  arabic_name: قلقلة صغرى
+  pattern:
+    target: '[q tˤ b dʒ d]'
+    conditions:
+      has_sukoon: true
+      position_mid_word: true
+      not_at_word_end: true
+      not_at_verse_end: true
+      has_shaddah: false
+  action:
+    type: modify_features
+    base_phoneme: original
+    modifier: Q
+    duration_multiplier: 1.0
+    notes: Add weak echoing/bouncing articulation
+  acoustic_expectations:
+    burst_present: true
+    burst_strength: 0.6
+    burst_duration_ms: 30
+    echo_duration_ms: 30
+    voicing_during_echo: false
+    burst_frequency_ranges:
+      q:
+      - 1000
+      - 2500
+      tˤ:
+      - 2000
+      - 4000
+      b:
+      - 500
+      - 1500
+      dʒ:
+      - 2000
+      - 4000
+      d:
+      - 2000
+      - 4000
+    verification_criteria:
+    - feature: burst_detection
+      threshold: 0.6
+      description: Moderate burst release detected
+    - feature: echo_duration
+      expected_ms: 30
+      tolerance_ms: 15
+      description: Brief echoing sound
+    - feature: no_excessive_prolongation
+      max_duration_ms: 50
+      description: Echo not excessively prolonged
+  examples:
+  - text: يَقْطَعُونَ
+    phonemes:
+    - j
+    - a
+    - qQ
+    - tˤ
+    - a
+    - ʕ
+    - uː
+    - n
+    - a
+    description: yaqta'uuna - minor qalqalah on qaaf
+    position: 2
+  - text: اَبْصَارُهُمْ
+    phonemes:
+    - ʔ
+    - a
+    - bQ
+    - sˤ
+    - aː
+    - r
+    - u
+    - h
+    - u
+    - m
+    description: absaaruhum - minor qalqalah on baa
+    position: 2
+  - text: يَعْجَبُ
+    phonemes:
+    - j
+    - a
+    - ʕ
+    - dʒQ
+    - a
+    - b
+    - u
+    description: ya'jabu - minor qalqalah on jeem
+    position: 3
+  - text: مَدْكُوكَةً
+    phonemes:
+    - m
+    - a
+    - dQ
+    - k
+    - uː
+    - k
+    - a
+    - h
+    description: mad kuukah - minor qalqalah on daal
+    position: 2
+  error_types:
+  - code: Q001
+    description: No qalqalah echo present
+    severity: critical
+  - code: Q002
+    description: Qalqalah too strong (should be minor)
+    severity: minor
+  - code: Q003
+    description: Excessive prolongation of echo
+    severity: minor
+- name: qalqalah_major
+  category: qalqalah
+  priority: 75
+  description: Major qalqalah - strong echoing sound at word/verse end
+  arabic_name: قلقلة كبرى
+  pattern:
+    target: '[q tˤ b dʒ d]'
+    conditions:
+      has_sukoon: true
+      position_word_end_or_verse_end: true
+  action:
+    type: modify_features
+    base_phoneme: original
+    modifier: QQ
+    duration_multiplier: 1.2
+    notes: Add strong echoing/bouncing articulation
+  acoustic_expectations:
+    burst_present: true
+    burst_strength: 1.0
+    burst_duration_ms: 60
+    echo_duration_ms: 60
+    voicing_during_echo: false
+    more_prominent: true
+    burst_frequency_ranges:
+      q:
+      - 1000
+      - 2500
+      tˤ:
+      - 2000
+      - 4000
+      b:
+      - 500
+      - 1500
+      dʒ:
+      - 2000
+      - 4000
+      d:
+      - 2000
+      - 4000
+    verification_criteria:
+    - feature: burst_detection
+      threshold: 0.8
+      description: Strong burst release detected
+    - feature: echo_duration
+      expected_ms: 60
+      tolerance_ms: 20
+      description: Clear echoing sound
+    - feature: echo_prominence
+      prominence_factor: 1.5
+      description: More prominent than minor qalqalah
+  examples:
+  - text: وَالْفَلَقْ
+    phonemes:
+    - w
+    - a
+    - l
+    - f
+    - a
+    - l
+    - a
+    - qQQ
+    description: wal-falaq (verse end) - major qalqalah on qaaf
+    position: -1
+  - text: قَدْ
+    phonemes:
+    - q
+    - a
+    - dQQ
+    description: qad (word end) - major qalqalah on daal
+    position: -1
+  - text: وَتَبَّ
+    phonemes:
+    - w
+    - a
+    - t
+    - a
+    - b
+    - bQQ
+    description: wa-tabba (word end) - major qalqalah on baa
+    position: -1
+  - text: أَحَدٌ
+    phonemes:
+    - ʔ
+    - a
+    - ħ
+    - a
+    - dQQ
+    - u
+    - n
+    description: ahadun (pause removes tanween) - major qalqalah on daal
+    position: 4
+  error_types:
+  - code: Q101
+    description: No qalqalah echo present at word/verse end
+    severity: critical
+  - code: Q102
+    description: Qalqalah too weak (should be major)
+    severity: major
+  - code: Q103
+    description: Insufficient prominence compared to minor qalqalah
+    severity: minor
+- name: qalqalah_with_shaddah
+  category: qalqalah
+  priority: 72
+  description: Qalqalah letter with shaddah - only first letter has qalqalah
+  arabic_name: قلقلة مع الشدة
+  pattern:
+    target: '[q tˤ b dʒ d]'
+    conditions:
+      has_shaddah: true
+  action:
+    type: modify_features
+    notes: Only the first (sākin) component exhibits qalqalah
+  acoustic_expectations:
+    first_component_qalqalah: true
+    second_component_normal: true
+    burst_on_first_only: true
+  examples:
+  - text: مُدَّكِرٌ
+    phonemes:
+    - m
+    - u
+    - dQ
+    - d
+    - a
+    - k
+    - i
+    - r
+    - u
+    - n
+    description: muddakir - qalqalah on first daal of shaddah
+- name: qalqalah_emphatic
+  category: qalqalah
+  priority: 73
+  description: Qalqalah with emphatic coloring when near emphatic letters
+  arabic_name: قلقلة مفخمة
+  pattern:
+    target: '[q tˤ b dʒ d]'
+    conditions:
+      has_sukoon: true
+      near_emphatic_letter: true
+  action:
+    type: modify_features
+    modifier: emphatic_qalqalah
+    notes: Heavier quality due to emphatic environment
+  acoustic_expectations:
+    f2_lowering: 150
+    darker_quality: true
+  examples:
+  - text: اَطْبَق
+    description: Qalqalah on tˤ (inherently emphatic)
+- name: qalqalah_non_emphatic
+  category: qalqalah
+  priority: 73
+  description: Qalqalah with light quality near light letters
+  arabic_name: قلقلة مرققة
+  pattern:
+    target: '[b dʒ d]'
+    conditions:
+      has_sukoon: true
+      near_light_letter: true
+      has_shaddah: false
+      not_at_verse_end: true  # at verse end, qalqalah_major is the correct rule
+  action:
+    type: keep_original
+    notes: Lighter quality in non-emphatic environment
+  examples:
+  - text: بِالْحَقِّ
+    description: Qalqalah on baa with kasra (light)
+strength_levels:
+  minor:
+    burst_strength: 0.6
+    echo_duration_ms: 30
+    contexts:
+    - mid_word
+  major:
+    burst_strength: 1.0
+    echo_duration_ms: 60
+    contexts:
+    - word_end
+    - verse_end
+    - pausal_form
+letter_characteristics:
+  q:
+    place: uvular
+    default_quality: emphatic
+    burst_frequency_center: 1500
+    inherently_heavy: true
+  tˤ:
+    place: dental
+    default_quality: emphatic
+    burst_frequency_center: 3000
+    inherently_heavy: true
+  b:
+    place: bilabial
+    default_quality: variable
+    burst_frequency_center: 1000
+    quality_varies_by_context: true
+  dʒ:
+    place: postalveolar
+    default_quality: variable
+    burst_frequency_center: 3000
+    quality_varies_by_context: true
+  d:
+    place: dental
+    default_quality: variable
+    burst_frequency_center: 3000
+    quality_varies_by_context: true
+application_order:
+  1: qalqalah_major
+  2: qalqalah_emphatic
+  3: qalqalah_non_emphatic
+  4: qalqalah_with_shaddah
+  5: qalqalah_minor
+common_errors:
+- error: missing_qalqalah
+  description: Qalqalah letter pronounced without echoing sound
+  severity: critical
+- error: excessive_qalqalah
+  description: Qalqalah echo too prolonged or exaggerated
+  severity: minor
+- error: wrong_strength
+  description: Major qalqalah treated as minor or vice versa
+  severity: major
+- error: qalqalah_on_non_qalqalah_letter
+  description: Echoing sound added to letter other than ق ط ب ج د
+  severity: critical
+- error: wrong_quality
+  description: Emphatic quality when should be light, or vice versa
+  severity: minor
+verification_thresholds:
+  minor_burst_min: 0.5
+  major_burst_min: 0.7
+  minor_duration_ms: 30
+  major_duration_ms: 60
+  duration_tolerance_ms: 20
+  burst_detection_threshold: 0.4

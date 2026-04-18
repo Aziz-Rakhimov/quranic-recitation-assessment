@@ -1,0 +1,27 @@
+# FastAPI and server
+fastapi>=0.100.0
+uvicorn[standard]>=0.23.0
+python-multipart>=0.0.6
+
+# Rate limiting
+slowapi
+
+# Project dependencies (also in top-level requirements.txt)
+numpy
+pandas
+librosa
+pydub
+pydantic>=2.0
+PyYAML
+requests
+python-Levenshtein
+arabic-reshaper
+python-bidi
+
+# ──────────────────────────────────────────────────────────────────────
+# System dependencies (NOT installable via pip — install separately):
+#
+#   ffmpeg    Required for audio format conversion (m4a/mp3/aac/mp4/ogg → wav).
+#             macOS:  brew install ffmpeg
+#             Debian/Ubuntu:  sudo apt-get install ffmpeg
+# ──────────────────────────────────────────────────────────────────────

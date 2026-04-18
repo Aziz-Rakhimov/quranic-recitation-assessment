@@ -1,0 +1,184 @@
+{
+  "surah": 56,
+  "reciter": "reciter_2",
+  "harakah_ms": 120.0,
+  "calibration": {
+    "short_vowel_median_ms": 120.0,
+    "madd_tabii_median_ms": 345.0,
+    "ratio": 2.88,
+    "short_vowel_count": 32,
+    "madd_tabii_count": 4,
+    "is_default": false,
+    "tolerance_factor": 1.0
+  },
+  "ayahs": [
+    {
+      "surah": 56,
+      "ayah": 0,
+      "reciter": "reciter_2",
+      "harakah_ms": 120.0,
+      "errors": [],
+      "score": 100.0,
+      "score_reliability": "low",
+      "total_phones_assessed": 0,
+      "phones_skipped": 2,
+      "error_count": 0
+    },
+    {
+      "surah": 56,
+      "ayah": 1,
+      "reciter": "reciter_2",
+      "harakah_ms": 120.0,
+      "errors": [
+        {
+          "word": "وَقَعَتِ",
+          "phone": "a",
+          "phone_index": 6,
+          "timestamp_ms": 810.0,
+          "rule": "vowel_backing_before_emphatic_short",
+          "assessment": "formant",
+          "expected": 1400.0,
+          "actual": 1584.5,
+          "unit": "hz",
+          "severity": "minor",
+          "description": "Vowel Backing (Vowel Backing Before Emphatic Short) — borderline, vowel insufficiently backed (F2=1584 Hz, correct<1400)"
+        },
+        {
+          "word": "وَقَعَتِ",
+          "phone": "a",
+          "phone_index": 8,
+          "timestamp_ms": 880.0,
+          "rule": "vowel_backing_after_emphatic_short",
+          "assessment": "formant",
+          "expected": 1400.0,
+          "actual": 1592.5,
+          "unit": "hz",
+          "severity": "minor",
+          "description": "Vowel Backing (Vowel Backing After Emphatic Short) — borderline, vowel insufficiently backed (F2=1592 Hz, correct<1400)"
+        },
+        {
+          "word": "ٱلْوَاقِعَةُ",
+          "phone": "aː",
+          "phone_index": 16,
+          "timestamp_ms": 1330.0,
+          "rule": "vowel_backing_before_emphatic_long",
+          "assessment": "formant",
+          "expected": 1400.0,
+          "actual": 1536.4,
+          "unit": "hz",
+          "severity": "minor",
+          "description": "Vowel Backing (Vowel Backing Before Emphatic Long) — borderline, vowel insufficiently backed (F2=1536 Hz, correct<1400)"
+        }
+      ],
+      "score": 50.0,
+      "score_reliability": "low",
+      "total_phones_assessed": 3,
+      "phones_skipped": 2,
+      "error_count": 3
+    },
+    {
+      "surah": 56,
+      "ayah": 2,
+      "reciter": "reciter_2",
+      "harakah_ms": 120.0,
+      "errors": [
+        {
+          "word": "كَاذِبَةٌ",
+          "phone": "aː",
+          "phone_index": 19,
+          "timestamp_ms": 2970.0,
+          "rule": "madd_tabii",
+          "assessment": "duration",
+          "expected": 2.0,
+          "actual": 3.08,
+          "unit": "counts",
+          "severity": "style",
+          "description": "Madd Tabii too long — held 3.1 counts, expected 1.5–2.5"
+        }
+      ],
+      "score": 100.0,
+      "score_reliability": "low",
+      "total_phones_assessed": 3,
+      "phones_skipped": 1,
+      "error_count": 1
+    },
+    {
+      "surah": 56,
+      "ayah": 3,
+      "reciter": "reciter_2",
+      "harakah_ms": 120.0,
+      "errors": [
+        {
+          "word": "رَّافِعَةٌ",
+          "phone": "aː",
+          "phone_index": 13,
+          "timestamp_ms": 2290.0,
+          "rule": "madd_tabii",
+          "assessment": "duration",
+          "expected": 2.0,
+          "actual": 1.25,
+          "unit": "counts",
+          "severity": "style",
+          "description": "Madd Tabii too short — held 1.2 counts, expected 1.5–2.5 [MFA artifact (downgraded)]"
+        }
+      ],
+      "score": 100.0,
+      "score_reliability": "low",
+      "total_phones_assessed": 3,
+      "phones_skipped": 1,
+      "error_count": 1
+    },
+    {
+      "surah": 56,
+      "ayah": 4,
+      "reciter": "reciter_2",
+      "harakah_ms": 120.0,
+      "errors": [
+        {
+          "word": "إِذَا",
+          "phone": "aː",
+          "phone_index": 4,
+          "timestamp_ms": 870.0,
+          "rule": "madd_tabii",
+          "assessment": "duration",
+          "expected": 2.0,
+          "actual": 3.42,
+          "unit": "counts",
+          "severity": "style",
+          "description": "Madd Tabii too long — held 3.4 counts, expected 1.5–2.5"
+        }
+      ],
+      "score": 100.0,
+      "score_reliability": "low",
+      "total_phones_assessed": 1,
+      "phones_skipped": 2,
+      "error_count": 1
+    },
+    {
+      "surah": 56,
+      "ayah": 5,
+      "reciter": "reciter_2",
+      "harakah_ms": 120.0,
+      "errors": [
+        {
+          "word": "ٱلْجِبَالُ",
+          "phone": "aː",
+          "phone_index": 14,
+          "timestamp_ms": 2390.0,
+          "rule": "madd_tabii",
+          "assessment": "duration",
+          "expected": 2.0,
+          "actual": 2.67,
+          "unit": "counts",
+          "severity": "style",
+          "description": "Madd Tabii too long — held 2.7 counts, expected 1.5–2.5"
+        }
+      ],
+      "score": 100.0,
+      "score_reliability": "low",
+      "total_phones_assessed": 1,
+      "phones_skipped": 0,
+      "error_count": 1
+    }
+  ]
+}

@@ -1,0 +1,578 @@
+================================================================================
+COMPREHENSIVE TAJWĪD RULE VERIFICATION
+================================================================================
+
+Testing all 22 core rules (Rāʾ disabled for Phase 1)
+Total test verses: 44
+Date: 2026-02-09 13:59:43
+
+Initializing pipeline...
+Initializing Symbolic Layer Pipeline...
+  - Loading phoneme inventory...
+  - Initializing text processor...
+  - Initializing phonemizer...
+  - Loading Tajweed engine...
+  - Initializing acoustic feature generator...
+✅ Pipeline initialized successfully!
+   - Phoneme inventory: 38 phonemes
+   - Tajweed rules: 28 rules
+   ⚠️  Rāʾ rules disabled (Phase 1 - focusing on core rules)
+   - Speaker type: male
+✅ Pipeline ready with 28 rules loaded
+
+
+================================================================================
+Testing: GHUNNAH MUSHADDADAH NOON
+================================================================================
+
+  Test 1: إِنَّآ أَعْطَيْنَٰكَ
+  Note: إِنَّ has noon with shaddah
+  ✅ DETECTED: 1 application(s)
+     • ghunnah_mushaddadah_noon
+       Position: 0-0
+       Change: [n] → [n]
+       Duration: 400.0ms
+       Ghunnah: Yes
+
+  Test 2: رَبَّنَا لَا تُؤَاخِذْنَآ إِن
+  Note: إِن at end has noon shaddah
+  ❌ NOT DETECTED
+     Other rules detected:
+       • qalqalah_non_emphatic (qalqalah)
+       • emphasis_blocking_by_front_vowel (general)
+       • emphasis_blocking_by_front_vowel (general)
+
+  Status: ⚠️  PARTIAL (1/2)
+
+================================================================================
+Testing: GHUNNAH MUSHADDADAH MEEM
+================================================================================
+
+  Test 1: كَلَّآ ۖ بَل لَّا تُكْرِمُونَ ٱلْيَتِيمَ
+  Note: أَمَّا (if present)
+  ❌ NOT DETECTED
+     Other rules detected:
+       • emphasis_blocking_by_front_vowel (general)
+       • emphasis_blocking_by_front_vowel (general)
+       • emphasis_blocking_by_front_vowel (general)
+
+  Test 2: أَلَمْ يَجِدْكَ يَتِيمًا
+  Note: أَلَمْ has meem
+  ❌ NOT DETECTED
+     Other rules detected:
+       • qalqalah_non_emphatic (qalqalah)
+       • emphasis_blocking_by_front_vowel (general)
+       • emphasis_blocking_by_front_vowel (general)
+
+  Status: ❌ NOT DETECTED
+
+================================================================================
+Testing: IDHHAR HALQI NOON
+================================================================================
+
+  Test 1: صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ
+  Note: أَنْعَمْتَ - noon before ع
+  ✅ DETECTED: 1 application(s)
+     • idhhar_halqi_noon
+       Position: 14-14
+       Change: [n] → [n]
+       Duration: 80.0ms
+
+  Test 2: إِنَّ ٱلَّذِينَ كَفَرُوا۟ سَوَآءٌ عَلَيْهِمْ
+  Note: سَوَآءٌ عَلَيْهِمْ - tanween before ع
+  ✅ DETECTED: 1 application(s)
+     • idhhar_halqi_noon
+       Position: 26-26
+       Change: [n] → [n]
+       Duration: 80.0ms
+
+  Status: ✅ VERIFIED
+
+================================================================================
+Testing: IDGHAM GHUNNAH NOON
+================================================================================
+
+  Test 1: وَبَشِّرِ ٱلَّذِينَ ءَامَنُوا۟
+  Note: ءَامَنُوا۟ - tanween before و
+  ❌ NOT DETECTED
+     Other rules detected:
+       • emphasis_blocking_by_front_vowel (general)
+       • emphasis_blocking_by_front_vowel (general)
+       • emphasis_blocking_by_front_vowel (general)
+
+  Test 2: يُعَلِّمُونَ ٱلنَّاسَ
+  Note: noon before ن
+  ✅ DETECTED: 1 application(s)
+     • idgham_ghunnah_noon
+       Position: 13-13
+       Change: [n] → []
+       Duration: 400.0ms
+       Ghunnah: Yes
+
+  Status: ⚠️  PARTIAL (1/2)
+
+================================================================================
+Testing: IDGHAM NO GHUNNAH
+================================================================================
+
+  Test 1: كَلَّا لَئِن لَّمْ يَنتَهِ
+  Note: لَئِن لَّمْ - noon before lam
+  ❌ NOT DETECTED
+     Other rules detected:
+       • ikhfaa_light (noon_meem_sakinah)
+       • emphasis_blocking_by_front_vowel (general)
+       • emphasis_blocking_by_front_vowel (general)
+
+  Test 2: وَكَلْبُهُم بَٰسِطٌۭ ذِرَاعَيْهِ
+  Note: بَٰسِطٌۭ ذِ - tanween before ذ (testing)
+  ❌ NOT DETECTED
+     Other rules detected:
+       • ikhfaa_light (noon_meem_sakinah)
+       • emphasis_blocking_by_front_vowel (general)
+       • emphasis_blocking_by_front_vowel (general)
+
+  Status: ❌ NOT DETECTED
+
+================================================================================
+Testing: IQLAB
+================================================================================
+
+  Test 1: يَٰٓأَيُّهَا ٱلنَّاسُ كُلُوا۟ مِمَّا فِى ٱلْأَرْضِ
+  Note: مِمَّا - has iqlab pattern
+  ❌ NOT DETECTED
+     Other rules detected:
+       • ghunnah_mushaddadah_noon (noon_meem_sakinah)
+       • ghunnah_mushaddadah_meem (noon_meem_sakinah)
+       • idgham_ghunnah_noon (noon_meem_sakinah)
+
+  Test 2: لَنَسْفَعًۢا بِٱلنَّاصِيَةِ
+  Note: لَنَسْفَعًۢا بِ - tanween before baa
+  ❌ NOT DETECTED
+     Other rules detected:
+       • ghunnah_mushaddadah_noon (noon_meem_sakinah)
+       • idgham_ghunnah_noon (noon_meem_sakinah)
+       • emphasis_blocking_by_front_vowel (general)
+
+  Status: ❌ NOT DETECTED
+
+================================================================================
+Testing: IKHFAA LIGHT
+================================================================================
+
+  Test 1: ذَٰلِكَ ٱلْكِتَٰبُ لَا رَيْبَ ۛ فِيهِ
+  Note: رَيْبَ فِيهِ - tanween before ف
+  ❌ NOT DETECTED
+     Other rules detected:
+       • emphasis_blocking_by_front_vowel (general)
+       • emphasis_blocking_by_front_vowel (general)
+       • emphasis_blocking_by_front_vowel (general)
+
+  Test 2: مِن شَرِّ ٱلْوَسْوَاسِ
+  Note: مِن شَرِّ - noon before ش
+  ✅ DETECTED: 1 application(s)
+     • ikhfaa_light
+       Position: 2-2
+       Change: [n] → []
+       Duration: 400.0ms
+       Ghunnah: Yes
+
+  Status: ⚠️  PARTIAL (1/2)
+
+================================================================================
+Testing: IKHFAA HEAVY
+================================================================================
+
+  Test 1: لَقَدْ خَلَقْنَا ٱلْإِنسَٰنَ فِىٓ أَحْسَنِ تَقْوِيمٍ
+  Note: أَحْسَنِ تَقْوِيمٍ - noon before ت (but this is normal ت not emphatic)
+  ❌ NOT DETECTED
+     Other rules detected:
+       • ikhfaa_light (noon_meem_sakinah)
+       • qalqalah_non_emphatic (qalqalah)
+       • emphasis_blocking_by_front_vowel (general)
+
+  Test 2: يَجْعَلُونَ أَصَٰبِعَهُمْ
+  Note: أَصَٰبِعَهُمْ - tanween before emphatic
+  ❌ NOT DETECTED
+     Other rules detected:
+       • qalqalah_non_emphatic (qalqalah)
+       • emphasis_blocking_by_front_vowel (general)
+       • emphasis_blocking_by_front_vowel (general)
+
+  Status: ❌ NOT DETECTED
+
+================================================================================
+Testing: IDHHAR SHAFAWI
+================================================================================
+
+  Test 1: غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ
+  Note: عَلَيْهِمْ - meem before غ
+  ❌ NOT DETECTED
+     Other rules detected:
+       • emphasis_blocking_by_front_vowel (general)
+       • emphasis_blocking_by_front_vowel (general)
+       • emphasis_blocking_by_front_vowel (general)
+
+  Test 2: خَتَمَ ٱللَّهُ عَلَىٰ قُلُوبِهِمْ
+  Note: قُلُوبِهِمْ - meem before و
+  ❌ NOT DETECTED
+     Other rules detected:
+       • emphasis_blocking_by_front_vowel (general)
+       • emphasis_blocking_by_front_vowel (general)
+       • emphasis_blocking_by_front_vowel (general)
+
+  Status: ❌ NOT DETECTED
+
+================================================================================
+Testing: IDGHAM SHAFAWI MEEM
+================================================================================
+
+  Test 1: وَقَالُوا۟ قُلُوبُنَا غُلْفٌۢ ۚ بَل
+  Note: غُلْفٌۢ - check for meem idgham
+  ❌ NOT DETECTED
+     Other rules detected:
+       • iqlab (noon_meem_sakinah)
+       • emphasis_blocking_by_front_vowel (general)
+       • emphasis_blocking_by_front_vowel (general)
+
+  Test 2: ثُمَّ كَانَ عَٰقِبَةَ
+  Note: ثُمَّ has doubled meem
+  ✅ DETECTED: 1 application(s)
+     • idgham_shafawi_meem
+       Position: 2-2
+       Change: [m] → []
+       Duration: 400.0ms
+       Ghunnah: Yes
+
+  Status: ⚠️  PARTIAL (1/2)
+
+================================================================================
+Testing: IKHFAA SHAFAWI
+================================================================================
+
+  Test 1: فَجَعَلَهُمْ كَعَصْفٍ
+  Note: فَجَعَلَهُمْ - but need meem before baa
+  ❌ NOT DETECTED
+     Other rules detected:
+       • emphasis_blocking_by_front_vowel (general)
+       • emphasis_blocking_by_front_vowel (general)
+       • emphasis_blocking_by_front_vowel (general)
+
+  Test 2: وَأَنتُمْ بِهِۦ
+  Note: وَأَنتُمْ بِ - meem before baa
+  ❌ NOT DETECTED
+     Other rules detected:
+       • ikhfaa_light (noon_meem_sakinah)
+       • emphasis_blocking_by_front_vowel (general)
+       • cross_word_emphasis_continuation (general)
+
+  Status: ❌ NOT DETECTED
+
+================================================================================
+Testing: MADD TABII
+================================================================================
+
+  Test 1: بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ
+  Note: ٱلرَّحْمَٰنِ has long aa
+  ❌ NOT DETECTED
+     Other rules detected:
+       • emphasis_blocking_by_front_vowel (general)
+       • emphasis_blocking_by_front_vowel (general)
+       • emphasis_blocking_by_front_vowel (general)
+
+  Test 2: قُلْ هُوَ ٱللَّهُ أَحَدٌ
+  Note: هُوَ has long uu
+  ❌ NOT DETECTED
+     Other rules detected:
+       • emphasis_blocking_by_front_vowel (general)
+       • emphasis_blocking_by_front_vowel (general)
+       • emphasis_blocking_by_front_vowel (general)
+
+  Status: ❌ NOT DETECTED
+
+================================================================================
+Testing: MADD MUTTASIL
+================================================================================
+
+  Test 1: يَكَادُ ٱلْبَرْقُ يَخْطَفُ أَبْصَٰرَهُمْ
+  Note: يَخْطَفُ أَبْصَٰرَ - but need same word
+  ❌ NOT DETECTED
+     Other rules detected:
+       • qalqalah_non_emphatic (qalqalah)
+       • emphasis_blocking_by_front_vowel (general)
+       • emphasis_blocking_by_front_vowel (general)
+
+  Test 2: وَلَا تَسْتَوِى ٱلْحَسَنَةُ وَلَا ٱلسَّيِّئَةُ
+  Note: ٱلسَّيِّئَةُ has hamza after long vowel
+  ❌ NOT DETECTED
+     Other rules detected:
+       • emphasis_blocking_by_front_vowel (general)
+       • emphasis_blocking_by_front_vowel (general)
+       • emphasis_blocking_by_front_vowel (general)
+
+  Status: ❌ NOT DETECTED
+
+================================================================================
+Testing: MADD MUNFASIL
+================================================================================
+
+  Test 1: إِنَّآ أَعْطَيْنَٰكَ ٱلْكَوْثَرَ
+  Note: إِنَّآ أَعْطَيْنَٰكَ - aa before hamza in next word
+  ❌ NOT DETECTED
+     Other rules detected:
+       • ghunnah_mushaddadah_noon (noon_meem_sakinah)
+       • idgham_ghunnah_noon (noon_meem_sakinah)
+       • emphasis_blocking_by_front_vowel (general)
+
+  Test 2: ٱلَّذِينَ ءَاتَيْنَٰهُمُ
+  Note: Check for munfasil pattern
+  ❌ NOT DETECTED
+     Other rules detected:
+       • emphasis_blocking_by_front_vowel (general)
+       • emphasis_blocking_by_front_vowel (general)
+       • emphasis_blocking_by_front_vowel (general)
+
+  Status: ❌ NOT DETECTED
+
+================================================================================
+Testing: MADD LAZIM MUTHAQQAL KALIMI
+================================================================================
+
+  Test 1: غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ
+  Note: ٱلضَّآلِّينَ - aa before doubled lam
+  ❌ NOT DETECTED
+     Other rules detected:
+       • emphasis_blocking_by_front_vowel (general)
+       • emphasis_blocking_by_front_vowel (general)
+       • emphasis_blocking_by_front_vowel (general)
+
+  Test 2: ٱلْحَآقَّةُ
+  Note: ٱلْحَآقَّةُ - aa before doubled qaaf
+  ❌ NOT DETECTED
+     Other rules detected:
+       • emphasis_blocking_by_front_vowel (general)
+       • emphasis_blocking_by_front_vowel (general)
+       • vowel_backing_after_emphatic_short (general)
+
+  Status: ❌ NOT DETECTED
+
+================================================================================
+Testing: MADD ARID LISSUKUN
+================================================================================
+
+  Test 1: إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ
+  Note: نَسْتَعِينُ - long ii at verse end
+  ❌ NOT DETECTED
+     Other rules detected:
+       • emphasis_blocking_by_front_vowel (general)
+       • emphasis_blocking_by_front_vowel (general)
+       • emphasis_blocking_by_front_vowel (general)
+
+  Test 2: وَتَوَاصَوْا۟ بِٱلصَّبْرِ
+  Note: بِٱلصَّبْرِ at pause
+  ❌ NOT DETECTED
+     Other rules detected:
+       • qalqalah_non_emphatic (qalqalah)
+       • emphasis_blocking_by_front_vowel (general)
+       • emphasis_blocking_by_front_vowel (general)
+
+  Status: ❌ NOT DETECTED
+
+================================================================================
+Testing: MADD SILAH KUBRA
+================================================================================
+
+  Test 1: إِنَّهُۥ ظَنَّ أَن لَّن يَحُورَ
+  Note: إِنَّهُۥ has pronoun haa
+  ❌ NOT DETECTED
+     Other rules detected:
+       • ghunnah_mushaddadah_noon (noon_meem_sakinah)
+       • ghunnah_mushaddadah_noon (noon_meem_sakinah)
+       • idgham_ghunnah_noon (noon_meem_sakinah)
+
+  Test 2: أَن رَّءَاهُ ٱسْتَغْنَىٰٓ
+  Note: رَّءَاهُ has pronoun haa before hamza
+  ❌ NOT DETECTED
+     Other rules detected:
+       • emphasis_blocking_by_front_vowel (general)
+       • emphasis_blocking_by_front_vowel (general)
+       • emphasis_blocking_by_front_vowel (general)
+
+  Status: ❌ NOT DETECTED
+
+================================================================================
+Testing: QALQALAH MINOR
+================================================================================
+
+  Test 1: ذَٰلِكَ ٱلْكِتَٰبُ
+  Note: ذَٰلِكَ has daal with sukoon mid-word
+  ❌ NOT DETECTED
+     Other rules detected:
+       • emphasis_blocking_by_front_vowel (general)
+       • emphasis_blocking_by_front_vowel (general)
+       • emphasis_blocking_by_front_vowel (general)
+
+  Test 2: خَلَقَ ٱلْإِنسَٰنَ مِنْ عَلَقٍ
+  Note: خَلَقَ has qaaf mid-word
+  ❌ NOT DETECTED
+     Other rules detected:
+       • idhhar_halqi_noon (noon_meem_sakinah)
+       • ikhfaa_light (noon_meem_sakinah)
+       • emphasis_blocking_by_front_vowel (general)
+
+  Status: ❌ NOT DETECTED
+
+================================================================================
+Testing: QALQALAH MAJOR
+================================================================================
+
+  Test 1: قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ
+  Note: ٱلْفَلَقِ - qaaf at verse end
+  ❌ NOT DETECTED
+     Other rules detected:
+       • qalqalah_non_emphatic (qalqalah)
+       • emphasis_blocking_by_front_vowel (general)
+       • emphasis_blocking_by_front_vowel (general)
+
+  Test 2: عَلِمَتْ نَفْسٌ مَّا قَدَّمَتْ
+  Note: قَدَّمَتْ - taa at end
+  ❌ NOT DETECTED
+     Other rules detected:
+       • ghunnah_mushaddadah_meem (noon_meem_sakinah)
+       • idgham_ghunnah_noon (noon_meem_sakinah)
+       • idgham_shafawi_meem (noon_meem_sakinah)
+
+  Status: ❌ NOT DETECTED
+
+================================================================================
+Testing: QALQALAH WITH SHADDAH
+================================================================================
+
+  Test 1: وَٱلشَّفْعِ وَٱلْوَتْرِ
+  Note: Check for shaddah on qalqalah letter
+  ❌ NOT DETECTED
+     Other rules detected:
+       • emphasis_blocking_by_front_vowel (general)
+       • emphasis_blocking_by_front_vowel (general)
+       • emphasis_blocking_by_front_vowel (general)
+
+  Test 2: أَءُلْقِىَ ٱلذِّكْرُ
+  Note: ٱلذِّكْرُ may have qalqalah + shaddah
+  ❌ NOT DETECTED
+
+  Status: ❌ NOT DETECTED
+
+================================================================================
+Testing: QALQALAH EMPHATIC
+================================================================================
+
+  Test 1: وَٱلتِّينِ وَٱلزَّيْتُونِ
+  Note: Check for emphatic qalqalah
+  ❌ NOT DETECTED
+     Other rules detected:
+       • emphasis_blocking_by_front_vowel (general)
+       • emphasis_blocking_by_front_vowel (general)
+       • emphasis_blocking_by_front_vowel (general)
+
+  Test 2: وَٱلشَّفْعِ وَٱلْوَتْرِ
+  Note: Taa emphatic context
+  ❌ NOT DETECTED
+     Other rules detected:
+       • emphasis_blocking_by_front_vowel (general)
+       • emphasis_blocking_by_front_vowel (general)
+       • emphasis_blocking_by_front_vowel (general)
+
+  Status: ❌ NOT DETECTED
+
+================================================================================
+Testing: QALQALAH NON EMPHATIC
+================================================================================
+
+  Test 1: ذَٰلِكَ ٱلْكِتَٰبُ
+  Note: ذَٰلِكَ - daal in light context
+  ❌ NOT DETECTED
+     Other rules detected:
+       • emphasis_blocking_by_front_vowel (general)
+       • emphasis_blocking_by_front_vowel (general)
+       • emphasis_blocking_by_front_vowel (general)
+
+  Test 2: وَٱلضُّحَىٰ
+  Note: Check daal/baa in non-emphatic context
+  ❌ NOT DETECTED
+     Other rules detected:
+       • emphasis_blocking_by_front_vowel (general)
+       • emphasis_blocking_by_front_vowel (general)
+       • cross_word_emphasis_continuation (general)
+
+  Status: ❌ NOT DETECTED
+
+
+================================================================================
+VERIFICATION SUMMARY
+================================================================================
+
+Noon/Meem Sākinah (11 rules)
+--------------------------------------------------------------------------------
+  ⚠️  PARTIAL (1/2)    Ghunnah Mushaddadah Noon                 (1/2)
+  ❌ NOT DETECTED       Ghunnah Mushaddadah Meem                 (0/2)
+  ✅ VERIFIED           Idhhar Halqi Noon                        (2/2)
+  ❌ NOT DETECTED       Idhhar Shafawi                           (0/2)
+  ⚠️  PARTIAL (1/2)    Idgham Ghunnah Noon                      (1/2)
+  ❌ NOT DETECTED       Idgham No Ghunnah                        (0/2)
+  ⚠️  PARTIAL (1/2)    Idgham Shafawi Meem                      (1/2)
+  ❌ NOT DETECTED       Iqlab                                    (0/2)
+  ⚠️  PARTIAL (1/2)    Ikhfaa Light                             (1/2)
+  ❌ NOT DETECTED       Ikhfaa Heavy                             (0/2)
+  ❌ NOT DETECTED       Ikhfaa Shafawi                           (0/2)
+
+Madd/Prolongation (6 rules)
+--------------------------------------------------------------------------------
+  ❌ NOT DETECTED       Madd Tabii                               (0/2)
+  ❌ NOT DETECTED       Madd Muttasil                            (0/2)
+  ❌ NOT DETECTED       Madd Munfasil                            (0/2)
+  ❌ NOT DETECTED       Madd Lazim Muthaqqal Kalimi              (0/2)
+  ❌ NOT DETECTED       Madd Arid Lissukun                       (0/2)
+  ❌ NOT DETECTED       Madd Silah Kubra                         (0/2)
+
+Qalqalah (5 rules)
+--------------------------------------------------------------------------------
+  ❌ NOT DETECTED       Qalqalah Minor                           (0/2)
+  ❌ NOT DETECTED       Qalqalah Major                           (0/2)
+  ❌ NOT DETECTED       Qalqalah With Shaddah                    (0/2)
+  ❌ NOT DETECTED       Qalqalah Emphatic                        (0/2)
+  ❌ NOT DETECTED       Qalqalah Non Emphatic                    (0/2)
+
+================================================================================
+FINAL STATISTICS
+================================================================================
+  ✅ Fully Verified:  1 rules
+  ⚠️  Partially Working: 4 rules
+  ❌ Not Detected:    17 rules
+  📊 Total Tested:    22 rules
+
+  Verification Rate: 4.5%
+
+⚠️  RULES NEEDING ATTENTION:
+--------------------------------------------------------------------------------
+  • Ghunnah Mushaddadah Noon: ⚠️  PARTIAL (1/2)
+  • Ghunnah Mushaddadah Meem: ❌ NOT DETECTED
+  • Idgham Ghunnah Noon: ⚠️  PARTIAL (1/2)
+  • Idgham No Ghunnah: ❌ NOT DETECTED
+  • Iqlab: ❌ NOT DETECTED
+  • Ikhfaa Light: ⚠️  PARTIAL (1/2)
+  • Ikhfaa Heavy: ❌ NOT DETECTED
+  • Idhhar Shafawi: ❌ NOT DETECTED
+  • Idgham Shafawi Meem: ⚠️  PARTIAL (1/2)
+  • Ikhfaa Shafawi: ❌ NOT DETECTED
+  • Madd Tabii: ❌ NOT DETECTED
+  • Madd Muttasil: ❌ NOT DETECTED
+  • Madd Munfasil: ❌ NOT DETECTED
+  • Madd Lazim Muthaqqal Kalimi: ❌ NOT DETECTED
+  • Madd Arid Lissukun: ❌ NOT DETECTED
+  • Madd Silah Kubra: ❌ NOT DETECTED
+  • Qalqalah Minor: ❌ NOT DETECTED
+  • Qalqalah Major: ❌ NOT DETECTED
+  • Qalqalah With Shaddah: ❌ NOT DETECTED
+  • Qalqalah Emphatic: ❌ NOT DETECTED
+  • Qalqalah Non Emphatic: ❌ NOT DETECTED
+
+================================================================================

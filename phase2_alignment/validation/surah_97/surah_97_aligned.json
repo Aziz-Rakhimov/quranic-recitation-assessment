@@ -1,0 +1,3407 @@
+{
+  "surah": 97,
+  "num_ayahs": 6,
+  "verses": [
+    {
+      "surah": 97,
+      "ayah": 0,
+      "text": "بِّسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+      "file_id": "097_000",
+      "duration": 6.33,
+      "words": [
+        {
+          "text": "بِّسْمِ",
+          "word_index": 0,
+          "start": 0.77,
+          "end": 1.39,
+          "duration_ms": 620.0,
+          "phones": [
+            {
+              "ipa": "b",
+              "mfa": "b",
+              "start": 0.77,
+              "end": 0.83,
+              "duration_ms": 60.0,
+              "tajweed_rules": [
+                "qalqalah_with_shaddah"
+              ],
+              "alignment_confidence": "high",
+              "geminate_pair": true,
+              "geminate_total_ms": 90.0,
+              "geminate_position": "first"
+            },
+            {
+              "ipa": "b",
+              "mfa": "b",
+              "start": 0.83,
+              "end": 0.86,
+              "duration_ms": 30.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "low",
+              "geminate_pair": true,
+              "geminate_total_ms": 90.0,
+              "geminate_position": "second"
+            },
+            {
+              "ipa": "i",
+              "mfa": "i",
+              "start": 0.86,
+              "end": 0.89,
+              "duration_ms": 30.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "low"
+            },
+            {
+              "ipa": "s",
+              "mfa": "s",
+              "start": 0.89,
+              "end": 0.92,
+              "duration_ms": 30.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "low"
+            },
+            {
+              "ipa": "m",
+              "mfa": "m",
+              "start": 0.92,
+              "end": 1.36,
+              "duration_ms": 440.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "i",
+              "mfa": "i",
+              "start": 1.36,
+              "end": 1.39,
+              "duration_ms": 30.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "low"
+            }
+          ]
+        },
+        {
+          "text": "ٱللَّهِ",
+          "word_index": 1,
+          "start": 1.39,
+          "end": 2.15,
+          "duration_ms": 760.0,
+          "phones": [
+            {
+              "ipa": "l",
+              "mfa": "l",
+              "start": 1.39,
+              "end": 2.01,
+              "duration_ms": 620.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high",
+              "geminate_pair": true,
+              "geminate_total_ms": 670.0,
+              "geminate_position": "first"
+            },
+            {
+              "ipa": "l",
+              "mfa": "l",
+              "start": 2.01,
+              "end": 2.06,
+              "duration_ms": 50.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high",
+              "geminate_pair": true,
+              "geminate_total_ms": 670.0,
+              "geminate_position": "second"
+            },
+            {
+              "ipa": "a",
+              "mfa": "a",
+              "start": 2.06,
+              "end": 2.09,
+              "duration_ms": 30.0,
+              "tajweed_rules": [
+                "emphasis_blocking_by_front_vowel",
+                "cross_word_emphasis_continuation"
+              ],
+              "alignment_confidence": "low"
+            },
+            {
+              "ipa": "h",
+              "mfa": "h",
+              "start": 2.09,
+              "end": 2.12,
+              "duration_ms": 30.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "low"
+            },
+            {
+              "ipa": "i",
+              "mfa": "i",
+              "start": 2.12,
+              "end": 2.15,
+              "duration_ms": 30.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "low"
+            }
+          ]
+        },
+        {
+          "text": "ٱلرَّحْمَٰنِ",
+          "word_index": 2,
+          "start": 2.15,
+          "end": 5.37,
+          "duration_ms": 3220.0,
+          "phones": [
+            {
+              "ipa": "r",
+              "mfa": "r",
+              "start": 2.15,
+              "end": 2.18,
+              "duration_ms": 30.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "low",
+              "geminate_pair": true,
+              "geminate_total_ms": 2010.0,
+              "geminate_position": "first"
+            },
+            {
+              "ipa": "r",
+              "mfa": "r",
+              "start": 2.18,
+              "end": 4.16,
+              "duration_ms": 1980.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high",
+              "geminate_pair": true,
+              "geminate_total_ms": 2010.0,
+              "geminate_position": "second"
+            },
+            {
+              "ipa": "a",
+              "mfa": "a",
+              "start": 4.16,
+              "end": 4.19,
+              "duration_ms": 30.0,
+              "tajweed_rules": [
+                "emphasis_blocking_by_front_vowel",
+                "cross_word_emphasis_continuation"
+              ],
+              "alignment_confidence": "low"
+            },
+            {
+              "ipa": "ħ",
+              "mfa": "H",
+              "start": 4.19,
+              "end": 4.22,
+              "duration_ms": 30.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "low"
+            },
+            {
+              "ipa": "m",
+              "mfa": "m",
+              "start": 4.22,
+              "end": 4.83,
+              "duration_ms": 610.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "a",
+              "mfa": "a",
+              "start": 4.83,
+              "end": 5.06,
+              "duration_ms": 230.0,
+              "tajweed_rules": [
+                "emphasis_blocking_by_front_vowel",
+                "cross_word_emphasis_continuation"
+              ],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "aː",
+              "mfa": "al",
+              "start": 5.06,
+              "end": 5.11,
+              "duration_ms": 50.0,
+              "tajweed_rules": [
+                "madd_tabii"
+              ],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "n",
+              "mfa": "n",
+              "start": 5.11,
+              "end": 5.15,
+              "duration_ms": 40.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "i",
+              "mfa": "i",
+              "start": 5.15,
+              "end": 5.37,
+              "duration_ms": 220.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            }
+          ]
+        },
+        {
+          "text": "ٱلرَّحِيمِ",
+          "word_index": 3,
+          "start": 5.37,
+          "end": 6.06,
+          "duration_ms": 690.0,
+          "phones": [
+            {
+              "ipa": "r",
+              "mfa": "r",
+              "start": 5.37,
+              "end": 5.44,
+              "duration_ms": 70.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high",
+              "geminate_pair": true,
+              "geminate_total_ms": 330.0,
+              "geminate_position": "first"
+            },
+            {
+              "ipa": "r",
+              "mfa": "r",
+              "start": 5.44,
+              "end": 5.7,
+              "duration_ms": 260.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high",
+              "geminate_pair": true,
+              "geminate_total_ms": 330.0,
+              "geminate_position": "second"
+            },
+            {
+              "ipa": "a",
+              "mfa": "a",
+              "start": 5.7,
+              "end": 5.74,
+              "duration_ms": 40.0,
+              "tajweed_rules": [
+                "emphasis_blocking_by_front_vowel",
+                "cross_word_emphasis_continuation"
+              ],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "ħ",
+              "mfa": "H",
+              "start": 5.74,
+              "end": 5.77,
+              "duration_ms": 30.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "low"
+            },
+            {
+              "ipa": "i",
+              "mfa": "i",
+              "start": 5.77,
+              "end": 5.8,
+              "duration_ms": 30.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "low"
+            },
+            {
+              "ipa": "iː",
+              "mfa": "il",
+              "start": 5.8,
+              "end": 5.83,
+              "duration_ms": 30.0,
+              "tajweed_rules": [
+                "madd_arid_lissukun"
+              ],
+              "alignment_confidence": "low"
+            },
+            {
+              "ipa": "m",
+              "mfa": "m",
+              "start": 5.83,
+              "end": 5.92,
+              "duration_ms": 90.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "i",
+              "mfa": "i",
+              "start": 5.92,
+              "end": 6.06,
+              "duration_ms": 140.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high",
+              "is_verse_final": true
+            }
+          ]
+        }
+      ],
+      "tajweed_summary": [
+        {
+          "rule": "qalqalah_with_shaddah",
+          "position": 0,
+          "confidence": 1.0
+        },
+        {
+          "rule": "madd_arid_lissukun",
+          "position": 25,
+          "confidence": 1.0
+        },
+        {
+          "rule": "emphasis_blocking_by_front_vowel",
+          "position": 8,
+          "confidence": 1.0
+        },
+        {
+          "rule": "emphasis_blocking_by_front_vowel",
+          "position": 13,
+          "confidence": 1.0
+        },
+        {
+          "rule": "emphasis_blocking_by_front_vowel",
+          "position": 16,
+          "confidence": 1.0
+        },
+        {
+          "rule": "emphasis_blocking_by_front_vowel",
+          "position": 22,
+          "confidence": 1.0
+        },
+        {
+          "rule": "madd_tabii",
+          "position": 17,
+          "confidence": 1.0
+        },
+        {
+          "rule": "cross_word_emphasis_continuation",
+          "position": 8,
+          "confidence": 1.0
+        },
+        {
+          "rule": "cross_word_emphasis_continuation",
+          "position": 13,
+          "confidence": 1.0
+        },
+        {
+          "rule": "cross_word_emphasis_continuation",
+          "position": 16,
+          "confidence": 1.0
+        },
+        {
+          "rule": "cross_word_emphasis_continuation",
+          "position": 22,
+          "confidence": 1.0
+        }
+      ],
+      "alignment_quality": {
+        "words_expected": 4,
+        "words_aligned": 4,
+        "phones_expected": 28,
+        "phones_aligned": 28,
+        "coverage": 1.0
+      }
+    },
+    {
+      "surah": 97,
+      "ayah": 1,
+      "text": "إِنَّآ أَنزَلْنَٰهُ فِى لَيْلَةِ ٱلْقَدْرِ",
+      "file_id": "097_001",
+      "duration": 2.9166,
+      "words": [
+        {
+          "text": "إِنَّآ",
+          "word_index": 0,
+          "start": 0.32,
+          "end": 0.86,
+          "duration_ms": 540.0,
+          "phones": [
+            {
+              "ipa": "ʔ",
+              "mfa": "Q",
+              "start": 0.32,
+              "end": 0.35,
+              "duration_ms": 30.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "low"
+            },
+            {
+              "ipa": "i",
+              "mfa": "i",
+              "start": 0.35,
+              "end": 0.66,
+              "duration_ms": 310.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "n",
+              "mfa": "n",
+              "start": 0.66,
+              "end": 0.72,
+              "duration_ms": 60.0,
+              "tajweed_rules": [
+                "ghunnah_mushaddadah_noon"
+              ],
+              "alignment_confidence": "high",
+              "geminate_pair": true,
+              "geminate_total_ms": 90.0,
+              "geminate_position": "first"
+            },
+            {
+              "ipa": "n",
+              "mfa": "n",
+              "start": 0.72,
+              "end": 0.75,
+              "duration_ms": 30.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "low",
+              "geminate_pair": true,
+              "geminate_total_ms": 90.0,
+              "geminate_position": "second"
+            },
+            {
+              "ipa": "a",
+              "mfa": "a",
+              "start": 0.75,
+              "end": 0.8,
+              "duration_ms": 50.0,
+              "tajweed_rules": [
+                "emphasis_blocking_by_front_vowel",
+                "cross_word_emphasis_continuation"
+              ],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "ʔ",
+              "mfa": "Q",
+              "start": 0.8,
+              "end": 0.83,
+              "duration_ms": 30.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "low"
+            },
+            {
+              "ipa": "aː",
+              "mfa": "al",
+              "start": 0.83,
+              "end": 0.86,
+              "duration_ms": 30.0,
+              "tajweed_rules": [
+                "madd_munfasil"
+              ],
+              "alignment_confidence": "low"
+            }
+          ]
+        },
+        {
+          "text": "أَنزَلْنَٰهُ",
+          "word_index": 1,
+          "start": 0.86,
+          "end": 1.38,
+          "duration_ms": 520.0,
+          "phones": [
+            {
+              "ipa": "ʔ",
+              "mfa": "Q",
+              "start": 0.86,
+              "end": 0.89,
+              "duration_ms": 30.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "low"
+            },
+            {
+              "ipa": "a",
+              "mfa": "a",
+              "start": 0.89,
+              "end": 0.92,
+              "duration_ms": 30.0,
+              "tajweed_rules": [
+                "emphasis_blocking_by_front_vowel",
+                "cross_word_emphasis_continuation"
+              ],
+              "alignment_confidence": "low"
+            },
+            {
+              "ipa": "n",
+              "mfa": "n",
+              "start": 0.92,
+              "end": 0.95,
+              "duration_ms": 30.0,
+              "tajweed_rules": [
+                "ikhfaa_light"
+              ],
+              "alignment_confidence": "low"
+            },
+            {
+              "ipa": "z",
+              "mfa": "z",
+              "start": 0.95,
+              "end": 0.98,
+              "duration_ms": 30.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "low"
+            },
+            {
+              "ipa": "a",
+              "mfa": "a",
+              "start": 0.98,
+              "end": 1.01,
+              "duration_ms": 30.0,
+              "tajweed_rules": [
+                "emphasis_blocking_by_front_vowel",
+                "cross_word_emphasis_continuation"
+              ],
+              "alignment_confidence": "low"
+            },
+            {
+              "ipa": "l",
+              "mfa": "l",
+              "start": 1.01,
+              "end": 1.12,
+              "duration_ms": 110.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "n",
+              "mfa": "n",
+              "start": 1.12,
+              "end": 1.17,
+              "duration_ms": 50.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "a",
+              "mfa": "a",
+              "start": 1.17,
+              "end": 1.23,
+              "duration_ms": 60.0,
+              "tajweed_rules": [
+                "emphasis_blocking_by_front_vowel",
+                "cross_word_emphasis_continuation"
+              ],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "aː",
+              "mfa": "al",
+              "start": 1.23,
+              "end": 1.29,
+              "duration_ms": 60.0,
+              "tajweed_rules": [
+                "madd_tabii"
+              ],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "h",
+              "mfa": "h",
+              "start": 1.29,
+              "end": 1.35,
+              "duration_ms": 60.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "u",
+              "mfa": "u",
+              "start": 1.35,
+              "end": 1.38,
+              "duration_ms": 30.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "low"
+            }
+          ]
+        },
+        {
+          "text": "فِى",
+          "word_index": 2,
+          "start": 1.38,
+          "end": 1.56,
+          "duration_ms": 180.0,
+          "phones": [
+            {
+              "ipa": "f",
+              "mfa": "f",
+              "start": 1.38,
+              "end": 1.43,
+              "duration_ms": 50.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "i",
+              "mfa": "i",
+              "start": 1.43,
+              "end": 1.49,
+              "duration_ms": 60.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "iː",
+              "mfa": "il",
+              "start": 1.49,
+              "end": 1.56,
+              "duration_ms": 70.0,
+              "tajweed_rules": [
+                "madd_tabii"
+              ],
+              "alignment_confidence": "high"
+            }
+          ]
+        },
+        {
+          "text": "لَيْلَةِ",
+          "word_index": 3,
+          "start": 1.56,
+          "end": 1.82,
+          "duration_ms": 260.0,
+          "phones": [
+            {
+              "ipa": "l",
+              "mfa": "l",
+              "start": 1.56,
+              "end": 1.62,
+              "duration_ms": 60.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "a",
+              "mfa": "a",
+              "start": 1.62,
+              "end": 1.65,
+              "duration_ms": 30.0,
+              "tajweed_rules": [
+                "emphasis_blocking_by_front_vowel",
+                "cross_word_emphasis_continuation"
+              ],
+              "alignment_confidence": "low"
+            },
+            {
+              "ipa": "j",
+              "mfa": "j",
+              "start": 1.65,
+              "end": 1.69,
+              "duration_ms": 40.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "l",
+              "mfa": "l",
+              "start": 1.69,
+              "end": 1.72,
+              "duration_ms": 30.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "low"
+            },
+            {
+              "ipa": "a",
+              "mfa": "a",
+              "start": 1.72,
+              "end": 1.76,
+              "duration_ms": 40.0,
+              "tajweed_rules": [
+                "emphasis_blocking_by_front_vowel",
+                "cross_word_emphasis_continuation"
+              ],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "t",
+              "mfa": "t",
+              "start": 1.76,
+              "end": 1.79,
+              "duration_ms": 30.0,
+              "tajweed_rules": [
+                "ta_marbuta_wasl"
+              ],
+              "alignment_confidence": "low"
+            },
+            {
+              "ipa": "i",
+              "mfa": "i",
+              "start": 1.79,
+              "end": 1.82,
+              "duration_ms": 30.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "low"
+            }
+          ]
+        },
+        {
+          "text": "ٱلْقَدْرِ",
+          "word_index": 4,
+          "start": 1.82,
+          "end": 2.51,
+          "duration_ms": 690.0,
+          "phones": [
+            {
+              "ipa": "l",
+              "mfa": "l",
+              "start": 1.82,
+              "end": 1.85,
+              "duration_ms": 30.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "low"
+            },
+            {
+              "ipa": "q",
+              "mfa": "q",
+              "start": 1.85,
+              "end": 1.95,
+              "duration_ms": 100.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "a",
+              "mfa": "a",
+              "start": 1.95,
+              "end": 2.1,
+              "duration_ms": 150.0,
+              "tajweed_rules": [
+                "emphasis_blocking_by_front_vowel",
+                "vowel_backing_after_emphatic_short",
+                "cross_word_emphasis_continuation"
+              ],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "d",
+              "mfa": "d",
+              "start": 2.1,
+              "end": 2.17,
+              "duration_ms": 70.0,
+              "tajweed_rules": [
+                "qalqalah_non_emphatic",
+                "qalqalah_minor"
+              ],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "r",
+              "mfa": "r",
+              "start": 2.17,
+              "end": 2.3,
+              "duration_ms": 130.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "i",
+              "mfa": "i",
+              "start": 2.3,
+              "end": 2.51,
+              "duration_ms": 60.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "low",
+              "is_verse_final": true,
+              "verse_final_silence_trimmed": true,
+              "original_duration_ms": 210.0,
+              "trimmed_duration_ms": 60.0
+            }
+          ]
+        }
+      ],
+      "tajweed_summary": [
+        {
+          "rule": "ghunnah_mushaddadah_noon",
+          "position": 2,
+          "confidence": 1.0
+        },
+        {
+          "rule": "ta_marbuta_wasl",
+          "position": 26,
+          "confidence": 1.0
+        },
+        {
+          "rule": "ikhfaa_light",
+          "position": 9,
+          "confidence": 1.0
+        },
+        {
+          "rule": "madd_munfasil",
+          "position": 6,
+          "confidence": 1.0
+        },
+        {
+          "rule": "qalqalah_non_emphatic",
+          "position": 31,
+          "confidence": 1.0
+        },
+        {
+          "rule": "qalqalah_minor",
+          "position": 31,
+          "confidence": 1.0
+        },
+        {
+          "rule": "emphasis_blocking_by_front_vowel",
+          "position": 4,
+          "confidence": 1.0
+        },
+        {
+          "rule": "emphasis_blocking_by_front_vowel",
+          "position": 8,
+          "confidence": 1.0
+        },
+        {
+          "rule": "emphasis_blocking_by_front_vowel",
+          "position": 11,
+          "confidence": 1.0
+        },
+        {
+          "rule": "emphasis_blocking_by_front_vowel",
+          "position": 14,
+          "confidence": 1.0
+        },
+        {
+          "rule": "emphasis_blocking_by_front_vowel",
+          "position": 22,
+          "confidence": 1.0
+        },
+        {
+          "rule": "emphasis_blocking_by_front_vowel",
+          "position": 25,
+          "confidence": 1.0
+        },
+        {
+          "rule": "emphasis_blocking_by_front_vowel",
+          "position": 30,
+          "confidence": 1.0
+        },
+        {
+          "rule": "madd_tabii",
+          "position": 15,
+          "confidence": 1.0
+        },
+        {
+          "rule": "madd_tabii",
+          "position": 20,
+          "confidence": 1.0
+        },
+        {
+          "rule": "vowel_backing_after_emphatic_short",
+          "position": 30,
+          "confidence": 1.0
+        },
+        {
+          "rule": "cross_word_emphasis_continuation",
+          "position": 4,
+          "confidence": 1.0
+        },
+        {
+          "rule": "cross_word_emphasis_continuation",
+          "position": 8,
+          "confidence": 1.0
+        },
+        {
+          "rule": "cross_word_emphasis_continuation",
+          "position": 11,
+          "confidence": 1.0
+        },
+        {
+          "rule": "cross_word_emphasis_continuation",
+          "position": 14,
+          "confidence": 1.0
+        },
+        {
+          "rule": "cross_word_emphasis_continuation",
+          "position": 22,
+          "confidence": 1.0
+        },
+        {
+          "rule": "cross_word_emphasis_continuation",
+          "position": 25,
+          "confidence": 1.0
+        },
+        {
+          "rule": "cross_word_emphasis_continuation",
+          "position": 30,
+          "confidence": 1.0
+        }
+      ],
+      "alignment_quality": {
+        "words_expected": 5,
+        "words_aligned": 5,
+        "phones_expected": 34,
+        "phones_aligned": 34,
+        "coverage": 1.0
+      }
+    },
+    {
+      "surah": 97,
+      "ayah": 2,
+      "text": "وَمَآ أَدْرَىٰكَ مَا لَيْلَةُ ٱلْقَدْرِ",
+      "file_id": "097_002",
+      "duration": 5.8514,
+      "words": [
+        {
+          "text": "وَمَآ",
+          "word_index": 0,
+          "start": 0.45,
+          "end": 2.15,
+          "duration_ms": 1700.0,
+          "phones": [
+            {
+              "ipa": "w",
+              "mfa": "w",
+              "start": 0.45,
+              "end": 0.54,
+              "duration_ms": 90.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "a",
+              "mfa": "a",
+              "start": 0.54,
+              "end": 0.68,
+              "duration_ms": 140.0,
+              "tajweed_rules": [
+                "emphasis_blocking_by_front_vowel",
+                "cross_word_emphasis_continuation"
+              ],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "m",
+              "mfa": "m",
+              "start": 0.68,
+              "end": 0.79,
+              "duration_ms": 110.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "a",
+              "mfa": "a",
+              "start": 0.79,
+              "end": 0.82,
+              "duration_ms": 30.0,
+              "tajweed_rules": [
+                "emphasis_blocking_by_front_vowel",
+                "cross_word_emphasis_continuation"
+              ],
+              "alignment_confidence": "low"
+            },
+            {
+              "ipa": "ʔ",
+              "mfa": "Q",
+              "start": 0.82,
+              "end": 0.85,
+              "duration_ms": 30.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "low"
+            },
+            {
+              "ipa": "aː",
+              "mfa": "al",
+              "start": 0.85,
+              "end": 2.15,
+              "duration_ms": 1300.0,
+              "tajweed_rules": [
+                "madd_munfasil"
+              ],
+              "alignment_confidence": "high"
+            }
+          ]
+        },
+        {
+          "text": "أَدْرَىٰكَ",
+          "word_index": 1,
+          "start": 2.15,
+          "end": 3.22,
+          "duration_ms": 1070.0,
+          "phones": [
+            {
+              "ipa": "ʔ",
+              "mfa": "Q",
+              "start": 2.15,
+              "end": 2.3,
+              "duration_ms": 150.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "a",
+              "mfa": "a",
+              "start": 2.3,
+              "end": 2.34,
+              "duration_ms": 40.0,
+              "tajweed_rules": [
+                "emphasis_blocking_by_front_vowel",
+                "cross_word_emphasis_continuation"
+              ],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "d",
+              "mfa": "d",
+              "start": 2.34,
+              "end": 2.45,
+              "duration_ms": 110.0,
+              "tajweed_rules": [
+                "qalqalah_non_emphatic",
+                "qalqalah_minor"
+              ],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "r",
+              "mfa": "r",
+              "start": 2.45,
+              "end": 2.63,
+              "duration_ms": 180.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "a",
+              "mfa": "a",
+              "start": 2.63,
+              "end": 2.89,
+              "duration_ms": 260.0,
+              "tajweed_rules": [
+                "emphasis_blocking_by_front_vowel",
+                "cross_word_emphasis_continuation"
+              ],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "aː",
+              "mfa": "al",
+              "start": 2.89,
+              "end": 2.94,
+              "duration_ms": 50.0,
+              "tajweed_rules": [
+                "madd_tabii"
+              ],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "k",
+              "mfa": "k",
+              "start": 2.94,
+              "end": 3.06,
+              "duration_ms": 120.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "a",
+              "mfa": "a",
+              "start": 3.06,
+              "end": 3.22,
+              "duration_ms": 160.0,
+              "tajweed_rules": [
+                "emphasis_blocking_by_front_vowel",
+                "cross_word_emphasis_continuation"
+              ],
+              "alignment_confidence": "high"
+            }
+          ]
+        },
+        {
+          "text": "مَا",
+          "word_index": 2,
+          "start": 3.22,
+          "end": 3.66,
+          "duration_ms": 440.0,
+          "phones": [
+            {
+              "ipa": "m",
+              "mfa": "m",
+              "start": 3.22,
+              "end": 3.33,
+              "duration_ms": 110.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "a",
+              "mfa": "a",
+              "start": 3.33,
+              "end": 3.47,
+              "duration_ms": 140.0,
+              "tajweed_rules": [
+                "emphasis_blocking_by_front_vowel",
+                "cross_word_emphasis_continuation"
+              ],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "aː",
+              "mfa": "al",
+              "start": 3.47,
+              "end": 3.66,
+              "duration_ms": 190.0,
+              "tajweed_rules": [
+                "madd_tabii"
+              ],
+              "alignment_confidence": "high"
+            }
+          ]
+        },
+        {
+          "text": "لَيْلَةُ",
+          "word_index": 3,
+          "start": 3.66,
+          "end": 4.6,
+          "duration_ms": 940.0,
+          "phones": [
+            {
+              "ipa": "l",
+              "mfa": "l",
+              "start": 3.66,
+              "end": 3.73,
+              "duration_ms": 70.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "a",
+              "mfa": "a",
+              "start": 3.73,
+              "end": 3.84,
+              "duration_ms": 110.0,
+              "tajweed_rules": [
+                "emphasis_blocking_by_front_vowel",
+                "cross_word_emphasis_continuation"
+              ],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "j",
+              "mfa": "j",
+              "start": 3.84,
+              "end": 4.12,
+              "duration_ms": 280.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "l",
+              "mfa": "l",
+              "start": 4.12,
+              "end": 4.16,
+              "duration_ms": 40.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "a",
+              "mfa": "a",
+              "start": 4.16,
+              "end": 4.3,
+              "duration_ms": 140.0,
+              "tajweed_rules": [
+                "emphasis_blocking_by_front_vowel",
+                "cross_word_emphasis_continuation"
+              ],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "t",
+              "mfa": "t",
+              "start": 4.3,
+              "end": 4.43,
+              "duration_ms": 130.0,
+              "tajweed_rules": [
+                "ta_marbuta_wasl"
+              ],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "u",
+              "mfa": "u",
+              "start": 4.43,
+              "end": 4.6,
+              "duration_ms": 170.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            }
+          ]
+        },
+        {
+          "text": "ٱلْقَدْرِ",
+          "word_index": 4,
+          "start": 4.6,
+          "end": 5.38,
+          "duration_ms": 780.0,
+          "phones": [
+            {
+              "ipa": "l",
+              "mfa": "l",
+              "start": 4.6,
+              "end": 4.77,
+              "duration_ms": 170.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "q",
+              "mfa": "q",
+              "start": 4.77,
+              "end": 4.9,
+              "duration_ms": 130.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "a",
+              "mfa": "a",
+              "start": 4.9,
+              "end": 5.04,
+              "duration_ms": 140.0,
+              "tajweed_rules": [
+                "emphasis_blocking_by_front_vowel",
+                "vowel_backing_after_emphatic_short",
+                "cross_word_emphasis_continuation"
+              ],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "d",
+              "mfa": "d",
+              "start": 5.04,
+              "end": 5.12,
+              "duration_ms": 80.0,
+              "tajweed_rules": [
+                "qalqalah_non_emphatic",
+                "qalqalah_minor"
+              ],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "r",
+              "mfa": "r",
+              "start": 5.12,
+              "end": 5.25,
+              "duration_ms": 130.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "i",
+              "mfa": "i",
+              "start": 5.25,
+              "end": 5.38,
+              "duration_ms": 130.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high",
+              "is_verse_final": true
+            }
+          ]
+        }
+      ],
+      "tajweed_summary": [
+        {
+          "rule": "ta_marbuta_wasl",
+          "position": 22,
+          "confidence": 1.0
+        },
+        {
+          "rule": "madd_munfasil",
+          "position": 5,
+          "confidence": 1.0
+        },
+        {
+          "rule": "qalqalah_non_emphatic",
+          "position": 8,
+          "confidence": 1.0
+        },
+        {
+          "rule": "qalqalah_non_emphatic",
+          "position": 27,
+          "confidence": 1.0
+        },
+        {
+          "rule": "qalqalah_minor",
+          "position": 8,
+          "confidence": 1.0
+        },
+        {
+          "rule": "qalqalah_minor",
+          "position": 27,
+          "confidence": 1.0
+        },
+        {
+          "rule": "emphasis_blocking_by_front_vowel",
+          "position": 1,
+          "confidence": 1.0
+        },
+        {
+          "rule": "emphasis_blocking_by_front_vowel",
+          "position": 3,
+          "confidence": 1.0
+        },
+        {
+          "rule": "emphasis_blocking_by_front_vowel",
+          "position": 7,
+          "confidence": 1.0
+        },
+        {
+          "rule": "emphasis_blocking_by_front_vowel",
+          "position": 10,
+          "confidence": 1.0
+        },
+        {
+          "rule": "emphasis_blocking_by_front_vowel",
+          "position": 13,
+          "confidence": 1.0
+        },
+        {
+          "rule": "emphasis_blocking_by_front_vowel",
+          "position": 15,
+          "confidence": 1.0
+        },
+        {
+          "rule": "emphasis_blocking_by_front_vowel",
+          "position": 18,
+          "confidence": 1.0
+        },
+        {
+          "rule": "emphasis_blocking_by_front_vowel",
+          "position": 21,
+          "confidence": 1.0
+        },
+        {
+          "rule": "emphasis_blocking_by_front_vowel",
+          "position": 26,
+          "confidence": 1.0
+        },
+        {
+          "rule": "madd_tabii",
+          "position": 11,
+          "confidence": 1.0
+        },
+        {
+          "rule": "madd_tabii",
+          "position": 16,
+          "confidence": 1.0
+        },
+        {
+          "rule": "vowel_backing_after_emphatic_short",
+          "position": 26,
+          "confidence": 1.0
+        },
+        {
+          "rule": "cross_word_emphasis_continuation",
+          "position": 1,
+          "confidence": 1.0
+        },
+        {
+          "rule": "cross_word_emphasis_continuation",
+          "position": 3,
+          "confidence": 1.0
+        },
+        {
+          "rule": "cross_word_emphasis_continuation",
+          "position": 7,
+          "confidence": 1.0
+        },
+        {
+          "rule": "cross_word_emphasis_continuation",
+          "position": 10,
+          "confidence": 1.0
+        },
+        {
+          "rule": "cross_word_emphasis_continuation",
+          "position": 13,
+          "confidence": 1.0
+        },
+        {
+          "rule": "cross_word_emphasis_continuation",
+          "position": 15,
+          "confidence": 1.0
+        },
+        {
+          "rule": "cross_word_emphasis_continuation",
+          "position": 18,
+          "confidence": 1.0
+        },
+        {
+          "rule": "cross_word_emphasis_continuation",
+          "position": 21,
+          "confidence": 1.0
+        },
+        {
+          "rule": "cross_word_emphasis_continuation",
+          "position": 26,
+          "confidence": 1.0
+        }
+      ],
+      "alignment_quality": {
+        "words_expected": 5,
+        "words_aligned": 5,
+        "phones_expected": 30,
+        "phones_aligned": 30,
+        "coverage": 1.0
+      }
+    },
+    {
+      "surah": 97,
+      "ayah": 3,
+      "text": "لَيْلَةُ ٱلْقَدْرِ خَيْرٌ مِّنْ أَلْفِ شَهْرٍ",
+      "file_id": "097_003",
+      "duration": 5.6163,
+      "words": [
+        {
+          "text": "لَيْلَةُ",
+          "word_index": 0,
+          "start": 0.34,
+          "end": 1.24,
+          "duration_ms": 900.0,
+          "phones": [
+            {
+              "ipa": "l",
+              "mfa": "l",
+              "start": 0.34,
+              "end": 0.43,
+              "duration_ms": 90.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "a",
+              "mfa": "a",
+              "start": 0.43,
+              "end": 0.53,
+              "duration_ms": 100.0,
+              "tajweed_rules": [
+                "emphasis_blocking_by_front_vowel",
+                "cross_word_emphasis_continuation"
+              ],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "j",
+              "mfa": "j",
+              "start": 0.53,
+              "end": 0.72,
+              "duration_ms": 190.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "l",
+              "mfa": "l",
+              "start": 0.72,
+              "end": 0.79,
+              "duration_ms": 70.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "a",
+              "mfa": "a",
+              "start": 0.79,
+              "end": 0.92,
+              "duration_ms": 130.0,
+              "tajweed_rules": [
+                "emphasis_blocking_by_front_vowel",
+                "cross_word_emphasis_continuation"
+              ],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "t",
+              "mfa": "t",
+              "start": 0.92,
+              "end": 1.06,
+              "duration_ms": 140.0,
+              "tajweed_rules": [
+                "ta_marbuta_wasl"
+              ],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "u",
+              "mfa": "u",
+              "start": 1.06,
+              "end": 1.24,
+              "duration_ms": 180.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            }
+          ]
+        },
+        {
+          "text": "ٱلْقَدْرِ",
+          "word_index": 1,
+          "start": 1.24,
+          "end": 2.06,
+          "duration_ms": 820.0,
+          "phones": [
+            {
+              "ipa": "l",
+              "mfa": "l",
+              "start": 1.24,
+              "end": 1.36,
+              "duration_ms": 120.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "q",
+              "mfa": "q",
+              "start": 1.36,
+              "end": 1.39,
+              "duration_ms": 30.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "low"
+            },
+            {
+              "ipa": "a",
+              "mfa": "a",
+              "start": 1.39,
+              "end": 1.42,
+              "duration_ms": 30.0,
+              "tajweed_rules": [
+                "emphasis_blocking_by_front_vowel",
+                "vowel_backing_after_emphatic_short",
+                "cross_word_emphasis_continuation"
+              ],
+              "alignment_confidence": "low"
+            },
+            {
+              "ipa": "d",
+              "mfa": "d",
+              "start": 1.42,
+              "end": 1.47,
+              "duration_ms": 50.0,
+              "tajweed_rules": [
+                "qalqalah_non_emphatic",
+                "qalqalah_minor"
+              ],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "r",
+              "mfa": "r",
+              "start": 1.47,
+              "end": 1.72,
+              "duration_ms": 250.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "i",
+              "mfa": "i",
+              "start": 1.72,
+              "end": 2.06,
+              "duration_ms": 340.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            }
+          ]
+        },
+        {
+          "text": "خَيْرٌ",
+          "word_index": 2,
+          "start": 2.1,
+          "end": 2.79,
+          "duration_ms": 690.0,
+          "phones": [
+            {
+              "ipa": "x",
+              "mfa": "x",
+              "start": 2.1,
+              "end": 2.16,
+              "duration_ms": 60.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "a",
+              "mfa": "a",
+              "start": 2.16,
+              "end": 2.29,
+              "duration_ms": 130.0,
+              "tajweed_rules": [
+                "emphasis_blocking_by_front_vowel",
+                "vowel_backing_after_emphatic_short",
+                "cross_word_emphasis_continuation"
+              ],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "j",
+              "mfa": "j",
+              "start": 2.29,
+              "end": 2.47,
+              "duration_ms": 180.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "r",
+              "mfa": "r",
+              "start": 2.47,
+              "end": 2.52,
+              "duration_ms": 50.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "u",
+              "mfa": "u",
+              "start": 2.52,
+              "end": 2.59,
+              "duration_ms": 70.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "n",
+              "mfa": "n",
+              "start": 2.59,
+              "end": 2.79,
+              "duration_ms": 200.0,
+              "tajweed_rules": [
+                "idgham_ghunnah_noon"
+              ],
+              "alignment_confidence": "high"
+            }
+          ]
+        },
+        {
+          "text": "مِّنْ",
+          "word_index": 3,
+          "start": 2.79,
+          "end": 3.98,
+          "duration_ms": 1190.0,
+          "phones": [
+            {
+              "ipa": "m",
+              "mfa": "m",
+              "start": 2.79,
+              "end": 2.98,
+              "duration_ms": 190.0,
+              "tajweed_rules": [
+                "ghunnah_mushaddadah_meem",
+                "idgham_shafawi_meem"
+              ],
+              "alignment_confidence": "high",
+              "geminate_pair": true,
+              "geminate_total_ms": 860.0,
+              "geminate_position": "first"
+            },
+            {
+              "ipa": "m",
+              "mfa": "m",
+              "start": 2.98,
+              "end": 3.65,
+              "duration_ms": 670.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high",
+              "geminate_pair": true,
+              "geminate_total_ms": 860.0,
+              "geminate_position": "second"
+            },
+            {
+              "ipa": "i",
+              "mfa": "i",
+              "start": 3.65,
+              "end": 3.77,
+              "duration_ms": 120.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "n",
+              "mfa": "n",
+              "start": 3.77,
+              "end": 3.98,
+              "duration_ms": 210.0,
+              "tajweed_rules": [
+                "idhhar_halqi_noon"
+              ],
+              "alignment_confidence": "high"
+            }
+          ]
+        },
+        {
+          "text": "أَلْفِ",
+          "word_index": 4,
+          "start": 3.98,
+          "end": 4.58,
+          "duration_ms": 600.0,
+          "phones": [
+            {
+              "ipa": "ʔ",
+              "mfa": "Q",
+              "start": 3.98,
+              "end": 4.09,
+              "duration_ms": 110.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "a",
+              "mfa": "a",
+              "start": 4.09,
+              "end": 4.16,
+              "duration_ms": 70.0,
+              "tajweed_rules": [
+                "emphasis_blocking_by_front_vowel",
+                "cross_word_emphasis_continuation"
+              ],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "l",
+              "mfa": "l",
+              "start": 4.16,
+              "end": 4.34,
+              "duration_ms": 180.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "f",
+              "mfa": "f",
+              "start": 4.34,
+              "end": 4.45,
+              "duration_ms": 110.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "i",
+              "mfa": "i",
+              "start": 4.45,
+              "end": 4.58,
+              "duration_ms": 130.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            }
+          ]
+        },
+        {
+          "text": "شَهْرٍ",
+          "word_index": 5,
+          "start": 4.58,
+          "end": 5.24,
+          "duration_ms": 660.0,
+          "phones": [
+            {
+              "ipa": "ʃ",
+              "mfa": "C",
+              "start": 4.58,
+              "end": 4.71,
+              "duration_ms": 130.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "a",
+              "mfa": "a",
+              "start": 4.71,
+              "end": 4.84,
+              "duration_ms": 130.0,
+              "tajweed_rules": [
+                "emphasis_blocking_by_front_vowel",
+                "cross_word_emphasis_continuation"
+              ],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "h",
+              "mfa": "h",
+              "start": 4.84,
+              "end": 5.12,
+              "duration_ms": 280.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "r",
+              "mfa": "r",
+              "start": 5.12,
+              "end": 5.15,
+              "duration_ms": 30.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "low"
+            },
+            {
+              "ipa": "i",
+              "mfa": "i",
+              "start": 5.15,
+              "end": 5.19,
+              "duration_ms": 40.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "n",
+              "mfa": "n",
+              "start": 5.19,
+              "end": 5.24,
+              "duration_ms": 50.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high",
+              "is_verse_final": true
+            }
+          ]
+        }
+      ],
+      "tajweed_summary": [
+        {
+          "rule": "ghunnah_mushaddadah_meem",
+          "position": 19,
+          "confidence": 1.0
+        },
+        {
+          "rule": "idhhar_halqi_noon",
+          "position": 22,
+          "confidence": 1.0
+        },
+        {
+          "rule": "idgham_ghunnah_noon",
+          "position": 18,
+          "confidence": 1.0
+        },
+        {
+          "rule": "idgham_shafawi_meem",
+          "position": 19,
+          "confidence": 1.0
+        },
+        {
+          "rule": "ta_marbuta_wasl",
+          "position": 5,
+          "confidence": 1.0
+        },
+        {
+          "rule": "qalqalah_non_emphatic",
+          "position": 10,
+          "confidence": 1.0
+        },
+        {
+          "rule": "qalqalah_minor",
+          "position": 10,
+          "confidence": 1.0
+        },
+        {
+          "rule": "emphasis_blocking_by_front_vowel",
+          "position": 1,
+          "confidence": 1.0
+        },
+        {
+          "rule": "emphasis_blocking_by_front_vowel",
+          "position": 4,
+          "confidence": 1.0
+        },
+        {
+          "rule": "emphasis_blocking_by_front_vowel",
+          "position": 9,
+          "confidence": 1.0
+        },
+        {
+          "rule": "emphasis_blocking_by_front_vowel",
+          "position": 14,
+          "confidence": 1.0
+        },
+        {
+          "rule": "emphasis_blocking_by_front_vowel",
+          "position": 24,
+          "confidence": 1.0
+        },
+        {
+          "rule": "emphasis_blocking_by_front_vowel",
+          "position": 29,
+          "confidence": 1.0
+        },
+        {
+          "rule": "vowel_backing_after_emphatic_short",
+          "position": 9,
+          "confidence": 1.0
+        },
+        {
+          "rule": "vowel_backing_after_emphatic_short",
+          "position": 14,
+          "confidence": 1.0
+        },
+        {
+          "rule": "cross_word_emphasis_continuation",
+          "position": 1,
+          "confidence": 1.0
+        },
+        {
+          "rule": "cross_word_emphasis_continuation",
+          "position": 4,
+          "confidence": 1.0
+        },
+        {
+          "rule": "cross_word_emphasis_continuation",
+          "position": 9,
+          "confidence": 1.0
+        },
+        {
+          "rule": "cross_word_emphasis_continuation",
+          "position": 14,
+          "confidence": 1.0
+        },
+        {
+          "rule": "cross_word_emphasis_continuation",
+          "position": 24,
+          "confidence": 1.0
+        },
+        {
+          "rule": "cross_word_emphasis_continuation",
+          "position": 29,
+          "confidence": 1.0
+        }
+      ],
+      "alignment_quality": {
+        "words_expected": 6,
+        "words_aligned": 6,
+        "phones_expected": 34,
+        "phones_aligned": 34,
+        "coverage": 1.0
+      }
+    },
+    {
+      "surah": 97,
+      "ayah": 4,
+      "text": "تَنَزَّلُ ٱلْمَلَٰٓئِكَةُ وَٱلرُّوحُ فِيهَا بِإِذْنِ رَبِّهِم مِّن كُلِّ أَمْرٍ",
+      "file_id": "097_004",
+      "duration": 11.4155,
+      "words": [
+        {
+          "text": "تَنَزَّلُ",
+          "word_index": 0,
+          "start": 0.54,
+          "end": 1.56,
+          "duration_ms": 1020.0,
+          "phones": [
+            {
+              "ipa": "t",
+              "mfa": "t",
+              "start": 0.54,
+              "end": 0.6,
+              "duration_ms": 60.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "a",
+              "mfa": "a",
+              "start": 0.6,
+              "end": 0.72,
+              "duration_ms": 120.0,
+              "tajweed_rules": [
+                "emphasis_blocking_by_front_vowel",
+                "cross_word_emphasis_continuation"
+              ],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "n",
+              "mfa": "n",
+              "start": 0.72,
+              "end": 0.79,
+              "duration_ms": 70.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "a",
+              "mfa": "a",
+              "start": 0.79,
+              "end": 0.9,
+              "duration_ms": 110.0,
+              "tajweed_rules": [
+                "emphasis_blocking_by_front_vowel",
+                "cross_word_emphasis_continuation"
+              ],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "z",
+              "mfa": "z",
+              "start": 0.9,
+              "end": 1.16,
+              "duration_ms": 260.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high",
+              "geminate_pair": true,
+              "geminate_total_ms": 300.0,
+              "geminate_position": "first"
+            },
+            {
+              "ipa": "z",
+              "mfa": "z",
+              "start": 1.16,
+              "end": 1.2,
+              "duration_ms": 40.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high",
+              "geminate_pair": true,
+              "geminate_total_ms": 300.0,
+              "geminate_position": "second"
+            },
+            {
+              "ipa": "a",
+              "mfa": "a",
+              "start": 1.2,
+              "end": 1.36,
+              "duration_ms": 160.0,
+              "tajweed_rules": [
+                "emphasis_blocking_by_front_vowel",
+                "cross_word_emphasis_continuation"
+              ],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "l",
+              "mfa": "l",
+              "start": 1.36,
+              "end": 1.43,
+              "duration_ms": 70.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "u",
+              "mfa": "u",
+              "start": 1.43,
+              "end": 1.56,
+              "duration_ms": 130.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            }
+          ]
+        },
+        {
+          "text": "ٱلْمَلَٰٓئِكَةُ",
+          "word_index": 1,
+          "start": 1.56,
+          "end": 4.28,
+          "duration_ms": 2720.0,
+          "phones": [
+            {
+              "ipa": "l",
+              "mfa": "l",
+              "start": 1.56,
+              "end": 1.76,
+              "duration_ms": 200.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "m",
+              "mfa": "m",
+              "start": 1.76,
+              "end": 1.84,
+              "duration_ms": 80.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "a",
+              "mfa": "a",
+              "start": 1.84,
+              "end": 2.01,
+              "duration_ms": 170.0,
+              "tajweed_rules": [
+                "emphasis_blocking_by_front_vowel",
+                "cross_word_emphasis_continuation"
+              ],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "l",
+              "mfa": "l",
+              "start": 2.01,
+              "end": 2.09,
+              "duration_ms": 80.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "a",
+              "mfa": "a",
+              "start": 2.09,
+              "end": 3.49,
+              "duration_ms": 1400.0,
+              "tajweed_rules": [
+                "emphasis_blocking_by_front_vowel",
+                "cross_word_emphasis_continuation"
+              ],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "aː",
+              "mfa": "al",
+              "start": 3.49,
+              "end": 3.55,
+              "duration_ms": 60.0,
+              "tajweed_rules": [
+                "madd_muttasil"
+              ],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "ʔ",
+              "mfa": "Q",
+              "start": 3.55,
+              "end": 3.72,
+              "duration_ms": 170.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "i",
+              "mfa": "i",
+              "start": 3.72,
+              "end": 3.77,
+              "duration_ms": 50.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "k",
+              "mfa": "k",
+              "start": 3.77,
+              "end": 3.86,
+              "duration_ms": 90.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "a",
+              "mfa": "a",
+              "start": 3.86,
+              "end": 3.99,
+              "duration_ms": 130.0,
+              "tajweed_rules": [
+                "emphasis_blocking_by_front_vowel",
+                "cross_word_emphasis_continuation"
+              ],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "t",
+              "mfa": "t",
+              "start": 3.99,
+              "end": 4.11,
+              "duration_ms": 120.0,
+              "tajweed_rules": [
+                "ta_marbuta_wasl"
+              ],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "u",
+              "mfa": "u",
+              "start": 4.11,
+              "end": 4.28,
+              "duration_ms": 170.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            }
+          ]
+        },
+        {
+          "text": "وَٱلرُّوحُ",
+          "word_index": 2,
+          "start": 4.28,
+          "end": 5.32,
+          "duration_ms": 1040.0,
+          "phones": [
+            {
+              "ipa": "w",
+              "mfa": "w",
+              "start": 4.28,
+              "end": 4.37,
+              "duration_ms": 90.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "a",
+              "mfa": "a",
+              "start": 4.37,
+              "end": 4.43,
+              "duration_ms": 60.0,
+              "tajweed_rules": [
+                "emphasis_blocking_by_front_vowel",
+                "cross_word_emphasis_continuation"
+              ],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "r",
+              "mfa": "r",
+              "start": 4.43,
+              "end": 4.46,
+              "duration_ms": 30.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "low",
+              "geminate_pair": true,
+              "geminate_total_ms": 60.0,
+              "geminate_position": "first"
+            },
+            {
+              "ipa": "r",
+              "mfa": "r",
+              "start": 4.46,
+              "end": 4.49,
+              "duration_ms": 30.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "low",
+              "geminate_pair": true,
+              "geminate_total_ms": 60.0,
+              "geminate_position": "second"
+            },
+            {
+              "ipa": "u",
+              "mfa": "u",
+              "start": 4.49,
+              "end": 4.53,
+              "duration_ms": 40.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "uː",
+              "mfa": "ul",
+              "start": 4.53,
+              "end": 5.06,
+              "duration_ms": 530.0,
+              "tajweed_rules": [
+                "madd_tabii"
+              ],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "ħ",
+              "mfa": "H",
+              "start": 5.06,
+              "end": 5.2,
+              "duration_ms": 140.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "u",
+              "mfa": "u",
+              "start": 5.2,
+              "end": 5.32,
+              "duration_ms": 120.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            }
+          ]
+        },
+        {
+          "text": "فِيهَا",
+          "word_index": 3,
+          "start": 5.32,
+          "end": 6.22,
+          "duration_ms": 900.0,
+          "phones": [
+            {
+              "ipa": "f",
+              "mfa": "f",
+              "start": 5.32,
+              "end": 5.44,
+              "duration_ms": 120.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "i",
+              "mfa": "i",
+              "start": 5.44,
+              "end": 5.49,
+              "duration_ms": 50.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "iː",
+              "mfa": "il",
+              "start": 5.49,
+              "end": 5.88,
+              "duration_ms": 390.0,
+              "tajweed_rules": [
+                "madd_tabii"
+              ],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "h",
+              "mfa": "h",
+              "start": 5.88,
+              "end": 5.94,
+              "duration_ms": 60.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "a",
+              "mfa": "a",
+              "start": 5.94,
+              "end": 5.97,
+              "duration_ms": 30.0,
+              "tajweed_rules": [
+                "emphasis_blocking_by_front_vowel",
+                "cross_word_emphasis_continuation"
+              ],
+              "alignment_confidence": "low"
+            },
+            {
+              "ipa": "aː",
+              "mfa": "al",
+              "start": 5.97,
+              "end": 6.22,
+              "duration_ms": 250.0,
+              "tajweed_rules": [
+                "madd_tabii"
+              ],
+              "alignment_confidence": "high"
+            }
+          ]
+        },
+        {
+          "text": "بِإِذْنِ",
+          "word_index": 4,
+          "start": 6.22,
+          "end": 7.13,
+          "duration_ms": 910.0,
+          "phones": [
+            {
+              "ipa": "b",
+              "mfa": "b",
+              "start": 6.22,
+              "end": 6.31,
+              "duration_ms": 90.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "i",
+              "mfa": "i",
+              "start": 6.31,
+              "end": 6.35,
+              "duration_ms": 40.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "ʔ",
+              "mfa": "Q",
+              "start": 6.35,
+              "end": 6.69,
+              "duration_ms": 340.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "i",
+              "mfa": "i",
+              "start": 6.69,
+              "end": 6.72,
+              "duration_ms": 30.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "low"
+            },
+            {
+              "ipa": "ð",
+              "mfa": "z",
+              "start": 6.72,
+              "end": 6.81,
+              "duration_ms": 90.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "low"
+            },
+            {
+              "ipa": "n",
+              "mfa": "n",
+              "start": 6.81,
+              "end": 6.95,
+              "duration_ms": 140.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "i",
+              "mfa": "i",
+              "start": 6.95,
+              "end": 7.13,
+              "duration_ms": 180.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            }
+          ]
+        },
+        {
+          "text": "رَبِّهِم",
+          "word_index": 5,
+          "start": 7.13,
+          "end": 7.48,
+          "duration_ms": 350.0,
+          "phones": [
+            {
+              "ipa": "r",
+              "mfa": "r",
+              "start": 7.13,
+              "end": 7.18,
+              "duration_ms": 50.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "a",
+              "mfa": "a",
+              "start": 7.18,
+              "end": 7.3,
+              "duration_ms": 120.0,
+              "tajweed_rules": [
+                "emphasis_blocking_by_front_vowel",
+                "cross_word_emphasis_continuation"
+              ],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "b",
+              "mfa": "b",
+              "start": 7.3,
+              "end": 7.33,
+              "duration_ms": 30.0,
+              "tajweed_rules": [
+                "qalqalah_with_shaddah"
+              ],
+              "alignment_confidence": "low",
+              "geminate_pair": true,
+              "geminate_total_ms": 60.0,
+              "geminate_position": "first"
+            },
+            {
+              "ipa": "b",
+              "mfa": "b",
+              "start": 7.33,
+              "end": 7.36,
+              "duration_ms": 30.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "low",
+              "geminate_pair": true,
+              "geminate_total_ms": 60.0,
+              "geminate_position": "second"
+            },
+            {
+              "ipa": "i",
+              "mfa": "i",
+              "start": 7.36,
+              "end": 7.39,
+              "duration_ms": 30.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "low"
+            },
+            {
+              "ipa": "h",
+              "mfa": "h",
+              "start": 7.39,
+              "end": 7.42,
+              "duration_ms": 30.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "low"
+            },
+            {
+              "ipa": "i",
+              "mfa": "i",
+              "start": 7.42,
+              "end": 7.45,
+              "duration_ms": 30.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "low"
+            },
+            {
+              "ipa": "m",
+              "mfa": "m",
+              "start": 7.45,
+              "end": 7.48,
+              "duration_ms": 30.0,
+              "tajweed_rules": [
+                "ghunnah_mushaddadah_meem",
+                "idgham_shafawi_meem"
+              ],
+              "alignment_confidence": "low"
+            }
+          ]
+        },
+        {
+          "text": "مِّن",
+          "word_index": 6,
+          "start": 7.52,
+          "end": 9.86,
+          "duration_ms": 2340.0,
+          "phones": [
+            {
+              "ipa": "m",
+              "mfa": "m",
+              "start": 7.52,
+              "end": 7.55,
+              "duration_ms": 30.0,
+              "tajweed_rules": [
+                "ghunnah_mushaddadah_meem",
+                "idgham_shafawi_meem"
+              ],
+              "alignment_confidence": "low",
+              "geminate_pair": true,
+              "geminate_total_ms": 70.0,
+              "geminate_position": "first"
+            },
+            {
+              "ipa": "m",
+              "mfa": "m",
+              "start": 7.55,
+              "end": 7.59,
+              "duration_ms": 40.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high",
+              "geminate_pair": true,
+              "geminate_total_ms": 70.0,
+              "geminate_position": "second"
+            },
+            {
+              "ipa": "i",
+              "mfa": "i",
+              "start": 7.59,
+              "end": 7.89,
+              "duration_ms": 300.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "n",
+              "mfa": "n",
+              "start": 7.89,
+              "end": 9.86,
+              "duration_ms": 1970.0,
+              "tajweed_rules": [
+                "ikhfaa_light"
+              ],
+              "alignment_confidence": "high"
+            }
+          ]
+        },
+        {
+          "text": "كُلِّ",
+          "word_index": 7,
+          "start": 9.9,
+          "end": 10.45,
+          "duration_ms": 550.0,
+          "phones": [
+            {
+              "ipa": "k",
+              "mfa": "k",
+              "start": 9.9,
+              "end": 9.96,
+              "duration_ms": 60.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "u",
+              "mfa": "u",
+              "start": 9.96,
+              "end": 10.08,
+              "duration_ms": 120.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "l",
+              "mfa": "l",
+              "start": 10.08,
+              "end": 10.33,
+              "duration_ms": 250.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high",
+              "geminate_pair": true,
+              "geminate_total_ms": 290.0,
+              "geminate_position": "first"
+            },
+            {
+              "ipa": "l",
+              "mfa": "l",
+              "start": 10.33,
+              "end": 10.37,
+              "duration_ms": 40.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high",
+              "geminate_pair": true,
+              "geminate_total_ms": 290.0,
+              "geminate_position": "second"
+            },
+            {
+              "ipa": "i",
+              "mfa": "i",
+              "start": 10.37,
+              "end": 10.45,
+              "duration_ms": 80.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            }
+          ]
+        },
+        {
+          "text": "أَمْرٍ",
+          "word_index": 8,
+          "start": 10.45,
+          "end": 11.1,
+          "duration_ms": 650.0,
+          "phones": [
+            {
+              "ipa": "ʔ",
+              "mfa": "Q",
+              "start": 10.45,
+              "end": 10.61,
+              "duration_ms": 160.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "a",
+              "mfa": "a",
+              "start": 10.61,
+              "end": 10.72,
+              "duration_ms": 110.0,
+              "tajweed_rules": [
+                "emphasis_blocking_by_front_vowel",
+                "cross_word_emphasis_continuation"
+              ],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "m",
+              "mfa": "m",
+              "start": 10.72,
+              "end": 10.86,
+              "duration_ms": 140.0,
+              "tajweed_rules": [
+                "idhhar_shafawi"
+              ],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "r",
+              "mfa": "r",
+              "start": 10.86,
+              "end": 10.89,
+              "duration_ms": 30.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "low"
+            },
+            {
+              "ipa": "i",
+              "mfa": "i",
+              "start": 10.89,
+              "end": 10.92,
+              "duration_ms": 30.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "low"
+            },
+            {
+              "ipa": "n",
+              "mfa": "n",
+              "start": 10.92,
+              "end": 11.1,
+              "duration_ms": 180.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high",
+              "is_verse_final": true
+            }
+          ]
+        }
+      ],
+      "tajweed_summary": [
+        {
+          "rule": "ghunnah_mushaddadah_meem",
+          "position": 49,
+          "confidence": 1.0
+        },
+        {
+          "rule": "ghunnah_mushaddadah_meem",
+          "position": 50,
+          "confidence": 1.0
+        },
+        {
+          "rule": "idhhar_shafawi",
+          "position": 61,
+          "confidence": 1.0
+        },
+        {
+          "rule": "idgham_shafawi_meem",
+          "position": 49,
+          "confidence": 1.0
+        },
+        {
+          "rule": "idgham_shafawi_meem",
+          "position": 50,
+          "confidence": 1.0
+        },
+        {
+          "rule": "ta_marbuta_wasl",
+          "position": 19,
+          "confidence": 1.0
+        },
+        {
+          "rule": "ikhfaa_light",
+          "position": 53,
+          "confidence": 1.0
+        },
+        {
+          "rule": "madd_muttasil",
+          "position": 14,
+          "confidence": 1.0
+        },
+        {
+          "rule": "qalqalah_with_shaddah",
+          "position": 44,
+          "confidence": 1.0
+        },
+        {
+          "rule": "emphasis_blocking_by_front_vowel",
+          "position": 1,
+          "confidence": 1.0
+        },
+        {
+          "rule": "emphasis_blocking_by_front_vowel",
+          "position": 3,
+          "confidence": 1.0
+        },
+        {
+          "rule": "emphasis_blocking_by_front_vowel",
+          "position": 6,
+          "confidence": 1.0
+        },
+        {
+          "rule": "emphasis_blocking_by_front_vowel",
+          "position": 11,
+          "confidence": 1.0
+        },
+        {
+          "rule": "emphasis_blocking_by_front_vowel",
+          "position": 13,
+          "confidence": 1.0
+        },
+        {
+          "rule": "emphasis_blocking_by_front_vowel",
+          "position": 18,
+          "confidence": 1.0
+        },
+        {
+          "rule": "emphasis_blocking_by_front_vowel",
+          "position": 22,
+          "confidence": 1.0
+        },
+        {
+          "rule": "emphasis_blocking_by_front_vowel",
+          "position": 33,
+          "confidence": 1.0
+        },
+        {
+          "rule": "emphasis_blocking_by_front_vowel",
+          "position": 43,
+          "confidence": 1.0
+        },
+        {
+          "rule": "emphasis_blocking_by_front_vowel",
+          "position": 60,
+          "confidence": 1.0
+        },
+        {
+          "rule": "madd_tabii",
+          "position": 26,
+          "confidence": 1.0
+        },
+        {
+          "rule": "madd_tabii",
+          "position": 31,
+          "confidence": 1.0
+        },
+        {
+          "rule": "madd_tabii",
+          "position": 34,
+          "confidence": 1.0
+        },
+        {
+          "rule": "cross_word_emphasis_continuation",
+          "position": 1,
+          "confidence": 1.0
+        },
+        {
+          "rule": "cross_word_emphasis_continuation",
+          "position": 3,
+          "confidence": 1.0
+        },
+        {
+          "rule": "cross_word_emphasis_continuation",
+          "position": 6,
+          "confidence": 1.0
+        },
+        {
+          "rule": "cross_word_emphasis_continuation",
+          "position": 11,
+          "confidence": 1.0
+        },
+        {
+          "rule": "cross_word_emphasis_continuation",
+          "position": 13,
+          "confidence": 1.0
+        },
+        {
+          "rule": "cross_word_emphasis_continuation",
+          "position": 18,
+          "confidence": 1.0
+        },
+        {
+          "rule": "cross_word_emphasis_continuation",
+          "position": 22,
+          "confidence": 1.0
+        },
+        {
+          "rule": "cross_word_emphasis_continuation",
+          "position": 33,
+          "confidence": 1.0
+        },
+        {
+          "rule": "cross_word_emphasis_continuation",
+          "position": 43,
+          "confidence": 1.0
+        },
+        {
+          "rule": "cross_word_emphasis_continuation",
+          "position": 60,
+          "confidence": 1.0
+        }
+      ],
+      "alignment_quality": {
+        "words_expected": 9,
+        "words_aligned": 9,
+        "phones_expected": 65,
+        "phones_aligned": 65,
+        "coverage": 1.0
+      }
+    },
+    {
+      "surah": 97,
+      "ayah": 5,
+      "text": "سَلَٰمٌ هِىَ حَتَّىٰ مَطْلَعِ ٱلْفَجْرِ",
+      "file_id": "097_005",
+      "duration": 4.7543,
+      "words": [
+        {
+          "text": "سَلَٰمٌ",
+          "word_index": 0,
+          "start": 0.28,
+          "end": 1.41,
+          "duration_ms": 1130.0,
+          "phones": [
+            {
+              "ipa": "s",
+              "mfa": "s",
+              "start": 0.28,
+              "end": 0.44,
+              "duration_ms": 160.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "a",
+              "mfa": "a",
+              "start": 0.44,
+              "end": 0.63,
+              "duration_ms": 190.0,
+              "tajweed_rules": [
+                "emphasis_blocking_by_front_vowel",
+                "cross_word_emphasis_continuation"
+              ],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "l",
+              "mfa": "l",
+              "start": 0.63,
+              "end": 0.69,
+              "duration_ms": 60.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "a",
+              "mfa": "a",
+              "start": 0.69,
+              "end": 0.81,
+              "duration_ms": 120.0,
+              "tajweed_rules": [
+                "emphasis_blocking_by_front_vowel",
+                "cross_word_emphasis_continuation"
+              ],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "aː",
+              "mfa": "al",
+              "start": 0.81,
+              "end": 1.03,
+              "duration_ms": 220.0,
+              "tajweed_rules": [
+                "madd_tabii"
+              ],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "m",
+              "mfa": "m",
+              "start": 1.03,
+              "end": 1.12,
+              "duration_ms": 90.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "u",
+              "mfa": "u",
+              "start": 1.12,
+              "end": 1.23,
+              "duration_ms": 110.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "n",
+              "mfa": "n",
+              "start": 1.23,
+              "end": 1.41,
+              "duration_ms": 180.0,
+              "tajweed_rules": [
+                "idhhar_halqi_noon"
+              ],
+              "alignment_confidence": "high"
+            }
+          ]
+        },
+        {
+          "text": "هِىَ",
+          "word_index": 1,
+          "start": 1.41,
+          "end": 1.88,
+          "duration_ms": 470.0,
+          "phones": [
+            {
+              "ipa": "h",
+              "mfa": "h",
+              "start": 1.41,
+              "end": 1.53,
+              "duration_ms": 120.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "i",
+              "mfa": "i",
+              "start": 1.53,
+              "end": 1.58,
+              "duration_ms": 50.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "j",
+              "mfa": "j",
+              "start": 1.58,
+              "end": 1.76,
+              "duration_ms": 180.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "a",
+              "mfa": "a",
+              "start": 1.76,
+              "end": 1.88,
+              "duration_ms": 120.0,
+              "tajweed_rules": [
+                "emphasis_blocking_by_front_vowel",
+                "cross_word_emphasis_continuation"
+              ],
+              "alignment_confidence": "high"
+            }
+          ]
+        },
+        {
+          "text": "حَتَّىٰ",
+          "word_index": 2,
+          "start": 1.88,
+          "end": 2.79,
+          "duration_ms": 910.0,
+          "phones": [
+            {
+              "ipa": "ħ",
+              "mfa": "H",
+              "start": 1.88,
+              "end": 2.02,
+              "duration_ms": 140.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "a",
+              "mfa": "a",
+              "start": 2.02,
+              "end": 2.3,
+              "duration_ms": 280.0,
+              "tajweed_rules": [
+                "emphasis_blocking_by_front_vowel",
+                "cross_word_emphasis_continuation"
+              ],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "t",
+              "mfa": "t",
+              "start": 2.3,
+              "end": 2.38,
+              "duration_ms": 80.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high",
+              "geminate_pair": true,
+              "geminate_total_ms": 120.0,
+              "geminate_position": "first"
+            },
+            {
+              "ipa": "t",
+              "mfa": "t",
+              "start": 2.38,
+              "end": 2.42,
+              "duration_ms": 40.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high",
+              "geminate_pair": true,
+              "geminate_total_ms": 120.0,
+              "geminate_position": "second"
+            },
+            {
+              "ipa": "a",
+              "mfa": "a",
+              "start": 2.42,
+              "end": 2.5,
+              "duration_ms": 80.0,
+              "tajweed_rules": [
+                "emphasis_blocking_by_front_vowel",
+                "cross_word_emphasis_continuation"
+              ],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "aː",
+              "mfa": "al",
+              "start": 2.5,
+              "end": 2.79,
+              "duration_ms": 290.0,
+              "tajweed_rules": [
+                "madd_tabii"
+              ],
+              "alignment_confidence": "high"
+            }
+          ]
+        },
+        {
+          "text": "مَطْلَعِ",
+          "word_index": 3,
+          "start": 2.79,
+          "end": 3.86,
+          "duration_ms": 1070.0,
+          "phones": [
+            {
+              "ipa": "m",
+              "mfa": "m",
+              "start": 2.79,
+              "end": 2.88,
+              "duration_ms": 90.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "a",
+              "mfa": "a",
+              "start": 2.88,
+              "end": 3.01,
+              "duration_ms": 130.0,
+              "tajweed_rules": [
+                "emphasis_blocking_by_front_vowel",
+                "vowel_backing_before_emphatic_short",
+                "cross_word_emphasis_continuation"
+              ],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "tˤ",
+              "mfa": "T",
+              "start": 3.01,
+              "end": 3.1,
+              "duration_ms": 90.0,
+              "tajweed_rules": [
+                "qalqalah_emphatic",
+                "qalqalah_minor"
+              ],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "l",
+              "mfa": "l",
+              "start": 3.1,
+              "end": 3.36,
+              "duration_ms": 260.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "a",
+              "mfa": "a",
+              "start": 3.36,
+              "end": 3.42,
+              "duration_ms": 60.0,
+              "tajweed_rules": [
+                "emphasis_blocking_by_front_vowel",
+                "cross_word_emphasis_continuation"
+              ],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "ʕ",
+              "mfa": "Hq",
+              "start": 3.42,
+              "end": 3.6,
+              "duration_ms": 180.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "i",
+              "mfa": "i",
+              "start": 3.6,
+              "end": 3.86,
+              "duration_ms": 260.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            }
+          ]
+        },
+        {
+          "text": "ٱلْفَجْرِ",
+          "word_index": 4,
+          "start": 3.86,
+          "end": 4.7543,
+          "duration_ms": 894.3,
+          "phones": [
+            {
+              "ipa": "l",
+              "mfa": "l",
+              "start": 3.86,
+              "end": 3.92,
+              "duration_ms": 60.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "f",
+              "mfa": "f",
+              "start": 3.92,
+              "end": 4.06,
+              "duration_ms": 140.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "a",
+              "mfa": "a",
+              "start": 4.06,
+              "end": 4.16,
+              "duration_ms": 100.0,
+              "tajweed_rules": [
+                "emphasis_blocking_by_front_vowel",
+                "cross_word_emphasis_continuation"
+              ],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "dʒ",
+              "mfa": "j",
+              "start": 4.16,
+              "end": 4.22,
+              "duration_ms": 60.0,
+              "tajweed_rules": [
+                "qalqalah_non_emphatic",
+                "qalqalah_minor"
+              ],
+              "alignment_confidence": "low"
+            },
+            {
+              "ipa": "r",
+              "mfa": "r",
+              "start": 4.22,
+              "end": 4.36,
+              "duration_ms": 140.0,
+              "tajweed_rules": [],
+              "alignment_confidence": "high"
+            },
+            {
+              "ipa": "i",
+              "mfa": "i",
+              "start": 4.36,
+              "end": 4.7543,
+              "duration_ms": 394.3,
+              "tajweed_rules": [],
+              "alignment_confidence": "high",
+              "is_verse_final": true
+            }
+          ]
+        }
+      ],
+      "tajweed_summary": [
+        {
+          "rule": "idhhar_halqi_noon",
+          "position": 7,
+          "confidence": 1.0
+        },
+        {
+          "rule": "qalqalah_emphatic",
+          "position": 20,
+          "confidence": 1.0
+        },
+        {
+          "rule": "qalqalah_non_emphatic",
+          "position": 28,
+          "confidence": 1.0
+        },
+        {
+          "rule": "qalqalah_minor",
+          "position": 20,
+          "confidence": 1.0
+        },
+        {
+          "rule": "qalqalah_minor",
+          "position": 28,
+          "confidence": 1.0
+        },
+        {
+          "rule": "emphasis_blocking_by_front_vowel",
+          "position": 1,
+          "confidence": 1.0
+        },
+        {
+          "rule": "emphasis_blocking_by_front_vowel",
+          "position": 3,
+          "confidence": 1.0
+        },
+        {
+          "rule": "emphasis_blocking_by_front_vowel",
+          "position": 11,
+          "confidence": 1.0
+        },
+        {
+          "rule": "emphasis_blocking_by_front_vowel",
+          "position": 13,
+          "confidence": 1.0
+        },
+        {
+          "rule": "emphasis_blocking_by_front_vowel",
+          "position": 16,
+          "confidence": 1.0
+        },
+        {
+          "rule": "emphasis_blocking_by_front_vowel",
+          "position": 19,
+          "confidence": 1.0
+        },
+        {
+          "rule": "emphasis_blocking_by_front_vowel",
+          "position": 22,
+          "confidence": 1.0
+        },
+        {
+          "rule": "emphasis_blocking_by_front_vowel",
+          "position": 27,
+          "confidence": 1.0
+        },
+        {
+          "rule": "madd_tabii",
+          "position": 4,
+          "confidence": 1.0
+        },
+        {
+          "rule": "madd_tabii",
+          "position": 17,
+          "confidence": 1.0
+        },
+        {
+          "rule": "vowel_backing_before_emphatic_short",
+          "position": 19,
+          "confidence": 1.0
+        },
+        {
+          "rule": "cross_word_emphasis_continuation",
+          "position": 1,
+          "confidence": 1.0
+        },
+        {
+          "rule": "cross_word_emphasis_continuation",
+          "position": 3,
+          "confidence": 1.0
+        },
+        {
+          "rule": "cross_word_emphasis_continuation",
+          "position": 11,
+          "confidence": 1.0
+        },
+        {
+          "rule": "cross_word_emphasis_continuation",
+          "position": 13,
+          "confidence": 1.0
+        },
+        {
+          "rule": "cross_word_emphasis_continuation",
+          "position": 16,
+          "confidence": 1.0
+        },
+        {
+          "rule": "cross_word_emphasis_continuation",
+          "position": 19,
+          "confidence": 1.0
+        },
+        {
+          "rule": "cross_word_emphasis_continuation",
+          "position": 22,
+          "confidence": 1.0
+        },
+        {
+          "rule": "cross_word_emphasis_continuation",
+          "position": 27,
+          "confidence": 1.0
+        }
+      ],
+      "alignment_quality": {
+        "words_expected": 5,
+        "words_aligned": 5,
+        "phones_expected": 31,
+        "phones_aligned": 31,
+        "coverage": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+# Pronunciation Rules for Qur'anic Arabic
+# These rules govern special letter pronunciations based on context
+
+rules:
+  # ============================================================================
+  # TĀʾ MARBŪṬA (ة) RULES
+  # ============================================================================
+
+  - name: ta_marbuta_waqf
+    category: general
+    priority: 95
+    description: Tāʾ Marbūṭa pronounced as 'h' when stopping (waqf) at verse-end
+    arabic_name: تاء مربوطة - وقف
+    pattern:
+      target: t
+      conditions:
+        at_verse_end_or_pause: true
+        is_ta_marbuta: true
+    action:
+      type: replace
+      replacement:
+        - h
+    acoustic_expectations:
+      phone_change: t_to_h
+      duration_ms: 80
+    verification_criteria:
+      - feature: phoneme
+        expected: h
+        description: Tāʾ Marbūṭa becomes haa in pausal form
+    examples:
+      - text: رَحْمَةً
+        description: rahmah - stops with haa sound
+    error_types:
+      - code: P101
+        description: Tāʾ Marbūṭa pronounced as t at verse-end (should be h)
+        severity: major
+
+  - name: ta_marbuta_wasl
+    category: general
+    priority: 94
+    description: Tāʾ Marbūṭa pronounced as 't' when continuing (waṣl) to next word
+    arabic_name: تاء مربوطة - وصل
+    pattern:
+      target: t
+      conditions:
+        not_at_verse_end: true
+        is_ta_marbuta: true
+        has_following_word: true
+    action:
+      type: keep_original
+    acoustic_expectations:
+      phoneme: t
+      duration_ms: 70
+    verification_criteria:
+      - feature: phoneme
+        expected: t
+        description: Tāʾ Marbūṭa remains as taa when continuing
+    examples:
+      - text: رَحْمَةُ اللَّهِ
+        description: rahmatu-llāh - continues with taa sound
+    error_types:
+      - code: P102
+        description: Tāʾ Marbūṭa pronounced as h mid-verse (should be t)
+        severity: major

@@ -1,0 +1,77 @@
+# Muqaṭṭaʿāt (Disjoined Letter) Rules
+#
+# Defines Tajwīd rules that apply to the spelled-out names of the 14 Arabic
+# letters that open 29 sūrahs (e.g. الٓمٓ, يسٓ, كٓهيعٓصٓ).
+#
+# These rules are NOT triggered by ordinary phoneme-pattern matching. Instead,
+# the phonemizer detects Muqaṭṭaʿāt words at the WORD level (presence of the
+# maddah mark U+0653, or hardcoded surah:position for ص/ق/ن without maddah),
+# emits the letter-name phonemes from a lookup table, and records rule specs
+# (phoneme_index + rule_name) on PhonemeSequence.muqattaat_rule_specs.
+#
+# The Tajwīd engine consumes those specs in apply_rules() and instantiates a
+# RuleApplication for each one using the rule definitions below. This keeps
+# all rule metadata (priority, acoustic expectations, error definitions) in
+# YAML rather than hardcoded outside the engine.
+
+rules:
+- name: madd_lazim
+  category: madd
+  priority: 90
+  description: |
+    Madd Lāzim Ḥarfī Muthaqqal/Mukhaffaf - obligatory 6-count prolongation on
+    the long vowel (or diphthong) inside Muqaṭṭaʿāt letter-names whose spelled
+    form contains three letters (lām, mīm, kāf, ʿayn, sīn, nūn, qāf, ṣād).
+    Applied via phonemizer-side detection — see muqattaat_rule_specs.
+  arabic_name: مد لازم حرفي
+  pattern:
+    target: '[aː iː uː aj]'
+  action:
+    type: modify_features
+    duration_multiplier: 3.0
+    duration_counts: 6
+    notes: 6-count obligatory prolongation in Muqaṭṭaʿāt letter-names
+  acoustic_expectations:
+    duration_ms: 1200
+    duration_counts: 6
+    duration_tolerance: 100
+    prolonged: true
+  examples:
+  - text: الٓمٓ
+    description: alif-laam-meem - 6-count madd on the aː of laam and the iː of meem
+  - text: يسٓ
+    description: yaa-seen - 2-count tabii on yaa, 6-count lazim on seen
+  - text: كٓهيعٓصٓ
+    description: kaf-haa-yaa-ayn-saad - 6-count lazim on every long vowel
+  error_types:
+  - code: M501
+    description: Madd Lāzim Ḥarfī duration too short (must be 6 counts)
+    severity: critical
+
+- name: ghunnah
+  category: noon_meem_sakinah
+  priority: 95
+  description: |
+    Ghunnah (nasal hum) on the boundary where one Muqaṭṭaʿāt letter-name
+    assimilates into the next — most prominently the lām of "laam" merging
+    into the mīm of "meem" within الم. Applied via phonemizer-side detection.
+  arabic_name: غنة
+  pattern:
+    target: m
+  action:
+    type: keep_original
+    duration_multiplier: 2.0
+    notes: 2-count nasal hum at letter-name junction (idgham bi-ghunnah)
+  acoustic_expectations:
+    duration_ms: 400
+    duration_counts: 2
+    duration_tolerance: 50
+    ghunnah_present: true
+    nasalization_strength: 0.9
+  examples:
+  - text: الٓمٓ
+    description: lam-meem junction in alif-laam-meem
+  error_types:
+  - code: G501
+    description: Ghunnah missing at Muqaṭṭaʿāt letter-name junction
+    severity: major
